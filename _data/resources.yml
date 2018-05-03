@@ -1,0 +1,92 @@
+- title: "Case studies"
+  subcategories:
+    - title: "case studies"
+      description: "The Case Studies for Fellowship program are references to support our resources in other countries in the formation of their own programs. From selection and training to handover to government and measuring impacts."
+      items:
+        - title: "Case Study"
+          href: "#"
+          logo:
+          name: "firstname surname"
+          year: "2015"
+          subname: "Code for the caribbean"
+          desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
+        - title: "Case Study"
+          href: "#"
+          logo:
+          name: "firstname surname"
+          year: "2015"
+          subname: "Code for the caribbean"
+          desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
+        - title: "Case Study"
+          href: "#"
+          logo:
+          name: "firstname surname"
+          year: "2015"
+          subname: "Code for the caribbean"
+          desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
+
+- title: "Fellowship Toolkit"
+  description: "Fellowship Toolkit is an advice on starting a similar fellowship program. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit."
+  subcategories:
+   - title: "fellowship"
+     items:
+        - title: "Fellowship Toolkit"
+          href: "#"
+          logo:
+          name: "firstname surname"
+          year: "2015"
+          subname: "Code for the caribbean"
+          desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
+          
+- title: "ORGANIZING BRIGADES"
+  description: "Brigades are civic hacking groups that help governments and their cities. Code for America has put together great documents that will help you in organizing a brigade in your own organization."
+  subcategories:
+   - title: "brigades"
+     items:
+        - title: "Calendar"
+          href: "#"
+          logo:
+          name: "firstname surname"
+          year: "2015"
+          subname: "Code for the caribbean"
+          desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
+        - title: "Handbook"
+          href: "#"
+          logo:
+          name: "firstname surname"
+          year: "2015"
+          subname: "Code for the caribbean"
+          desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
+        - title: "Playbook"
+          href: "#"
+          logo:
+          name: "firstname surname"
+          year: "2015"
+          subname: "Code for the caribbean"
+          desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
+          
+- title: "BUILDING WITH LOCAL GOVERNMENT"
+  description: "Code for America has been building digital services with local governments around the country for over the past five years. Read about practices they have developed."
+  subcategories:
+   - title: "brigades"
+     items:
+        - title: "21st Century Government Practices"
+          href: "#"
+          logo:
+          name: "firstname surname"
+          year: "2018"
+          subname: "Code for the caribbean"
+          desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
+          
+- title: "IMPACT RESEARCH"
+  description: "Code for America has been building digital services with local governments around the country for over the past five years. Read about practices they have developed."
+  subcategories:
+   - title: "brigades"
+     items:
+        - title: "21st Century Government Practices"
+          href: "#"
+          logo:
+          name: "firstname surname"
+          year: "2018"
+          subname: "Code for the caribbean"
+          desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."

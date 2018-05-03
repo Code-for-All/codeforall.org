@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+{% include head.html %}
+  <body>
+    {% include header.html %}
+<div class="resources-banner banner">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="resources-banner-text">Resources</h1>
+                    <h3 class="resources-banner-text-sm">We are creating and gathering useful information that can be reused by other resources.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="resources-info-block">
+        <div class="container">
+    {% for entry in site.data.resources %}
+    <div class="row">
+                <div class="col">
+                    <h1 class="resources-info-block-h1">{{ entry.title }}</h1>
+                      <p class="resources-info-block-p">{{ entry.description}}</p>
+                      </p>
+                </div>
+                <div class="w-100"></div>
+  {% for subcategory in entry.subcategories %}
+    <!--<h3>{{ subcategory.title }}</h3>-->
+    <!--<ul>-->
+    {% for item in subcategory.items %}
+      <div class="col-md-6">
+                    <div class="resources-item">
+                        <h3 class="resources-item-h3">{{item.title}}</h3>
+                        <p class="resources-item-p">{{item.desc}}</p>
+                        <!--<div class="resource-company caribbean"></div>-->
+                        <p class="resource-big-text">{{ item.subname }} </p>
+                        <p class="resource-small-text">{{ item.name }}</p>
+                        <p class="resource-date">{{item.year}}</p>
+                    </div>
+                </div>
+    {% endfor %}
+    <!--</ul>-->
+  {% endfor %}
+  </div>
+{% endfor %}
+</div>
+</div>
+    
+    <div class="resources-info-block">
+        <div class="container">
+            <div class="row ">
+                <div class="col">
+                    <h1 class="resources-info-block-h1">Recommended Free Software</h1>
+                    <p class="resources-info-block-p">Free software linked below will help you with project development and brigade management. </p>
+                    <p class="resources-info-block-p">Whether it’s getting a quick prototype up for your first user test or releasing an application to thousands
+                        of residents, we hope that these tools will help you build better products. If you have any questions,
+                        reach out on our Slack. </p>
+                
+                <div class="row">
+                    {% for entry in site.data.free-software %}
+                        <div class="col-md-6">
+                        <h2 class="resources-item-h2">{{ entry.title }}</h2>
+                                      {% for subcategory in entry.subcategories %}
+                                    
+                                        {% for item in subcategory.items %}
+                                                        <div class="resources-item">
+                                                            <div class="resource-company resource-company-vert-allign {{item.logo}}"></div>
+                                                            <h3 class="resources-item-h3 h3-recom">{{item.title}}</h3>
+                                                            <p class="resources-item-p p-recom">{{item.desc}}</p>
+
+                                                        </div>
+                                        {% endfor %}
+                                      {% endfor %}
+                                      </div>
+                                    {% endfor %}
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="involeved">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-7 col-lg-7 col-xl-8">
+                    <h2 class="involeved-h2 inv-left ">Have great resource you’d like to share?</h2>
+                    <p class="involeved-p inv-left">We’re always glad to include new tools and manuels in our work.</p>
+                </div>
+                <div class="col-10 col-sm-8 col-md-5 col-lg-5 col-xl-4">
+                    <a class="involeved-button inv-res-code link-center" href="./form.html">
+                        <span class="involved-link-text">
+                            <span class="involve-code-icon"></span> Propose New Resource
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,0 +1,190 @@
+---
+layout: default
+title: Home
+youtube: q9SrbjAYIxQ
+---
+<div class="main-banner banner">
+        <div class="container">
+            <div class="row">
+                <div class="col offset-lg-2">
+                    <h1 class="banner-text">Creating fair and open digital societies</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <p class="about__text">
+                        Code for All is international network of organizations supporting each other to empower citizens to meaningfully engage in
+                        the public sphere and have a positive impact on their communities.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <p class="about__text about__text--last">
+                        We help civic institutions to be more open, democratic, and equitable in the services they provide to the public through
+                        digital technology
+                    </p>
+                    <a href="./about.html" class="read-more">Read more about us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="how">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="how-h1">Learn more how we work</h1>
+                    <h3 class="how-h3">We found these activities benefiting organizations the most</h3>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-sm-12 col-md-4 col-lg-3 offset-lg-1">
+                    <div class="round">
+                        <div class="round-illustration peer">
+                        </div>
+                        <div class="round-h2">Peer learning</div>
+                    </div>
+                </div>
+                <div class="col-sm-12  col-md-4">
+                    <div class="round mrg0a">
+                        <div class="round-illustration redeploy">
+                        </div>
+                        <div class="round-h2">Redeploying Tools</div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="round">
+                        <div class="round-illustration cocreate">
+                        </div>
+                        <div class="round-h2">Co-creation</div>
+                    </div>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-sm-12 col-md-4 offset-md-2">
+                    <div class="round  mrg0a">
+                        <div class="round-illustration offline">
+                        </div>
+                        <div class="round-h2 off">Offline Mentorships</div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="round  mrg0a">
+                        <div class="round-illustration online">
+                        </div>
+                        <div class="round-h2 off">Online Workshops</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="map-info">
+        <div class="container">
+            <div class="row">
+                <div class="col col-sm-4 offset-sm-8 offset-0 map-absol">
+                    <h1 class="map-h1">OUR PARTNERS</h1>
+                    <h3 class="map-h3">Code for All is a collaborative network, made up of organisations from all over the world.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="map" style="position: relative;z-index: 1;"></div>
+
+    <div class="supporters">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col">
+                    <h1 class="supporters-h1">OUR Supporters</h1>
+                    <h2 class="supporters-h2">Our awesome grant-givers</h2>
+                    <h3 class="supporters-h3">Without them we couldn't do our amazing projects.</h3>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-7 col-sm-6 col-md-4 col-lg-3 ">
+                    <div class="supporters-item">
+                        <div class="logo-ned sup-mobile-fix"></div>
+                        <p class="supporters-p-small">National Endowment for Democracy</p>
+                    </div>
+
+                </div>
+                <div class="col-7 col-sm-6 col-md-4 col-lg-3 ">
+                    <div class="supporters-item">
+                        <div class="logo-on sup-mobile-fix"></div>
+                        <p class="supporters-p-small">Omidyar Network</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col">
+                    <h2 class="supporters-h2 in-kind">In-kind sponsor</h2>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2 ">
+                    <div class="supporters-item slack-width">
+                        <div class="slack sup-mobile-fix"></div>
+                        <p class="supporters-p-small">Slack</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="what">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col">
+                    <h1 class="what-h1">What we’ve been up to</h1>
+                </div>
+                <div class="w-100"></div>
+                {% for post in site.posts limit:3 %}
+                <div class="col-10 col-sm-7 col-md-4">
+                    <div class="what__item">
+                        <div class="pencil"></div>
+                        <h2 class="what-h2"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                        <p class="what-p-small">{{ post.excerpt | strip_html | truncatewords:20 }}</p>
+                        <p class="what-p-big">{{ post.author }}<br/>{{ post.date  | date: "%m.%d.%Y"}}</p>
+                    </div>
+               </div>
+               {% endfor %}
+                <div class="w-100"></div>
+                <div class="col">
+                    <a class="read-stories" href="#">Read more stories</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="involeved">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                   <h2 class="involeved-h2">Want to get involved or ask us something?</h2>
+                    <p class="involeved-p">We love meeting new change-makers.</p>
+                </div>
+                <div class="col-12 col-lg">
+                    <div class="row justify-content-center">
+                        <div class="col-9 col-sm">
+                            <a class="involeved-button or btn-mrg-top" href="#">
+                                <span class="involved-link-text">
+                                    <span class="involved-slack-icon"></span>Chat with us
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col-9 col-sm">
+                            <a class="involeved-button btn-mrg-top" href="#">
+                                <span class="involved-link-text">
+                                    <span class="involved-email-icon"></span> Write us an email
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+

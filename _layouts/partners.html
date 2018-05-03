@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+{% include head.html %}
+
+<body>
+    {% include header.html %}
+    <div class="map-info banner">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col col-sm-4 offset-sm-8 offset-0 map-absol map-absol">
+                    <h1 class="map-h1">OUR PARTNERS</h1>
+                    <h3 class="map-h3">Code for All is a collaborative network, made up of organisations from all over the world.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="map" class="banner"></div>
+
+    <div class="partners-block">
+        <div class="governing">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <h1 class="governing-text">Governing Partners</h1>
+                        <h2 class="governing-text-small">The ones who make decisions about the network’s strategy, activities and growth.</h2>
+                    </div>
+                    <div class="w-100">
+                    </div>
+                    {% assign i = 0 %} {% assign j = 1 %} {% for item in site.partners %}
+                    <div id="{{ item.partner }}" class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+                        {% assign i = i | plus: 1 %} {% assign partner = site.data.partners[item.partner] %} {% if partner.name %} {% assign title
+                        = partner.name %} {% else %} {% assign title = item.title %} {% endif %}
+                        <div class="gover-partner">
+                            <div class="part-logo {{partner.class}}">
+                                <!--<h3><a href="{{ item.url | relative_url }}">{{ title }}</a></h3>-->
+                                <p class="gover-partner-info-3">{{ title }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    <div class="last-prj-item"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="partners-block">
+        <div class="affiliate">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-8">
+                        <h1 class="governing-text">Affiliate Partners</h1>
+                        <h2 class="governing-text-small">Affiliate partners may include, for example, groups of volunteers we call Brigades who work toward goals
+                            aligned with Code for All mission.</h2>
+                        <h2 class="governing-text-small">They can be new or existing subnational or local organizations who may not necessarily have a national
+                            affiliate, but aspire to one day become a governing partner of the Code for All network.</h2>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+                        <div class="gover-partner mrg-bott">
+                            <div class="part-logo sierra"></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+                        <div class="gover-partner mrg-bott">
+                            <div class="part-logo sierra"></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+                        <div class="gover-partner mrg-bott">
+                            <div class="part-logo sierra"></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+                        <div class="gover-partner mrg-bott">
+                            <div class="part-logo sierra"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="involeved">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="involeved-h2">You want to contribute and join us?</h2>
+                    <p class="involeved-p">If you are an individual or work with a volunteer group or within an institution that’s creating new
+                        civic tech, we would love to talk to you and bring you to Code-for-All community.</p>
+                </div>
+                <div class="col-12 col-lg">
+                    <div class="row justify-content-center">
+                        <div class="col-9 col-sm">
+                            <a class="involeved-button prt-or btn-mrg-top prt-top" href="#">
+                                <span class="involved-link-text">
+                                    <span class="involved-slack-icon"></span>Chat with us
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col-9 col-sm">
+                            <a class="involeved-button btn-mrg-top prt-top " href="#">
+                                <span class="involved-link-text">
+                                    <span class="involved-email-icon"></span> Write us an email
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include footer.html %}
+</body>
+
+</html>

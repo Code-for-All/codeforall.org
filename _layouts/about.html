@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+{% include head.html %}
+  <body>
+  {% include header.html %}
+  <div class="about-banner banner">
+        <div class="container">
+            <div class="row">
+                <div class="col offset-1">
+                    <h1 class="h1-white">We are Code for All.</h1>
+                    <h3 class="h3-white">We support each other, empower citizens, and help civic institutions be more open, democratic, and equitable.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-info">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="about-info-h2">Code for All network’s mission </h2>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-sm-12 col-md-6">
+                    <p class="about__text about__text--sm-mrg about__text--first">
+                        {{ page.sections[0] | textilize }}
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <p class="about__text about__text--last about__text--sm-mrg">
+                        {{ page.sections[1] | textilize }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="our-values">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="our-values-h1">Our Values</h1>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-8 col-md-4 col-lg-3 offset-2 offset-lg-0 offset-md-1">
+                    <div class="value">
+                        <div class="values-illustration democracy"></div>
+                        <h3 class="value-h3">Democracy</h3>
+                        <p class="value-p">We work towards open, participatory and democratic society</p>
+                    </div>
+                </div>
+                <div class="col-8 col-md-4 col-lg-3 offset-2 offset-lg-0 offset-md-1 ">
+                    <div class="value">
+                        <div class="values-illustration collaboration"></div>
+                        <h3 class="value-h3">Collaboration</h3>
+                        <p class="value-p">Only by working together we can achieve greater impact</p>
+                    </div>
+                </div>
+                <div class="col-8  col-md-4 col-lg-3 offset-2 offset-lg-0 offset-md-1">
+                    <div class="value">
+                        <div class="values-illustration support"></div>
+                        <h3 class="value-h3">Support</h3>
+                        <p class="value-p">We share lessons learned, provide mentorship and expertise</p>
+                    </div>
+                </div>
+                <div class="col-8 col-md-4 col-lg-3 offset-2 offset-lg-0 offset-md-1">
+                    <div class="value">
+                        <div class="values-illustration democracy nopeness"></div>
+                        <h3 class="value-h3">Openness</h3>
+                        <p class="value-p op">We make decisions in a transparent manner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="principles">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="principles-h1">Code for All members share following principles</h1>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-sm-12 col-md-6 mrg34">
+                    <h3 class="principles-h3">We improve government and civil society, not politics.</h3>
+                    <p class="principles-p">{{ page.principles[0] | textilize }}</p>
+
+                    <h3 class="principles-h3">We build for and with citizens.</h3>
+                    <p class="principles-p">{{ page.principles[1] | textilize }}</p>
+                </div>
+                <div class="col-sm-12 col-md-6 mrg34">
+                    <h3 class="principles-h3">We show what’s possible.</h3>
+                    <p class="principles-p">{{ page.principles[2] | textilize }}</p>
+
+                    <h3 class="principles-h3">We operate in public.</h3>
+                    <p class="principles-p">{{ page.principles[3] | textilize }}</p>
+
+                    <h3 class="principles-h3">We help build an ecosystem.</h3>
+                    <p class="principles-p">{{ page.principles[4] | textilize }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="how">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="how-h1">Learn more how we work</h1>
+                    <h3 class="how-h3">We found these activities benefiting organizations the most</h3>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-sm-12 col-md-4 col-lg-3 offset-lg-1">
+                    <div class="round">
+                        <div class="round-illustration peer">
+                        </div>
+                        <div class="round-h2">Peer learning</div>
+                    </div>
+                </div>
+                <div class="col-sm-12  col-md-4">
+                    <div class="round mrg0a">
+                        <div class="round-illustration redeploy">
+                        </div>
+                        <div class="round-h2">Redeploying Tools</div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="round">
+                        <div class="round-illustration cocreate">
+                        </div>
+                        <div class="round-h2">Co-creation</div>
+                    </div>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-sm-12 col-md-4 offset-md-2">
+                    <div class="round  mrg0a">
+                        <div class="round-illustration offline">
+                        </div>
+                        <div class="round-h2 off">Offline Mentorships</div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="round  mrg0a">
+                        <div class="round-illustration online">
+                        </div>
+                        <div class="round-h2 off">Online Workshops</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="involeved">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="involeved-h2">You want to contribute and join us?</h2>
+                    <p class="involeved-p">If you are an individual or work with a volunteer group or within an institution that’s creating new
+                        civic tech, we would love to talk to you and bring you to Code-for-All community.</p>
+                </div>
+                <div class="col-12 col-lg">
+                    <div class="row justify-content-center">
+                        <div class="col-9 col-sm">
+                            <a class="involeved-button prt-or prt-top" href="#">
+                                <span class="involved-link-text">
+                                    <span class="involved-slack-icon"></span>Chat with us
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col-9 col-sm">
+                            <a class="involeved-button prt-top" href="#">
+                                <span class="involved-link-text">
+                                    <span class="involved-email-icon"></span> Write us an email
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  {% include footer.html %}
+  </body>
+</html>

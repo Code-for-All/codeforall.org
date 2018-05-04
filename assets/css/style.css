@@ -716,10 +716,12 @@
   width: 19px;
   height: 19px;
   content: "";
-  display: block;
-  position: absolute;
-  left: -27px;
-  top: 2px; }
+  display: inline-block;
+
+
+  vertical-align: middle;
+  margin-right: 7px;
+  margin-top: -3px; }
 
 .inv-left {
   text-align: left; }
@@ -728,7 +730,7 @@
   background: url("../images/resources mobile/code_symbol_icn.svg") no-repeat;
   width: 30px;
   height: 30px;
-  margin-right: 10px;
+
   display: inline-block;
   vertical-align: middle; }
 
@@ -736,7 +738,10 @@
   .link-center {
     text-align: center !important;
     padding-left: 15px;
-    padding-right: 15px; } }
+
+    padding-right: 15px; }
+  .involve-code-icon {
+    margin-right: 10px; } }
 
 @media (min-width: 576px) {
   .involeved-h2 {
@@ -1355,27 +1360,32 @@
   color: #126491;
   font-size: 14px;
   line-height: 19px;
-  padding-right: 30px;
+
   position: relative;
-  display: block;
+  display: inline-block;
   margin-top: 9px;
-  padding-left: 20px;
-  margin-bottom: 10px; }
+  padding-left: 15px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 10px;
+  padding-right: 30px;
+  background: url("../images/case studies mobile/location_icn copy 2.svg") no-repeat;
+  white-space: nowrap; }
 
 .location {
   text-align: left;
   padding-right: 25px;
   padding-left: 15px; }
 
-.address::after {
-  content: "";
-  position: absolute;
-  display: block;
-  background: url("../images/case studies mobile/location_icn copy 2.svg") no-repeat;
-  width: 10px;
-  height: 20px;
-  left: 5px;
-  top: 2px; }
+
+
+
+
+
+
+
+
+
 
 .address-block {
   text-align: left;
@@ -1394,18 +1404,7 @@
   .address-block {
     text-align: right;
     padding-left: 0; }
-  .address {
-    padding-left: 0; }
-  .address::after {
-    content: "";
-    position: absolute;
-    display: block;
-    background: url("../images/case studies mobile/location_icn copy 2.svg") no-repeat;
-    width: 10px;
-    height: 20px;
-    right: 118px;
-    left: auto;
-    top: 2px; }
+
   .projects-item-p {
     width: 430px; } }
 
@@ -1671,10 +1670,12 @@
   font-size: 12px;
   line-height: 19px;
   position: absolute;
-  width: 120px;
+
   top: 80%;
   left: 50%;
-  margin-left: -60px; }
+
+  white-space: nowrap;
+  transform: translateX(-50%); }
 
 .gover-partner-info-4 {
   color: #126491;

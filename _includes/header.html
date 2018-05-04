@@ -2,29 +2,27 @@
     <div class="mobile-background"></div>
     <div class="container container-nav">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="{{ '/' | relative_url }}">
-                    <div class="nav__logo"></div>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="menu__burger"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                              {% assign navigation_pages = site.pages | sort: 'position' %}
-                                {% for node in navigation_pages %}
-                                  {% if node.nav %}
-                                  {% if page.url == node.url %}
-                                    <li class="nav-item active"><a class="nav-link nav-link-blue" href="#">{{node.title}}</a></li>
-                                  {% else %}
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="{{node.url | relative_url }}">{{node.title}}</a>
-                                  </li>
-                                  {% endif %}
-                                  {% endif %}
-                                {% endfor %}
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        
+            <a class="navbar-brand" href="{{ '/' | relative_url }}">
+                <div class="nav__logo"></div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="menu__burger"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    {% assign navigation_pages = site.pages | sort: 'position' %} {% for node in navigation_pages %} {% if node.nav %} {% if
+                    page.url == node.url %}
+                    <li class="nav-item active">
+                        <a class="nav-link nav-link-blue" href="#">{{node.title}}</a>
+                    </li>
+                    {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{node.url | relative_url }}">{{node.title}}</a>
+                    </li>
+                    {% endif %} {% endif %} {% endfor %}
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>

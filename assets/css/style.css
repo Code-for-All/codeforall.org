@@ -1354,7 +1354,23 @@
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 1px;
-  padding-bottom: 1px; }
+  padding-bottom: 1px; 
+  margin-right: 5px;
+}
+
+.what__item {
+  height: auto;
+}
+
+@media(min-width: 768px) {
+  .what__item {
+    min-height: 100%;
+  }
+}
+
+.stories-icon::after {
+  left: 90px;
+}
 
 .address {
   color: #126491;

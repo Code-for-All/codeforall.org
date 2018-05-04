@@ -66,14 +66,15 @@ $(document).ready(function() {
     };
 
     function worldStyle(feature) {
-      var fillcolor = "red";
+      var fillcolor = "#C6E5F6";
       //if (feature.properties.partner) {
       //  fillcolor = "#3273dc";
       //}
       if (feature.properties.type && feature.properties.type.toLowerCase() == "governing partner") {
-        fillcolor = "green";
+        fillcolor = "#43A2D4";
         //fillcolor = "#ffdd57"
       }
+      
       return {
           fillColor: fillcolor,
           weight: 2,

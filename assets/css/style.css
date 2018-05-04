@@ -1368,9 +1368,11 @@
   }
 }
 
+@media (max-width: 992px) {
 .stories-icon::after {
   left: 90px;
-}
+}}
+
 
 .address {
   color: #126491;

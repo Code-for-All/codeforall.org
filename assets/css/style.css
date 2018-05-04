@@ -1,3 +1,7 @@
+.leaflet-container {
+  background: yellow!important;
+}
+
 .navigation {
   width: 100%;
   background: #FFF; }

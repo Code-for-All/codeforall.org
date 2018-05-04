@@ -27,12 +27,14 @@
                     </div>
                     <div class="w-100">
                     </div>
-                    {% for item in site.data.partners %}
-                    <div id="{{ item.name }}" class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2">                        
+                    {% assign i = 0 %} {% assign j = 1 %} {% for item in site.partners %}
+                    <div id="{{ item.partner }}" class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+                        {% assign i = i | plus: 1 %} {% assign partner = site.data.partners[item.partner] %} {% if partner.name %} {% assign title
+                        = partner.name %} {% else %} {% assign title = item.title %} {% endif %}
                         <div class="gover-partner">
-                            <div class="part-logo {{item.class}}">
+                            <div class="part-logo {{partner.class}}">
                                 <!--<h3><a href="{{ item.url | relative_url }}">{{ title }}</a></h3>-->
-                                <p class="gover-partner-info-3">{{ item.name }}</p>
+                                <p class="gover-partner-info-3">{{ title }}</p>
                             </div>
                         </div>
                     </div>

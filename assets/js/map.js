@@ -74,12 +74,12 @@ $(document).ready(function() {
         fillcolor = "#43A2D4";
         //fillcolor = "#ffdd57"
       }
-      
+
       return {
           fillColor: fillcolor,
-          weight: 2,
+          weight: 1,
           opacity: 1,
-          color: 'white',
+          color: '#ECF7FD',
           fillOpacity: 1
       };
     };

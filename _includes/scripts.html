@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
+{% if page.js == "map" %}
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
    integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
    crossorigin=""/>
@@ -50,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
    integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
    crossorigin=""></script>
 <script src="{{ '/assets/js/map.js' | relative_url }}"></script>
-
+{% endif %}
  
 {% if page.js == "projects" %} 
 <script src='//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js'></script>

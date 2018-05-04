@@ -28,11 +28,11 @@
                     <div class="w-100">
                     </div>
                     {% for item in site.data.partners %}
-                    <div id="{{ item.partner }}" class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2">                        
+                    <div id="{{ item.name }}" class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2">                        
                         <div class="gover-partner">
                             <div class="part-logo {{item.class}}">
                                 <!--<h3><a href="{{ item.url | relative_url }}">{{ title }}</a></h3>-->
-                                <p class="gover-partner-info-3">{{ item.title }}</p>
+                                <p class="gover-partner-info-3">{{ item.name }}</p>
                             </div>
                         </div>
                     </div>

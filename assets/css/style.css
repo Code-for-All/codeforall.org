@@ -1618,6 +1618,19 @@
   right: 0;
   margin: auto; }
 
+.part-logo-small {
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  margin-left: 10px;
+  height: 130px;
+  position: absolute;
+  background-size: 60% auto !important;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto; }
+
 .africa {
   background: url("../images/partners/logo-code-for-africa.png") no-repeat center; }
 

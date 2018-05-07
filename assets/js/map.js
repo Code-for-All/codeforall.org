@@ -1,24 +1,24 @@
-$(document).ready(function() {
+$(document).ready(function () {
   //$.getJSON(base_url + "organizations.geojson", function (response){
-  $.getJSON("https://api.codeforamerica.org/api/organizations.geojson", function (response){
-    $(".mobile-menu").click(function(e){
+  $.getJSON("https://api.codeforamerica.org/api/organizations.geojson", function (response) {
+    $(".mobile-menu").click(function (e) {
       e.preventDefault();
       $(".nav-global-secondary ul").slideToggle();
     })
-    function getIcon(properties){
+    function getIcon(properties) {
       var icon = {
-        iconSize: [ 38, 38],
+        iconSize: [38, 38],
         className: 'marker',
-        iconAnchor: [0,25],
+        iconAnchor: [0, 25],
         shadowUrl: '/assets/images/white.png',
-        shadowSize: [ 38, 38],
+        shadowSize: [38, 38]
       };
-      if(properties.logo_url){
+      if (properties.logo_url) {
         icon.iconUrl = properties.logo_url;
         return icon;
       }
-      
-      switch (properties.id.toLowerCase()){
+
+      switch (properties.id.toLowerCase()) {
         case "code-for-nl":
           icon.iconUrl = base_url + "images/logo/netherlands.jpg";
           return icon;
@@ -32,13 +32,15 @@ $(document).ready(function() {
 
     var orgs = response;
     var cfallOrgs = [];
-    orgs.features.forEach(function(org) {
-      if (org.properties.tags.indexOf("Code for All") != -1){
+    orgs.features.forEach(function (org) {
+      if (window.innerWidth < 1024) return;
+
+      if (org.properties.tags.indexOf("Code for All") != -1) {
         org.properties.icon = getIcon(org.properties);
-        if(org.properties.id.toLowerCase() !== 'hacking-monterrey'){
+        if (org.properties.id.toLowerCase() !== 'hacking-monterrey') {
           cfallOrgs.push(org);
         }
-        
+
       }
     });
 
@@ -46,22 +48,35 @@ $(document).ready(function() {
   });
 
 
-  function hasMatch(feature, collection){
-    collection.filter(function(a){
-      console.log(a.id);
-      console.log(feature);
-      return a.id.toLowerCase() == feature.id.toLowerCase })[0];
+  function hasMatch(feature, collection) {
+    collection.filter(function (a) {
+      //console.log(a.id);
+      //console.log(feature);
+      return a.id.toLowerCase() == feature.id.toLowerCase
+    })[0];
   }
-  function showMap(cfallOrgs){
+  function showMap(cfallOrgs) {
     // codeforamerica.j113mi4d - code for all
     // codeforamerica.map-hhckoiuj - brigade
     var worldLayer;
-    var latlon = [27, 0], zoom = 2;
-    var map = L.map('map').setView(latlon, zoom);
+    var latlon = [35, 0], zoom = 2;
+
+    if(window.innerWidth <= 576) {
+      latlon = [0, 0];
+      zoom = 0.5;
+    }
+
+    var options = { dragging: true, scrollWheelZoom: false }
+
+    if (window.innerWidth < 1024) {
+      options = { dragging: false, scrollWheelZoom: false }
+    }
+
+    var map = L.map('map', options).setView(latlon, zoom);
 
     function iconStyle(feature) {
       if (feature.properties.icon && feature.properties.icon.iconUrl) {
-        return {icon: L.icon(feature.properties.icon)};
+        return { icon: L.icon(feature.properties.icon) };
       }
     };
 
@@ -76,18 +91,18 @@ $(document).ready(function() {
       }
 
       return {
-          fillColor: fillcolor,
-          weight: 1,
-          opacity: 1,
-          color: '#ECF7FD',
-          fillOpacity: 1
+        fillColor: fillcolor,
+        weight: 1,
+        opacity: 1,
+        color: '#ECF7FD',
+        fillOpacity: 1
       };
     };
 
     function zoomToFeature(e) {
       var layer = e.target;
       $('#map-info').text(layer.feature.properties.name);
-      if(layer.feature.id) {
+      if (layer.feature.id) {
         $('#' + layer.feature.id.toLowerCase()).addClass("map-highlight");
       } else {
         map.fitBounds(layer.getBounds());
@@ -97,7 +112,7 @@ $(document).ready(function() {
     function resetHighlight(e) {
       var layer = e.target;
       worldLayer.resetStyle(layer);
-      if(layer.feature.id) {
+      if (layer.feature.id) {
         $('#' + layer.feature.id.toLowerCase()).removeClass("map-highlight");
       }
       $('#map-info').html("&nbsp;");
@@ -105,7 +120,7 @@ $(document).ready(function() {
 
     function highlightFeature(e) {
       var layer = e.target;
-      if(layer.feature.id) {
+      if (layer.feature.id) {
         $('#' + layer.feature.id.toLowerCase()).addClass("map-highlight");
         $('#map-info').html('<em>' + layer.feature.properties.name + '</em>');
       } else {
@@ -122,25 +137,25 @@ $(document).ready(function() {
     }
 
     function onEachFeature(feature, layer) {
-        layer.on({
-            mouseover: highlightFeature,
-            mouseout: resetHighlight,
-            click: zoomToFeature
-        });
+      layer.on({
+        mouseover: highlightFeature,
+        mouseout: resetHighlight,
+        click: zoomToFeature
+      });
     }
 
     // Add the worldmap
     //.addTo(map);
-    $.getJSON( base_url + 'worldmap.geojson', function (response) {
-      worldLayer = L.geoJSON(response,{style: worldStyle, onEachFeature: onEachFeature}).addTo(map);
+    $.getJSON(base_url + 'worldmap.geojson', function (response) {
+      worldLayer = L.geoJSON(response, { style: worldStyle, onEachFeature: onEachFeature }).addTo(map);
     });
 
     featureLayer = L.geoJSON(cfallOrgs, {
-        pointToLayer: function(feature, latlng) {
-            return L.marker(latlng, iconStyle(feature));
-        }, onEachFeature: onEachFeature
+      pointToLayer: function (feature, latlng) {
+        return L.marker(latlng, iconStyle(feature)).on('click', () => {window.location.href = feature.properties.website});
+      }, onEachFeature: onEachFeature
     }).addTo(map);
-    map.fitBounds(featureLayer.getBounds());
+    //map.fitBounds(featureLayer.getBounds());
   };
 
 });

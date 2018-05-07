@@ -5,12 +5,15 @@
         - title: "Heroku"
           logo: "heroku"
           desc: "Heroku is a simple, easy-to-use cloud hosting service which is perfect for small to medium projects."
+          link: "https://www.heroku.com/"
         - title: "Microsoft's BizSpark"
           logo: "bizspark"
           desc: "Microsoft's BizSpark program offers free Microsoft software and credits for their cloud platform, Azure."
+          link: "https://www.microsoft.com/bizspark"
         - title: "Twilio"
           logo: "twilio"
           desc: "Twilio is the easiest way to send SMS messages or handle phone calls for your project."
+          link: "https://www.twilio.com/"
 
 - title: "Communications"
   subcategories:
@@ -19,12 +22,15 @@
         - title: "Meetup"
           logo: "meetup"
           desc: "Meetup is an online platform for people to find groups like your Brigade."
+          link: "https://www.meetup.com/"
         - title: "Slack"
           logo: "res-slack"
           desc: "Slack is a group communication tool built around chat."
+          link: "https://slack.com/"
         - title: "G Suite"
           logo: "gsuite"
           desc: "G Suite is Google's hosted product featuring Gmail, Google Drive, Groups, and more."
+          link: "https://gsuite.google.com/"
 
 - title: "Mapping Software"
   subcategories:
@@ -33,6 +39,7 @@
         - title: "CARTO"
           logo: "carto"
           desc: "CARTO helps you easily work with and visualize geospatial data."
+          link: "https://carto.com/"
 
 - title: "Other"
   subcategories:
@@ -41,3 +48,4 @@
         - title: "GitHub"
           logo: "github"
           desc: "GitHub offers code hosting and project management tools for open source projects."
+          link: "https://github.com/"

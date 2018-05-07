@@ -10,6 +10,7 @@
           year: "2015"
           subname: "Code for the caribbean"
           desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
+          link: "http://dummy-link.com"
         - title: "Case Study"
           href: "#"
           logo: mexico
@@ -17,6 +18,7 @@
           year: "2015"
           subname: "Code for Mexico City"
           desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
+          link: "http://dummy-link.com"
         - title: "Case Study"
           href: "#"
           logo: germany
@@ -24,6 +26,7 @@
           year: "2015"
           subname: "Code For Germany"
           desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
+          link: "http://dummy-link.com"
 
 - title: "Fellowship Toolkit"
   description: "Fellowship Toolkit is an advice on starting a similar fellowship program. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit."
@@ -37,6 +40,7 @@
           year: "2015"
           subname: "Code for the caribbean"
           desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
+          link: "http://dummy-link.com"
           
 - title: "ORGANIZING BRIGADES"
   description: "Brigades are civic hacking groups that help governments and their cities. Code for America has put together great documents that will help you in organizing a brigade in your own organization."
@@ -50,6 +54,7 @@
           year: "2015"
           subname: "Code for the caribbean"
           desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
+          link: "http://dummy-link.com"
         - title: "Handbook"
           href: "#"
           logo: america
@@ -57,6 +62,7 @@
           year: "2015"
           subname: "Code for the caribbean"
           desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
+          link: "http://dummy-link.com"
         - title: "Playbook"
           href: "#"
           logo: america
@@ -64,6 +70,7 @@
           year: "2015"
           subname: "Code for the caribbean"
           desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
+          link: "http://dummy-link.com"
           
 - title: "BUILDING WITH LOCAL GOVERNMENT"
   description: "Code for America has been building digital services with local governments around the country for over the past five years. Read about practices they have developed."
@@ -77,6 +84,7 @@
           year: "2018"
           subname: "Code for the caribbean"
           desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
+          link: "http://dummy-link.com"
           
 - title: "IMPACT RESEARCH"
   description: "Code for America has been building digital services with local governments around the country for over the past five years. Read about practices they have developed."
@@ -90,3 +98,4 @@
           year: "2018"
           subname: "Code for the caribbean"
           desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
+          link: "http://dummy-link.com"

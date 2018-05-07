@@ -92,7 +92,7 @@ youtube: q9SrbjAYIxQ
         </div>
     </div>
 
-    <div id="map" style="position: relative;z-index: 1;"></div>
+    <div id="map" style="position: relative;"></div>
 
     <div class="supporters">
         <div class="container">
@@ -105,18 +105,21 @@ youtube: q9SrbjAYIxQ
             </div>
             <div class="row justify-content-center">
                 <div class="col-7 col-sm-6 col-md-4 col-lg-3 ">
-                    <div class="supporters-item">
-                        <div class="logo-ned sup-mobile-fix"></div>
-                        <p class="supporters-p-small">National Endowment for Democracy</p>
-                    </div>
-
+                    <a href="{{ site.data.links.donors.ned }}">
+                        <div class="supporters-item">
+                            <div class="logo-ned sup-mobile-fix"></div>
+                            <p class="supporters-p-small">National Endowment for Democracy</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-7 col-sm-6 col-md-4 col-lg-3 ">
-                    <div class="supporters-item">
-                        <div class="logo-on sup-mobile-fix"></div>
-                        <p class="supporters-p-small">Omidyar Network</p>
+                    <a href="{{ site.data.links.donors.omidyar }}">
+                        <div class="supporters-item">
+                            <div class="logo-on sup-mobile-fix"></div>
+                            <p class="supporters-p-small">Omidyar Network</p>
 
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -125,10 +128,12 @@ youtube: q9SrbjAYIxQ
                 </div>
                 <div class="w-100"></div>
                 <div class="col-5 col-sm-4 col-md-3 col-lg-2 ">
-                    <div class="supporters-item slack-width">
-                        <div class="slack sup-mobile-fix"></div>
-                        <p class="supporters-p-small">Slack</p>
-                    </div>
+                    <a href="{{ site.data.links.donors.slack }}">
+                        <div class="supporters-item slack-width">
+                            <div class="slack sup-mobile-fix"></div>
+                            <p class="supporters-p-small">Slack</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -169,14 +174,14 @@ youtube: q9SrbjAYIxQ
                 <div class="col-12 col-lg">
                     <div class="row justify-content-center">
                         <div class="col-9 col-sm">
-                            <a class="involeved-button or btn-mrg-top" href="#">
+                            <a class="involeved-button or btn-mrg-top" href="{{ site.data.links.chat-with-us }}">
                                 <span class="involved-link-text">
                                     <span class="involved-slack-icon"></span>Chat with us
                                 </span>
                             </a>
                         </div>
                         <div class="col-9 col-sm">
-                            <a class="involeved-button btn-mrg-top" href="#">
+                            <a class="involeved-button btn-mrg-top" href="{{ site.data.links.write-an-email }}">
                                 <span class="involved-link-text">
                                     <span class="involved-email-icon"></span> Write us an email
                                 </span>

@@ -29,9 +29,9 @@
                     </div>
                          {% for item in site.data.organizations.features %}
                          {% if item.properties.type == 'Code for All' %}
-                            <div id="{{ item.features.properties.id }}" class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2">		
+                            <div id="{{ item.properties.id }}" class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2">		
                                 <div class="gover-partner">
-                                    <div class="part-logo {{item.properties.id}}">				
+                                    <div class="part-logo" style="background: '{{item.properties.logo_url}}' no-repeat center;">				
                                         <p class="gover-partner-info-3">{{ item.properties.name }}</p>
                                     </div>
                                 </div>

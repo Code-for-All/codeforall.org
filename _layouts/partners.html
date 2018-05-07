@@ -27,17 +27,12 @@
                     </div>
                     <div class="w-100">
                     </div>
-                            {% for item in site.data.organizations.features %}
-                                {{item.properties.id}}
-                                {{item.properties.type}}
-                            {% endfor %}
-                    
                          {% for item in site.data.organizations.features %}
-                         {% if item.features.properties.type == "Code for All" %}
+                         {% if item.properties.type == 'Code for All' %}
                             <div id="{{ item.features.properties.id }}" class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2">		
                                 <div class="gover-partner">
-                                    <div class="part-logo {{item.features.properties.id}}">				
-                                        <p class="gover-partner-info-3">{{ item.features.properties.name }}</p>
+                                    <div class="part-logo {{item.properties.id}}">				
+                                        <p class="gover-partner-info-3">{{ item.properties.name }}</p>
                                     </div>
                                 </div>
                             </div>

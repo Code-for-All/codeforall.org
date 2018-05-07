@@ -1629,7 +1629,9 @@
   left: 0;
   bottom: 0;
   right: 0;
-  margin: auto; }
+  margin: auto;
+  text-overflow: ellipsis;
+  overflow: hidden; }
 
 .africa {
   background: url("../images/partners/logo-code-for-africa.png") no-repeat center; }

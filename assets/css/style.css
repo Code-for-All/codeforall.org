@@ -336,9 +336,22 @@ a:hover {
   margin: 0 auto; 
   pointer-events:none;}
 
+.map-info-about {
+  min-height: 500px;
+  position: absolute;
+  z-index: 600;
+  left: 0;
+  right: 0;
+  margin: 0 auto; 
+  pointer-events:none;}  
+
 @media (max-width: 576px) {
   .map-info {
     top: 330px; } }
+
+@media (max-width: 576px) {
+  .map-info-about {
+    top: 2600px; } }    
     
 .map-h1 {
   color: #2897D5;

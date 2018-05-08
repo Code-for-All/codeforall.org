@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .leaflet-marker-icon {
   background-color: #fff;
   border: 1px solid #ccc;

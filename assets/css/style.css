@@ -1717,14 +1717,9 @@ a:hover {
 .gover-partner-info-3 {
   color: #126491;
   font-size: 12px;
-  line-height: 19px;
-  position: absolute;
-
-  top: 80%;
-  left: 50%;
-
-  white-space: nowrap;
-  transform: translateX(-50%); }
+  text-align: center;
+  width: 100%;
+  margin-top: 90px; }
 
 .gover-partner-info-4 {
   color: #126491;

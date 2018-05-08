@@ -1,5 +1,5 @@
-a {
-  text-decoration: none;
+a:hover {
+  text-decoration: none!important;
 }
 
 .leaflet-marker-icon {

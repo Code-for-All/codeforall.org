@@ -1,50 +1,53 @@
 <!DOCTYPE html>
 <html class="has-navbar-fixed-top">
 {% include head.html %}
-  <body>
+
+<body>
     {% include header.html %}
-<div class="resources-banner banner">
+    <div class="resources-banner banner">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <h1 class="resources-banner-text">Resources</h1>
-                    <h3 class="resources-banner-text-sm">We are creating and gathering useful information that can be reused by other resources.</h3>
+                    <h3 class="resources-banner-text-sm">We are creating information that can be reused by other resources.</h3>
                 </div>
             </div>
         </div>
     </div>
     <div class="resources-info-block">
         <div class="container">
-    {% for entry in site.data.resources %}
-    <div class="row">
+            {% for entry in site.data.resources %}
+            <div class="row">
                 <div class="col">
                     <h1 class="resources-info-block-h1">{{ entry.title }}</h1>
-                      <p class="resources-info-block-p">{{ entry.description}}</p>
-                      </p>
+                    <p class="resources-info-block-p">{{ entry.description}}</p>
+                    </p>
                 </div>
                 <div class="w-100"></div>
-  {% for subcategory in entry.subcategories %}
-    <!--<h3>{{ subcategory.title }}</h3>-->
-    <!--<ul>-->
-    {% for item in subcategory.items %}
-      <div class="col-md-6">
-                    <div class="resources-item">
-                        <h3 class="resources-item-h3">{{item.title}}</h3>
-                        <p class="resources-item-p">{{item.desc}}</p>
-                        <div class="resource-company {{item.logo}}-res"></div>
-                        <p class="resource-big-text">{{ item.subname }} </p>
-                        <p class="resource-small-text">{{ item.name }}</p>
-                        <p class="resource-date">{{item.year}}</p>
-                    </div>
+                {% for subcategory in entry.subcategories %}
+                <!--<h3>{{ subcategory.title }}</h3>-->
+                <!--<ul>-->
+                {% for item in subcategory.items %}
+                <div class="col-md-6">
+                    <a href="{{ item.link }}">
+                        <div class="resources-item">
+                            <h3 class="resources-item-h3">{{item.title}}</h3>
+                            <p class="resources-item-p">{{item.desc}}</p>
+                            <div class="resource-company {{item.logo}}-res"></div>
+                            <p class="resource-big-text">{{ item.subname }} </p>
+                            <p class="resource-small-text">{{ item.name }}</p>
+                            <p class="resource-date">{{item.year}}</p>
+                        </div>
+                    </a>
                 </div>
-    {% endfor %}
-    <!--</ul>-->
-  {% endfor %}
-  </div>
-{% endfor %}
-</div>
-</div>
-    
+                {% endfor %}
+                <!--</ul>-->
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
     <div class="resources-info-block">
         <div class="container">
             <div class="row ">
@@ -54,28 +57,29 @@
                     <p class="resources-info-block-p">Whether it’s getting a quick prototype up for your first user test or releasing an application to thousands
                         of residents, we hope that these tools will help you build better products. If you have any questions,
                         reach out on our Slack. </p>
-                
-                <div class="row">
-                    {% for entry in site.data.free-software %}
-                        <div class="col-md-6">
-                        <h2 class="resources-item-h2">{{ entry.title }}</h2>
-                                      {% for subcategory in entry.subcategories %}
-                                    
-                                        {% for item in subcategory.items %}
-                                                        <div class="resources-item">
-                                                            <div class="resource-company resource-company-vert-allign {{item.logo}}"></div>
-                                                            <h3 class="resources-item-h3 h3-recom">{{item.title}}</h3>
-                                                            <p class="resources-item-p p-recom">{{item.desc}}</p>
 
-                                                        </div>
-                                        {% endfor %}
-                                      {% endfor %}
-                                      </div>
-                                    {% endfor %}
+                    <div class="row">
+                        {% for entry in site.data.free-software %}
+                        <div class="col-md-6">
+                            <h2 class="resources-item-h2">{{ entry.title }}</h2>
+                            {% for subcategory in entry.subcategories %} {% for item in subcategory.items %}
+                            <a href="{{ item.link }}">
+                                <div class="resources-item">
+                                    <div class="resource-company resource-company-vert-allign {{item.logo}}"></div>
+                                    <h3 class="resources-item-h3 h3-recom">{{item.title}}</h3>
+                                    <p class="resources-item-p p-recom">{{item.desc}}</p>
+
+                                </div>
+                            </a>
+                            {% endfor %} {% endfor %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
     </div>
+
 
     <div class="involeved">
         <div class="container">
@@ -95,5 +99,6 @@
         </div>
     </div>
     {% include footer.html %}
-  </body>
+</body>
+
 </html>

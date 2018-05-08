@@ -1,0 +1,15 @@
+{
+    "chat-with-us": "https://codeforall-slackin.herokuapp.com/",
+    "write-an-email": "mailto:contact@codeforall.org",
+    "read-our-stories": "https://medium.com/code-for-all",
+    "connect-with-us": "https://www.facebook.com/letscodeforall/",
+    "tweet-us": "https://twitter.com/CodeforAll",
+    "watch-us": "https://www.youtube.com/channel/UCWD9S7drnf6v74YimdmlX1A",
+    "see-issues": "https://helpwanted.team/code-for-all",
+    "donors": {
+        "ned": "http://ned.org/",
+        "omidyar": "https://www.omidyar.com/",
+        "slack": "https://slack.com/"
+    }
+}
+

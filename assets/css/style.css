@@ -329,8 +329,13 @@
   z-index: 600;
   left: 0;
   right: 0;
-  margin: 0 auto; }
+  margin: 0 auto; 
+  pointer-events:none;}
 
+@media (max-width: 576px) {
+  .map-info {
+    top: 330px; } }
+    
 .map-h1 {
   color: #2897D5;
   font-size: 24px;
@@ -1299,7 +1304,8 @@
     margin-top: 206px; } }
 
 .project-items {
-  background: #F2F3F7; }
+  background: #F2F3F7;
+  padding-bottom: 60px;}
 
 .projects-item-img {
   background: url("../images/case studies/Map screen.png") no-repeat;
@@ -1617,6 +1623,21 @@
   bottom: 0;
   right: 0;
   margin: auto; }
+
+.part-logo-small {
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  margin-left: 10px;
+  height: 130px;
+  position: absolute;
+  background-size: 60% auto !important;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  text-overflow: ellipsis;
+  overflow: hidden; }
 
 .africa {
   background: url("../images/partners/logo-code-for-africa.png") no-repeat center; }

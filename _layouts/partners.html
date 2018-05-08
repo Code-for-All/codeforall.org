@@ -27,18 +27,17 @@
                     </div>
                     <div class="w-100">
                     </div>
-                    {% assign i = 0 %} {% assign j = 1 %} {% for item in site.partners %}
-                    <div id="{{ item.partner }}" class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2">
-                        {% assign i = i | plus: 1 %} {% assign partner = site.data.partners[item.partner] %} {% if partner.name %} {% assign title
-                        = partner.name %} {% else %} {% assign title = item.title %} {% endif %}
-                        <div class="gover-partner">
-                            <div class="part-logo {{partner.class}}">
-                                <!--<h3><a href="{{ item.url | relative_url }}">{{ title }}</a></h3>-->
-                                <p class="gover-partner-info-3">{{ title }}</p>
+                         {% for item in site.data.organizations.features %}
+                         {% if item.properties.type == 'Code for All' %}
+                            <div id="{{ item.properties.id }}" class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2">		
+                                <div class="gover-partner">
+                                    <div class="part-logo-small" style="background: url({{item.properties.logo_url}}) no-repeat center; background-position: 50% 35%;">				
+                                        <p class="gover-partner-info-3">{{ item.properties.name }}</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    {% endfor %}
+                        {% endif %}
+                        {% endfor %}
                     <div class="last-prj-item"></div>
                 </div>
 
@@ -98,14 +97,14 @@
                 <div class="col-12 col-lg">
                     <div class="row justify-content-center">
                         <div class="col-9 col-sm">
-                            <a class="involeved-button prt-or btn-mrg-top prt-top" href="#">
+                            <a class="involeved-button prt-or btn-mrg-top prt-top" href="{{ site.data.links.chat-with-us }}">
                                 <span class="involved-link-text">
                                     <span class="involved-slack-icon"></span>Chat with us
                                 </span>
                             </a>
                         </div>
                         <div class="col-9 col-sm">
-                            <a class="involeved-button btn-mrg-top prt-top " href="#">
+                            <a class="involeved-button btn-mrg-top prt-top " href="{{ site.data.links.write-an-email }}">
                                 <span class="involved-link-text">
                                     <span class="involved-email-icon"></span> Write us an email
                                 </span>

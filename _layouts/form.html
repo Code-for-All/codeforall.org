@@ -6,30 +6,32 @@
      <div class="form">
         <div class="container">
             <div class="row">
-                <div class="col-12 offset-0 col-sm-6 offset-sm-3">
-                    <h1 class="form-h1">{{page.title}}</h1>
-                    <h3 class="form-h3">{{ content }}</h3>
+                <form action="https://formspree.io/tomislav@initgrupa.hr" method="POST">
+                    <div class="col-12 offset-0 col-sm-6 offset-sm-3">
+                        <h1 class="form-h1">{{page.title}}</h1>
+                        <h3 class="form-h3">{{ content }}</h3>
 
-                    <h3 class="form-input-info">Name of the resource</h3>
-                    <input class="form-input" type="text">
-                    <h3 class="form-input-info">One sentence description</h3>
-                    <input class="form-input" type="text">
-                    <h3 class="form-input-info">Link to the resource</h3>
-                    <input class="form-input" type="text">
-                    <h3 class="form-input-info">Author of the resource</h3>
-                    <input class="form-input" type="text">
-                    <h3 class="form-input-info">Organisation name</h3>
-                    <input class="form-input" type="text">
-                    <h3 class="form-input-info">Your name</h3>
-                    <input class="form-input" type="text">
-                </div>
-                <div class="w-100"></div>
-                <div class="col-12 offset-0 col-sm-5 col-md-4 offset-sm-3">
-                    <button class="form-button" type="submit">
-                        <span class="button-text">
-                            <span class="button-email-icon"></span>Send</span>
-                    </button>
-                </div>
+                        <h3 class="form-input-info">Name of the resource</h3>
+                        <input name="resource-name" class="form-input" type="text">
+                        <h3 class="form-input-info">One sentence description</h3>
+                        <input name="description" class="form-input" type="text">
+                        <h3 class="form-input-info">Link to the resource</h3>
+                        <input name="link" class="form-input" type="text">
+                        <h3 class="form-input-info">Author of the resource</h3>
+                        <input name="author" class="form-input" type="text">
+                        <h3 class="form-input-info">Organisation name</h3>
+                        <input name="organization" class="form-input" type="text">
+                        <h3 class="form-input-info">Your name</h3>
+                        <input name="name" class="form-input" type="text">
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col-12 offset-0 col-sm-5 col-md-4 offset-sm-3">
+                        <button class="form-button" type="submit">
+                            <span class="button-text">
+                                <span class="button-email-icon"></span>Send</span>
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

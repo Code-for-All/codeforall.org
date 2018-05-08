@@ -7,6 +7,7 @@ parent_id: '0'
 published: true
 password: ''
 status: publish
+link: dummy
 categories:
 - Africa
 - Announcements

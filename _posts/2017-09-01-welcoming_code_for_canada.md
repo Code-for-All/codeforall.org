@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome Code For Canada"
 author: krzysiekmadejski
+link: dummy
 ---
 We’ve been meeting Code for Canada folks at civic tech conferences for some time now. Apart from connecting existing civic tech community groups in Canad, and helping to start new ones, they’ve also launched an exciting fellowship program in a partnership with various Canadian governments.
 <!--more-->

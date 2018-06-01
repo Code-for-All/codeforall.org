@@ -10,7 +10,6 @@ $(document).ready(function () {
         iconSize: [38, 38],
         className: 'marker',
         iconAnchor: [0, 25],
-        shadowUrl: '/assets/images/white.png',
         shadowSize: [38, 38]
       };
       if (properties.logo_url) {
@@ -76,7 +75,7 @@ $(document).ready(function () {
 
     function iconStyle(feature) {
       if (feature.properties.icon && feature.properties.icon.iconUrl) {
-        return { icon: L.icon(feature.properties.icon) };
+        return { icon: L.icon(feature.properties.icon), title: feature.properties.name };
       }
     };
 

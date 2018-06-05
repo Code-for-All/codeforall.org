@@ -267,7 +267,7 @@ a:hover {
 
 .round-h2 {
   color: #2897D5;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 27px;
   text-align: center;
@@ -362,6 +362,28 @@ a:hover {
   text-align: center;
   margin-top: 76px; }
 
+.map-h1-large {
+    color: #2897D5;
+    font-size: 48px;
+    font-weight: 700!important;
+    line-height: 33px;
+    text-align: left;
+    margin-top: 76px;}
+
+@media (max-width: 1200px) {
+  .map-h1-large {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 576px) {
+  .map-h1-large {
+    font-size: 36px;
+    text-align: center;
+  }
+}
+
+
 .map-h3 {
   color: #126491;
   font-size: 18px;
@@ -376,13 +398,15 @@ a:hover {
     font-weight: 900!important;
     line-height: 49px;
     text-align: left; }
+
   .map-h3 {
     color: #126491;
     font-family: 'Muli';
     font-size: 18px;
     line-height: 25px;
     font-weight: 400;
-    text-align: left; } }
+    text-align: left; } 
+}
 
 .supporters {
   background: #F2F3F7; }
@@ -707,7 +731,9 @@ a:hover {
   margin-top: 0 !important; }
 
 .involved-link-text {
-  position: relative; }
+  position: relative;
+  font-weight: 600;
+  font-size: 16px; }
 
 .text-gthb {
   margin-right: 0px; }
@@ -908,7 +934,7 @@ a:hover {
   display: block;
   color: #ED1879;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 26px;
   text-decoration: underline;
   padding-left: 20px;
@@ -1112,7 +1138,7 @@ a:hover {
 .h1-white {
   color: #FFFFFF;
   font-size: 28px;
-  font-weight: 900!important;
+  font-weight: 800!important;
   line-height: 38px;
   text-shadow: 0 5px 7px 0 #423032;
   margin-top: 60px; }
@@ -1162,7 +1188,7 @@ a:hover {
   .h1-white {
     color: #FFFFFF;
     font-size: 48px;
-    font-weight: 900!important;
+    font-weight: 800!important;
     line-height: 66px;
     text-shadow: 0 5px 7px #063B58; }
   .about-info-h2 {
@@ -1193,7 +1219,8 @@ a:hover {
   padding-top: 1px;
   padding-bottom: 1px;
   box-shadow: 0 4px 4px 0 rgba(168, 171, 180, 0.57);
-  margin-top: 30px; }
+  margin-top: 30px; 
+  min-height: 305px }
 
 .value-h3 {
   color: #2897D5;
@@ -1255,7 +1282,7 @@ a:hover {
 .principles-h1 {
   color: #2897D5;
   font-size: 20px;
-  font-weight: 900!important;
+  font-weight: 700!important;
   line-height: 27px;
   text-align: center;
   margin-top: 32px; }
@@ -1278,7 +1305,7 @@ a:hover {
   .principles-h1 {
     color: #2897D5;
     font-size: 30px;
-    font-weight: 900!important;
+    font-weight: 700!important;
     line-height: 41px;
     text-align: center;
     margin-top: 32px; }
@@ -1293,6 +1320,8 @@ a:hover {
   background: url("../images/hero/hero_projects.jpg") no-repeat top;
   background-size: cover; 
   box-shadow: 0 4px 8px 0 rgba(18,100,145,0.2);
+  z-index: 99999;
+  position: relative;
 }
 
 .banner-text-sm {
@@ -1464,13 +1493,25 @@ a:hover {
     padding-right: 0px; } }
 
 .contact-banner {
-  background: url("../images/contact/hero_img_contact.jpg") no-repeat;
+  background: url("../images/hero/hero_contact.jpg") no-repeat;
   background-size: cover;
   min-height: 400px;
-  box-shadow: 0 4px 8px 0 rgba(18,100,145,0.2); }
+  box-shadow: 0 4px 8px 0 rgba(18,100,145,0.2); 
+  z-index: 99999;
+  position: relative;}
 
 .mrg-correct {
   margin-top: 20px !important; }
+
+.contact-inv-h1 {
+  color: #2897D5;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 33px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 40px;
+  padding-left: 12px; }
 
 .contact-inv-h2 {
   color: #2897D5;
@@ -1483,6 +1524,7 @@ a:hover {
   padding-left: 12px; }
 
 .contact-h2 {
+  margin-bottom: 0px;
   color: #2897D5;
   font-size: 18px;
   font-weight: 700;
@@ -1518,14 +1560,22 @@ a:hover {
 @media (min-width: 768px) {
   .contact-banner {
     min-height: 525px; }
-  .contact-inv-h2 {
+  .contact-inv-h1 {
     color: #2897D5;
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 49px;
     margin-top: 40px;
     text-transform: uppercase;
     padding-left: 12px; }
+  .contact-inv-h2 {
+      color: #2897D5;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 49px;
+      margin-top: 40px;
+      text-transform: uppercase;
+      padding-left: 12px; }    
   .contact-h2 {
     color: #2897D5;
     font-size: 30px;
@@ -1605,7 +1655,16 @@ a:hover {
 .governing-text {
   color: #2897D5;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 900;
+  line-height: 33px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 50px; }
+
+.affiliate-text {
+  color: #2897D5;
+  font-size: 20px;
+  font-weight: 800;
   line-height: 33px;
   text-align: center;
   text-transform: uppercase;
@@ -1760,12 +1819,22 @@ a:hover {
   .governing-text {
     color: #2897D5;
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 49px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 0px;
-    text-transform: uppercase; } }
+    text-transform: uppercase; }
+  
+    .affiliate-text {
+      color: #2897D5;
+      font-size: 30px;
+      font-weight: 800;
+      line-height: 49px;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 0px;
+      text-transform: uppercase; }}
 
 .nav-shadow {
   box-shadow: 0 1px 10px 0 rgba(16, 99, 146, 0.35);
@@ -1775,7 +1844,9 @@ a:hover {
 .resources-banner {
   min-height: 400px;
   background: url("../images/hero/hero_resources.jpg") no-repeat center; 
-  box-shadow: 0 4px 8px 0 rgba(18,100,145,0.2);}
+  box-shadow: 0 4px 8px 0 rgba(18,100,145,0.2);
+  z-index: 99999;
+  position: relative;}
 
 .resources-banner-text {
   color: #FFFFFF;
@@ -1813,6 +1884,7 @@ a:hover {
   font-weight: 900!important;
   line-height: 33px;
   margin-top: 40px;
+  margin-bottom: 0px;
   text-transform: uppercase; }
 
 .resources-info-block-h2 {
@@ -1820,7 +1892,7 @@ a:hover {
   font-size: 20px;
   font-weight: 700;
   line-height: 27px;
-  margin-top: 32px; }
+  margin-top: 15px; }
 
 .resources-info-block-p {
   color: #126491;
@@ -2042,13 +2114,13 @@ a:hover {
 .h1-desktop {
   color: #2897D5;
   font-size: 48px;
-  font-weight: 900!important;
+  font-weight: 800!important;
   line-height: 66px; }
 
 .h2-desktop {
   color: #2897D5;
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 49px;
   text-transform: uppercase; }
 
@@ -2067,14 +2139,15 @@ a:hover {
 .h1-mobile {
   color: #2897D5;
   font-size: 28px;
-  font-weight: 900!important;
+  font-weight: 700!important;
   line-height: 38px; }
 
 .h2-mobile {
   color: #2897D5;
   font-size: 24px;
   font-weight: 700;
-  line-height: 33px; }
+  line-height: 33px;
+  text-transform: uppercase; }
 
 .h3-mobile {
   color: #2897D5;

@@ -1,5 +1,5 @@
 ---
-title: Propose new resource
+title: PROPOSE NEW RESOURCE
 permalink: form
 layout: form
 nav: false

@@ -1,6 +1,6 @@
-- title: "Case studies"
+- title: "FELLOWSHIPS"
   subcategories:
-    - title: "case studies"
+    - title: "Case Studies"
       description: "The Case Studies for Fellowship program are references to support our resources in other countries in the formation of their own programs. From selection and training to handover to government and measuring impacts."
       items:
         - title: "Case Study"
@@ -27,12 +27,9 @@
           subname: "Code For Germany"
           desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
           link: "http://dummy-link.com"
-
-- title: "Fellowship Toolkit"
-  description: "Fellowship Toolkit is an advice on starting a similar fellowship program. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit."
-  subcategories:
-   - title: "fellowship"
-     items:
+    - title: "Fellowship Toolkit"
+      description: "Fellowship Toolkit is an advice on starting a similar fellowship program. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit."
+      items:
         - title: "Fellowship Toolkit"
           href: "#"
           logo: america
@@ -45,7 +42,7 @@
 - title: "ORGANIZING BRIGADES"
   description: "Brigades are civic hacking groups that help governments and their cities. Code for America has put together great documents that will help you in organizing a brigade in your own organization."
   subcategories:
-   - title: "brigades"
+   - title: ""
      items:
         - title: "Calendar"
           href: "#"
@@ -75,7 +72,7 @@
 - title: "BUILDING WITH LOCAL GOVERNMENT"
   description: "Code for America has been building digital services with local governments around the country for over the past five years. Read about practices they have developed."
   subcategories:
-   - title: "brigades"
+   - title: ""
      items:
         - title: "21st Century Government Practices"
           href: "#"
@@ -89,7 +86,7 @@
 - title: "IMPACT RESEARCH"
   description: "Code for America has been building digital services with local governments around the country for over the past five years. Read about practices they have developed."
   subcategories:
-   - title: "brigades"
+   - title: ""
      items:
         - title: "21st Century Government Practices"
           href: "#"

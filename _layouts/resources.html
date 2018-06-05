@@ -23,10 +23,22 @@
                     <p class="resources-info-block-p">{{ entry.description}}</p>
                     </p>
                 </div>
-                <div class="w-100"></div>
                 {% for subcategory in entry.subcategories %}
-                <!--<h3>{{ subcategory.title }}</h3>-->
-                <!--<ul>-->
+                <div class="w-100"></div>
+
+                {% if subcategory.title %}
+                <div class="col">
+                    <h3 class="resources-info-block-h2">{{ subcategory.title }}</h3>
+                    <p class="resources-info-block-p">{{ subcategory.description}}</p>
+                    </p>
+                </div>
+
+                <div class="w-100"></div>
+                {% endif %}
+                
+                
+                
+                
                 {% for item in subcategory.items %}
                 <div class="col-md-6">
                     <a href="{{ item.link }}">
@@ -41,7 +53,7 @@
                     </a>
                 </div>
                 {% endfor %}
-                <!--</ul>-->
+                
                 {% endfor %}
             </div>
             {% endfor %}
@@ -61,7 +73,7 @@
                     <div class="row">
                         {% for entry in site.data.free-software %}
                         <div class="col-md-6">
-                            <h2 class="resources-item-h2">{{ entry.title }}</h2>
+                            <h2 class="resources-item-h2" style="margin-top: 15px; margin-bottom: 15px;">{{ entry.title }}</h2>
                             {% for subcategory in entry.subcategories %} {% for item in subcategory.items %}
                             <a href="{{ item.link }}">
                                 <div class="resources-item">

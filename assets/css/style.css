@@ -22,7 +22,7 @@ a:hover {
   opacity: 0.8;
   color: #2897D5 !important;
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 33px;
   text-align: center;
   text-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.5);
@@ -195,7 +195,7 @@ a:hover {
   color: #ED1879;
   font-family: 'Muli';
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 26px;
   text-align: right;
   display: block;
@@ -223,7 +223,7 @@ a:hover {
     color: #ED1879;
     font-family: 'Muli';
     font-size: 16px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 26px;
     text-align: right;
     display: block;
@@ -268,7 +268,7 @@ a:hover {
 .round-h2 {
   color: #2897D5;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 27px;
   text-align: center;
   margin-top: 10px; }
@@ -309,10 +309,11 @@ a:hover {
 .how-h1 {
   color: #2897D5;
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 900!important;
   line-height: 33px;
   text-align: center;
-  margin-top: 60px; }
+  margin-top: 60px;
+  margin-bottom: 0px; }
 
 @media (min-width: 768px) {
   .round {
@@ -322,7 +323,7 @@ a:hover {
     color: #2897D5;
     font-family: 'Muli';
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 900!important;
     line-height: 49px;
     text-align: center;
     margin-top: 60px; } }
@@ -356,7 +357,7 @@ a:hover {
 .map-h1 {
   color: #2897D5;
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 900!important;
   line-height: 33px;
   text-align: center;
   margin-top: 76px; }
@@ -372,7 +373,7 @@ a:hover {
     color: #2897D5;
     font-family: 'Muli';
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 900!important;
     line-height: 49px;
     text-align: left; }
   .map-h3 {
@@ -390,7 +391,7 @@ a:hover {
   color: #2897D5;
   font-family: 'Muli';
   font-size: 36px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 49px;
   text-align: center;
   margin-top: 60px;
@@ -403,7 +404,7 @@ a:hover {
   color: #2897D5;
   font-family: 'Muli';
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 27px;
   margin-top: 20px;
   text-align: center;
@@ -538,7 +539,7 @@ a:hover {
     color: #2897D5;
     font-family: 'Muli';
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 900!important;
     line-height: 49px;
     text-align: center;
     margin-top: 60px; } }
@@ -564,7 +565,7 @@ a:hover {
   color: #2897D5;
   font-family: 'Muli';
   font-size: 36px;
-  font-weight: 800;
+  font-weight: 900!important;
   line-height: 49px;
   margin-top: 60px;
   text-align: center;
@@ -576,7 +577,7 @@ a:hover {
   color: #2897D5;
   font-family: 'Muli';
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 27px;
   padding-left: 15px;
   padding-right: 15px; }
@@ -606,7 +607,7 @@ a:hover {
   color: #ED1879;
   font-family: 'Muli';
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 26px;
   text-align: right;
   display: block;
@@ -632,19 +633,19 @@ a:hover {
     color: #2897D5;
     font-family: 'Muli';
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 900!important;
     line-height: 49px;
     margin-top: 60px;
     text-align: center;
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 49px;
     text-transform: uppercase; } }
 
 .involeved-h2 {
   color: #2897D5;
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 25px;
   margin-top: 40px;
   text-align: center;
@@ -808,7 +809,7 @@ a:hover {
     color: #2897D5;
     font-family: 'Muli';
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 27px;
     margin-top: 40px; }
   .inv-res-code {
@@ -836,7 +837,7 @@ a:hover {
     color: #2897D5;
     font-family: 'Muli';
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 27px;
     margin-top: 40px;
     text-align: left;
@@ -907,7 +908,7 @@ a:hover {
   display: block;
   color: #ED1879;
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 26px;
   text-decoration: underline;
   padding-left: 20px;
@@ -1032,7 +1033,7 @@ a:hover {
 .form-h1 {
   color: #2897D5;
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 900!important;
   line-height: 33px;
   margin-top: 60px; }
 
@@ -1095,7 +1096,7 @@ a:hover {
     color: #2897D5;
     font-family: 'Muli';
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 900!important;
     line-height: 49px; }
   .form-h3 {
     color: #126491;
@@ -1111,7 +1112,7 @@ a:hover {
 .h1-white {
   color: #FFFFFF;
   font-size: 28px;
-  font-weight: 800;
+  font-weight: 900!important;
   line-height: 38px;
   text-shadow: 0 5px 7px 0 #423032;
   margin-top: 60px; }
@@ -1136,7 +1137,7 @@ a:hover {
 .about-info-h2 {
   color: #2897D5;
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 27px;
   text-align: center;
   margin-top: 40px; }
@@ -1161,13 +1162,13 @@ a:hover {
   .h1-white {
     color: #FFFFFF;
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 900!important;
     line-height: 66px;
     text-shadow: 0 5px 7px #063B58; }
   .about-info-h2 {
     color: #2897D5;
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 41px;
     text-align: center;
     margin-top: 40px; }
@@ -1181,7 +1182,7 @@ a:hover {
 .our-values-h1 {
   color: #2897D5;
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 900!important;
   line-height: 33px;
   text-align: center;
   margin-top: 40px;
@@ -1197,7 +1198,7 @@ a:hover {
 .value-h3 {
   color: #2897D5;
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 27px;
   text-align: center;
   margin-top: 20px; }
@@ -1254,7 +1255,7 @@ a:hover {
 .principles-h1 {
   color: #2897D5;
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 900!important;
   line-height: 27px;
   text-align: center;
   margin-top: 32px; }
@@ -1262,7 +1263,7 @@ a:hover {
 .principles-h3 {
   color: #2897D5;
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 25px; }
 
 .principles-p {
@@ -1277,14 +1278,14 @@ a:hover {
   .principles-h1 {
     color: #2897D5;
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 900!important;
     line-height: 41px;
     text-align: center;
     margin-top: 32px; }
   .principles-h3 {
     color: #2897D5;
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 27px; } }
 
 .projects-banner {
@@ -1351,7 +1352,7 @@ a:hover {
 .projects-item-h2 {
   color: #2897D5;
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 27px;
   margin-top: 15px;
   padding-left: 15px;
@@ -1474,7 +1475,7 @@ a:hover {
 .contact-inv-h2 {
   color: #2897D5;
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 33px;
   text-align: center;
   text-transform: uppercase;
@@ -1484,7 +1485,7 @@ a:hover {
 .contact-h2 {
   color: #2897D5;
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 25px; }
 
 .contact-p {
@@ -1495,7 +1496,7 @@ a:hover {
 .cnt-mrg {
   color: #FFFFFF;
   font-size: 28px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 38px;
   margin-top: 100px !important;
   text-align: left; }
@@ -1520,7 +1521,7 @@ a:hover {
   .contact-inv-h2 {
     color: #2897D5;
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 49px;
     margin-top: 40px;
     text-transform: uppercase;
@@ -1528,7 +1529,7 @@ a:hover {
   .contact-h2 {
     color: #2897D5;
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 41px;
     margin-top: 20px; }
   .contact-p {
@@ -1538,7 +1539,7 @@ a:hover {
   .cnt-mrg {
     color: #FFFFFF;
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 66px;
     text-shadow: 0 5px 7px 0 #423032;
     margin-top: 250px !important; }
@@ -1547,7 +1548,7 @@ a:hover {
     color: #FFFFFF;
     font-family: 'Muli';
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 25px;
     text-shadow: 0 2px 4px 0 #126491; } }
 
@@ -1559,7 +1560,7 @@ a:hover {
 .partners-banner-text {
   color: #2897D5;
   font-size: 28px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 38px;
   text-shadow: 0 5px 7px 0 #423032;
   margin-top: 60px; }
@@ -1590,7 +1591,7 @@ a:hover {
     color: #2897D5;
     font-family: 'Muli';
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 49px;
     margin-top: 60px; }
   .al-left {
@@ -1604,7 +1605,7 @@ a:hover {
 .governing-text {
   color: #2897D5;
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 33px;
   text-align: center;
   text-transform: uppercase;
@@ -1759,7 +1760,7 @@ a:hover {
   .governing-text {
     color: #2897D5;
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 49px;
     text-align: center;
     margin-top: 50px;
@@ -1779,7 +1780,7 @@ a:hover {
 .resources-banner-text {
   color: #FFFFFF;
   font-size: 28px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 38px;
   text-shadow: 0 3px 7px  #042436;
   margin-top: 96px; }
@@ -1787,7 +1788,7 @@ a:hover {
 .resources-banner-text-sm {
   color: #FFFFFF;
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 25px;
   text-shadow: 0 2px 4px  #042436; }
 
@@ -1809,7 +1810,7 @@ a:hover {
 .resources-info-block-h1 {
   color: #2897D5;
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 900!important;
   line-height: 33px;
   margin-top: 40px;
   text-transform: uppercase; }
@@ -1817,7 +1818,7 @@ a:hover {
 .resources-info-block-h2 {
   color: #2897D5;
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 27px;
   margin-top: 32px; }
 
@@ -1855,14 +1856,14 @@ a:hover {
 .resources-item-h3 {
   color: #2897D5;
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 25px;
   margin-top: 20px; }
 
 .resources-item-h2 {
   color: #2897D5;
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 27px;
   text-align: left; }
 
@@ -2041,50 +2042,50 @@ a:hover {
 .h1-desktop {
   color: #2897D5;
   font-size: 48px;
-  font-weight: 800;
+  font-weight: 900!important;
   line-height: 66px; }
 
 .h2-desktop {
   color: #2897D5;
   font-size: 36px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 49px;
   text-transform: uppercase; }
 
 .h3-desktop {
   color: #2897D5;
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 41px; }
 
 .h4-desktop {
   color: #2897D5;
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 27px; }
 
 .h1-mobile {
   color: #2897D5;
   font-size: 28px;
-  font-weight: 800;
+  font-weight: 900!important;
   line-height: 38px; }
 
 .h2-mobile {
   color: #2897D5;
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 33px; }
 
 .h3-mobile {
   color: #2897D5;
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 27px; }
 
 .h4-mobile {
   color: #2897D5;
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 25px; }
 
 .p-into-text {
@@ -2161,7 +2162,7 @@ a:hover {
   opacity: 0.8;
   color: #2897D5;
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 22px;
   text-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.5); }
 
@@ -2169,7 +2170,7 @@ a:hover {
   display: block;
   color: #2897D5;
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 22px;
   text-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.5); }
 
@@ -2177,7 +2178,7 @@ a:hover {
   display: block;
   color: #2897D5;
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 22px;
   text-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.5);
   text-decoration: underline;
@@ -2187,7 +2188,7 @@ a:hover {
   display: block;
   color: #ED1879;
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 26px;
   text-decoration: underline;
   text-underline-position: under;
@@ -2228,7 +2229,7 @@ a:hover {
   position: relative;
   color: #FFFFFF;
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 26px; }
 
 .button-text::after {
@@ -2269,7 +2270,7 @@ body {
   box-shadow: 0 2px 3px #0d71b4, 0 0 0 1px #0d71b4 !important; }
 
 .map-highlight h3 {
-  font-weight: 800 !important; }
+  font-weight: 700 !important; }
 
 #map {
   width: 100%;

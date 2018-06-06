@@ -738,6 +738,9 @@ a:hover {
 .text-gthb {
   margin-right: 0px; }
 
+.text-gthb-wide {
+  margin-right: 0px; }
+
 .btn-mrg-top {
   margin-top: 20px !important; }
 
@@ -851,7 +854,9 @@ a:hover {
     margin-bottom: 40px;
     text-align: right !important; }
   .text-gthb {
-    margin-right: 20px; }
+    margin-right: 10px; }
+  .text-gthb-wide {
+      margin-right: 20px; }    
   .involeved-button {
     margin-left: 0;
     margin-right: 0; }

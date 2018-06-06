@@ -150,7 +150,7 @@ a:hover {
     height: 60px; }
   .stories-icon::after {
     top: 7px;
-    left: 60px; }
+    left: 55px; }
   .navbar-collapse {
     margin-top: 0;
     margin: 0; }
@@ -201,7 +201,7 @@ a:hover {
   display: block;
   text-decoration: underline;
   margin-bottom: 10px;
-  opacity: 0.8; }
+  opacity: 1; }
 
 .read-more:hover {
   opacity: 1;
@@ -1431,7 +1431,7 @@ a:hover {
 
 @media (max-width: 992px) {
 .stories-icon::after {
-  left: 90px;
+  left: 85px;
 }}
 
 

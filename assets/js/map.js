@@ -7,10 +7,10 @@ $(document).ready(function () {
     })
     function getIcon(properties) {
       var icon = {
-        iconSize: [38, 38],
+        iconSize: [84, 84],
         className: 'marker',
         iconAnchor: [0, 25],
-        shadowSize: [38, 38]
+        shadowSize: [84, 84]
       };
       if (properties.logo_url) {
         icon.iconUrl = properties.logo_url;

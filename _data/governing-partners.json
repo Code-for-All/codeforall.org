@@ -1,0 +1,14 @@
+[
+    {
+        "id": "Code-for-Africa",
+        "name": "Code for Africa",
+        "logo": "logo-code-for-africa.jpg",
+        "website": "http://www.codeforafrica.org/"    
+    },
+    {
+        "id": "Code-for-America",
+        "name": "Code for America",
+        "logo": "logo-code-for-america.jpg",
+        "website": "http://codeforamerica.org"
+    }
+]

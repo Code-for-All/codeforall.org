@@ -58,7 +58,7 @@ $(document).ready(function () {
     // codeforamerica.j113mi4d - code for all
     // codeforamerica.map-hhckoiuj - brigade
     var worldLayer;
-    var latlon = [45, 0], zoom = 2;
+    var latlon = [25, 0], zoom = 2;
 
     if(window.innerWidth <= 576) {
       latlon = [0, 0];

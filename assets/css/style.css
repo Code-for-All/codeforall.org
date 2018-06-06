@@ -1720,7 +1720,7 @@ a:hover {
   margin-left: 10px;
   height: 130px;
   position: absolute;
-  background-size: 60% auto !important;
+  background-size: 100% auto !important;
   top: 0;
   left: 0;
   bottom: 0;

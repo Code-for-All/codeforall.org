@@ -1,25 +1,28 @@
 {
+  This list is deprecated and not up-to-date. Leaving it here because it contains partners' representatives with bios and avatars.
+        We might want to use it one day.
+
   "code-for-america":{
-    "partner_type": "governing partner",
-    "website": "http://www.codeforamerica.org/",
+    "partner_type": "governing",
+    "name": "Code for America",
+    "logo": "logo-code-for-america.jpg",
+    "website": "http://codeforamerica.org",
     "email": "info@codeforamerica.org",
     "twitter": "codeforamerica",
     "github": "codeforamerica",
     "class" : "america",
     "people": [
-      {
-        "name": "Catherine Bracy",
-        "photo": "avatar-catherine.jpg",
-        "twitter": "cbracy",
-        "linkedin": "catherinebracy",
-        "website": "http://cbracy.tumblr.co",
-        "role": "Director of Community Organizing",
-        "bio": "Catherine Bracy (Director of Community Organizing) Until November 2012, she was a product manager and director of the Obama campaign’s technology field office in San Francisco, the first of its kind in American political history. In that role she was responsible for organizing technologists to volunteer their skills to the campaign’s technology and digital efforts. Prior to joining the campaign, she ran the Knight Foundation’s 2011 News Challenge and before that was the administrative director at Harvard’s Berkman Center for Internet & Society. She is on the board of directors at the Citizen Engagement Lab and the Public Laboratory."
-      }
     ]
   },
+  "code-for-canada": {
+    "partner_type": "governing",
+    "name": "Code for Canada",
+    "logo": "logo-code-for-canada.jpg",
+  },
   "code-for-japan":{
-    "partner_type": "governing partner",
+    "partner_type": "governing",
+    "name": "Code for Japan",
+    "logo": "logo-code-for-japan.jpg",
     "website": "http://code4japan.org",
     "email": "info@code4japan.org",
     "twitter": "codeforjp",
@@ -45,7 +48,7 @@
     ]
   },
   "code-for-south-africa": {
-    "partner_type": "governing partner",
+    "partner_type": "governing",
     "website": "http://code4sa.org",
     "twitter": "code4sa",
     "github": "code4sa",
@@ -58,7 +61,7 @@
     ]
   },
   "code-for-nl": {
-    "partner_type": "governing partner",
+    "partner_type": "governing",
     "name": "Code For NL",
     "alternatives": ["Code For the Netherlands", "Waag Society"],
     "website": "http://codefor.nl",
@@ -72,11 +75,13 @@
     ]
   },
   "code-for-australia":{
-    "partner_type": "governing partner",
+    "partner_type": "governing",
     "email": "info@codeforaustralia.org",
     "twitter": "codeforaus",
     "github": "codeforaustralia",
-    "website": "http://www.codeforaustralia.org/",
+    "name": "Code for Australia",
+    "logo": "logo-code-for-australia.jpg",
+    "website": "http://www.codeforaustralia.org",
     "class" : "australia",
     "people": [
       { "name": "Alvaro Maz",
@@ -105,9 +110,10 @@
     ]
   },
   "code-for-germany": {
-    "partner_type": "governing partner",
+    "partner_type": "governing",
     "name": "Code For Germany",
     "alternatives": ["Open Knowledge Foundation Germany"],
+    "logo": "logo-code-for-germany.jpg",
     "website": "http://codefor.de",
     "email": "info@codefor.de",
     "twitter": "codeforde",
@@ -138,13 +144,13 @@
     ]
   },
   "code-for-mexico": {
-    "partner_type": "governing partner",
+    "partner_type": "governing",
     "name": "Code For Mexico",
     "class" : "mexico",
     "alternatives": ["Codeando México"]
   },
   "codigo-para-la-ciudad-de-mexico": {
-    "partner_type": "governing partner",
+    "partner_type": "governing",
     "website": "http://labcd.mx",
     "name": "Code For Mexico City",
     "alternatives": ["Laboratorio para la Ciudad"],
@@ -167,7 +173,7 @@
     ]
   },
   "code-for-pakistan": {
-    "partner_type": "governing partner",
+    "partner_type": "governing",
     "name": "Code For Pakistan",
     "website": "http://www.codeforpakistan.org",
     "email": "info@codeforpakistan.org",
@@ -200,7 +206,7 @@
     ]
   },
   "code-for-poland": {
-    "partner_type": "governing partner",
+    "partner_type": "governing",
     "name": "Code For Poland",
     "alternatives": ["ePanstwo Foundation", "Koduj dla Polski"],
     "website": "https://kodujdlapolski.pl",
@@ -214,19 +220,13 @@
         "twitter": "kaymadejski",
         "github": "KrzysztofMadejski",
         "email": "krzysztof.madejski@epf.org.pl"
-      },
-      {
-        "name": "Jakub Górnicki",
-        "photo": "avatar-jakub.jpg",
-        "bio": "Jakub builds communities. He formerly did it for British and German startups. Then he started to create community around Sourcefabric, an open source software producer for professional media. Jakub is also a journalist. As a media consultant, in the past three years he's helped various media outlets in Georgia (tspress.ge, liberali.ge, netgazeti.ge, and seven others), Turkey (taraf.com.tr) and West Africa (wacsi.org). He teaches new media and blogging, and was named one of the most influential bloggers in Poland in 2012. As Operations Director at ePF, he combines those skills to make ePF and its services trustworthy, transparent and community driven.",
-        "linkedin": "jakubgornicki",
-        "twitter": "kosmo"
       }
     ]
   },
-  "code-for-the-caribbean": {
-    "partner_type": "governing partner",
-    "website": "http://codeforthecaribbean.org",
+  "slashroots": {
+    "partner_type": "governing",
+    "logo": "logo-slashroots.jpg",
+    "website": "https://www.slashroots.org",
     "twitter": "codeforthecarib",
     "class" : "caribbean",
     "people": [
@@ -257,15 +257,8 @@
     "class" : "brazil",
   },
   "code-for-africa": {
-    "partner_type": "governing partner",
+    "name": "Code for Africa",
     "website": "https://codeforafrica.org",
-    "class" : "south-africa",
-  },
-  "code-for-ireland": {
-    "website": "http://codeforireland.com/",
-    "twitter": "codeforall_ire",
-    "class" : "ireland",
+    "logo": "logo-code-for-africa.jpg",
   }
-
-
 }

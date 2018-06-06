@@ -1,49 +1,26 @@
+---
+---
 $(document).ready(function () {
-  //$.getJSON(base_url + "organizations.geojson", function (response){
-  $.getJSON("https://api.codeforamerica.org/api/organizations.geojson", function (response) {
+
+  $.getJSON("/partners.geojson", function (orgs){
     $(".mobile-menu").click(function (e) {
       e.preventDefault();
       $(".nav-global-secondary ul").slideToggle();
-    })
-    function getIcon(properties) {
-      var icon = {
-        iconSize: [84, 84],
-        className: 'marker',
-        iconAnchor: [0, 25],
-        shadowSize: [84, 84]
-      };
-      if (properties.logo_url) {
-        icon.iconUrl = properties.logo_url;
-        return icon;
-      }
-
-      switch (properties.id.toLowerCase()) {
-        case "code-for-nl":
-          icon.iconUrl = base_url + "images/logo/netherlands.jpg";
-          return icon;
-        case "code-for-poland":
-          icon.iconUrl = base_url + "images/logo/cfpoland.svg";
-          return icon;
-        default:
-          return icon;
-      }
-    }
-
-    var orgs = response;
-    var cfallOrgs = [];
-    orgs.features.forEach(function (org) {
-      if (window.innerWidth < 1024) return;
-
-      if (org.properties.tags.indexOf("Code for All") != -1) {
-        org.properties.icon = getIcon(org.properties);
-        if (org.properties.id.toLowerCase() !== 'hacking-monterrey') {
-          cfallOrgs.push(org);
-        }
-
-      }
     });
 
-    showMap(cfallOrgs);
+    if (window.innerWidth < 1024) showMap([]);;
+
+    orgs.features.forEach(function (org) {
+      org.properties.icon = {
+          iconSize: [60, 60],
+          shadowSize: [60, 60],
+          className: 'marker',
+          iconUrl: org.properties.logo_url,
+          iconAnchor: [0, 25]
+      };
+    });
+
+    showMap(orgs);
   });
 
 
@@ -79,14 +56,17 @@ $(document).ready(function () {
       }
     };
 
+    var countries = {{ site.data.countries | jsonify }};
+
     function worldStyle(feature) {
+      // background color
       var fillcolor = "#C6E5F6";
-      //if (feature.properties.partner) {
-      //  fillcolor = "#3273dc";
-      //}
-      if (feature.properties.type && feature.properties.type.toLowerCase() == "governing partner") {
+
+      if (countries.indexOf(feature.properties.NAME) !== -1) {
+        // any partner on the map will have the same color
         fillcolor = "#43A2D4";
         //fillcolor = "#ffdd57"
+          // fillcolor = "#3273dc";
       }
 
       return {
@@ -144,7 +124,6 @@ $(document).ready(function () {
     }
 
     // Add the worldmap
-    //.addTo(map);
     $.getJSON(base_url + 'worldmap.geojson', function (response) {
       worldLayer = L.geoJSON(response, { style: worldStyle, onEachFeature: onEachFeature }).addTo(map);
     });

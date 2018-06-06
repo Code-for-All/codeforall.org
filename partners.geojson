@@ -1,0 +1,26 @@
+---
+---
+{
+"features": [
+{% include partners.liquid %}
+ {% for org in partners %}
+ {
+   "geometry": {
+     "coordinates": [
+       {{ org.longitude }},
+       {{ org.latitude }}
+     ],
+     "type": "Point"
+   },
+   "id": "{{ org.name | slugify }}",
+   "properties": { {% for p in org %}
+     "{{ p[0] }}": {{ p[1] | jsonify }},{% endfor %}
+
+     {% capture logo_url %}{% if org.logo_url %}org.logo_url{% else %}/assets/images/partner logos/{{ org.name | slugify }}.jpg{% endif %}{% endcapture %}
+     "logo_url": "{{ logo_url }}"
+   },
+   "type": "Feature"
+ }
+ {% unless forloop.last %},{% endunless %}
+ {% endfor %}
+]}

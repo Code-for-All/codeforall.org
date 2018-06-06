@@ -27,12 +27,16 @@
                     </div>
                     <div class="w-100">
                     </div>
-                         {% for item in site.data.governing-partners %}                         
-                            <div id="{{ item.id }}" class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2">		
-                                <a href="{{ item.website }}">
+                        {% include partners.liquid %}
+                         {% for org in partners_governing %}
+                            {% capture logo_url %}{% if org.logo_url %}org.logo_url{% else %}/assets/images/partner logos/{{ org.name | slugify }}.jpg{% endif %}{% endcapture %}
+                            <div id="{{ org.name | slugify }}" class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+                                <a href="{{ org.website }}">
                                     <div class="gover-partner">
-                                        <div class="part-logo-small" style="background: url('/assets/images/partner logos/{{item.logo}}') no-repeat center; background-position: 50% 50%;">
-                                            <!--<p class="gover-partner-info-3">{{ item.properties.name }}</p>-->
+                                        <div class="part-logo-small"
+                                             style="background: url('{{ logo_url }}') no-repeat center; background-position: 50% 50%;"
+                                            title="{{ org.name }}">
+                                            <!-- <p class="gover-partner-info-3">{{ org.name }}</p>-->
                                         </div>
                                     </div>
                                 </a>
@@ -59,26 +63,14 @@
                 </div>
 
                 <div class="row justify-content-center">
+                    {% for org in partners_affiliate %}
+                    {% capture logo_url %}{% if org.logo_url %}org.logo_url{% else %}/assets/images/partner logos/{{ org.name | slugify }}.jpg{% endif %}{% endcapture %}
                     <div class="col-6 col-sm-3 col-md-3 col-lg-2">
                         <div class="gover-partner mrg-bott">
-                            <div class="part-logo sierra"></div>
+                            <div class="part-logo" style="background: url('{{ logo_url }}') no-repeat center; background-position: 50% 50%;"></div>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-3 col-md-3 col-lg-2">
-                        <div class="gover-partner mrg-bott">
-                            <div class="part-logo sierra"></div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-sm-3 col-md-3 col-lg-2">
-                        <div class="gover-partner mrg-bott">
-                            <div class="part-logo sierra"></div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-sm-3 col-md-3 col-lg-2">
-                        <div class="gover-partner mrg-bott">
-                            <div class="part-logo sierra"></div>
-                        </div>
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>

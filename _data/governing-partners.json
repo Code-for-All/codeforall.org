@@ -46,6 +46,12 @@
         "name": "Code for NL",
         "logo": "logo-code-for-nl.jpg",
         "website": "http://www.codefor.nl/"
+    },
+    {
+        "id": "Codeando-Mexico",
+        "name": "Codeando Mexico",
+        "logo": "codeando-mexico.jpg",
+        "website": "http://codeandomexico.org"
     },    
     {
         "id": "Code-for-Pakistan",

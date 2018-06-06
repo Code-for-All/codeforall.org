@@ -638,7 +638,7 @@ a:hover {
   text-decoration: underline;
   margin-top: 16px;
   margin-bottom: 60px;
-  opacity: 0.8; }
+  opacity: 1; }
 
 .read-stories:hover {
   opacity: 1;
@@ -939,7 +939,7 @@ a:hover {
   text-decoration: underline;
   padding-left: 20px;
   margin-bottom: 15px;
-  opacity: 0.8;
+  opacity: 1;
   text-decoration: underline;
   text-align: left; }
 

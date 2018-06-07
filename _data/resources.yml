@@ -1,98 +1,89 @@
 - title: "FELLOWSHIPS"
   subcategories:
-    - title: "Case Studies"
-      description: "The Case Studies for Fellowship program are references to support our resources in other countries in the formation of their own programs. From selection and training to handover to government and measuring impacts."
-      items:
-        - title: "Case Study"
-          href: "#"
-          logo: caribbean
-          name: "firstname surname"
-          year: "2015"
-          subname: "Code for the caribbean"
-          desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
-          link: "http://dummy-link.com"
-        - title: "Case Study"
-          href: "#"
-          logo: mexico
-          name: "firstname surname"
-          year: "2015"
-          subname: "Code for Mexico City"
-          desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
-          link: "http://dummy-link.com"
-        - title: "Case Study"
-          href: "#"
-          logo: germany
-          name: "firstname surname"
-          year: "2015"
-          subname: "Code For Germany"
-          desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
-          link: "http://dummy-link.com"
     - title: "Fellowship Toolkit"
-      description: "Fellowship Toolkit is an advice on starting a similar fellowship program. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit."
+      description: "Organized resources to start your own Fellowship program."
       items:
-        - title: "Fellowship Toolkit"
-          href: "#"
+        - title: "CfAmerica's Fellowship Toolkit [old]"
           logo: america
-          name: "firstname surname"
+          name: "Veronica Young veronica@codeforamerica.org"
           year: "2015"
-          subname: "Code for the caribbean"
-          desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
-          link: "http://dummy-link.com"
-          
-- title: "ORGANIZING BRIGADES"
-  description: "Brigades are civic hacking groups that help governments and their cities. Code for America has put together great documents that will help you in organizing a brigade in your own organization."
+          subname: "Code for America"
+          desc: "Code for America’s advice on starting a similar fellowship program."
+          link: "http://web.archive.org/web/20151228133322/https://www.codeforamerica.org/playbooks/fellowship/toolkit/"
+
+    - title: "Case Studies"
+      description: "Documentation of fellowship programs implementations accross several environments.
+      From selection and training to handover to government and measuring impacts."
+      items:
+        - title: "Caribbean: working with federal govs"
+          logo: caribbean
+          name: "Matthew McNaughton, matthew@slashroots.org"
+          year: "2014"
+          subname: "Slashroots Foundation, Code for America"
+          desc: "Introducing Fellowship program in the Carribean."
+          link: "/resources/cftc-casestudy.pdf"
+
+        - title: "Mexico City Fellowship Program"
+          logo: mexico
+          name: "&nbsp;"
+          year: "2014"
+          subname: "Mexico City, Code for America"
+          desc: "Extending existing Mexico's Government Innovation Lab with a fellowship component called Código CDMX."
+          link: "/resources/cfmc-casestudy.pdf"
+
+        - title: "An early 'false start' in Germany"
+          logo: germany
+          name: "Julia Kloiber julia.kloiber@okfn.de"
+          year: "2014"
+          subname: "OKFN Deutschland, Code for America"
+          desc: "Documenting challenges in introducing Fellowship program in German cities."
+          link: "/resources/cfg-casestudy.pdf"
+
+
+- title: "BRIGADES"
+  description: "Brigades/labs/meetups are grassroots civic hacking groups that help governments and their cities.
+  Below you will find resources that will help you in organizing a brigade in your own city."
   subcategories:
    - title: ""
      items:
-        - title: "Calendar"
-          href: "#"
+        - title: "CfAmerica's Brigade Organizer’s Playbook v2"
           logo: america
-          name: "firstname surname"
-          year: "2015"
-          subname: "Code for the caribbean"
-          desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
-          link: "http://dummy-link.com"
-        - title: "Handbook"
-          href: "#"
+          name: "brigade-info@codeforamerica.org"
+          year: "2016"
+          subname: "Code for America"
+          desc: "The Playbook gives practical advice and real examples on starting and running a sustainable Brigade.
+          It includes: guidance on hosting hack nights, building a core team, and practicing user-centered design."
+          link: "https://docs.google.com/document/d/19bN5RWK5nQTpz0mHUViHrzHiommBUAMSztwNRzUcxYo/edit#heading=h.v3vvoe3g4dep"
+
+        - title: "CfAmerica's Brigade Handbook"
           logo: america
-          name: "firstname surname"
-          year: "2015"
-          subname: "Code for the caribbean"
-          desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
-          link: "http://dummy-link.com"
-        - title: "Playbook"
-          href: "#"
-          logo: america
-          name: "firstname surname"
-          year: "2015"
-          subname: "Code for the caribbean"
-          desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
-          link: "http://dummy-link.com"
-          
-- title: "BUILDING WITH LOCAL GOVERNMENT"
-  description: "Code for America has been building digital services with local governments around the country for over the past five years. Read about practices they have developed."
-  subcategories:
-   - title: ""
-     items:
-        - title: "21st Century Government Practices"
-          href: "#"
-          logo: america
-          name: "firstname surname"
+          name: "brigade-info@codefoamerica.org"
           year: "2018"
-          subname: "Code for the caribbean"
-          desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
-          link: "http://dummy-link.com"
+          subname: "Code for America"
+          desc: "This handbook is a guide on how to access all the resources that the Code for America's Brigade Network has to offer."
+          link: "https://docs.google.com/document/d/16CL9TdmWV0hDY6c85PwtzUcu1VjeSeiDFD2CbtLKf7s/edit#heading=h.ng0tffrab705"
+
+        - title: "Case Study: Building Code for Germany lab network"
+          logo: germany
+          name: "Julia Kloiber julia.kloiber@okfn.de"
+          year: "2014"
+          subname: OKFN Deutschland, Code for America
+          desc: While OK Labs are all working towards the same general goals, no lab is quite the same.
+                The local context largely influences projects and approaches.
+          link: "/resources/cfg-casestudy.pdf"
+
+
           
-- title: "IMPACT RESEARCH"
-  description: "Code for America has been building digital services with local governments around the country for over the past five years. Read about practices they have developed."
+- title: "DIGITAL GOVERNMENT"
+  description: "Best practices for creating a digital government."
   subcategories:
    - title: ""
      items:
-        - title: "21st Century Government Practices"
-          href: "#"
-          logo: america
-          name: "firstname surname"
+        - title: "ODI's guide to Open Data Standards"
+          logo: opendatainstitute
+          name: "&nbsp;"
           year: "2018"
-          subname: "Code for the caribbean"
-          desc: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit."
-          link: "http://dummy-link.com"
+          subname: "Open Data Institute"
+          desc: "This guidebook helps people and organisations create, develop and adopt open standards for data.
+          It supports a variety of users, including policy leads, domain experts and technologists."
+          link: "http://standards.theodi.org/"

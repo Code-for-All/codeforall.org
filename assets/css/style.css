@@ -1955,8 +1955,26 @@ a:hover {
 .germany-res {
   background: url("../images/resources/logo_germany.png") no-repeat; }
 
+.opendatainstitute-res {
+  background: url("../images/logo/odi.png") no-repeat;
+  background-size: 40px;}
+
 .america-res {
   background: url("../images/resources/logo_usa.png") no-repeat; }
+
+.gitlab {
+  background: url("../images/logo/gitlab-logo-square.svg") no-repeat;
+  background-size: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.balsamiq {
+  background: url("../images/logo/balsamiq-face.png") no-repeat;
+  background-size: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 .bizspark {
   background: url("../images/resources/logo_bizspark.png") no-repeat;
@@ -2009,7 +2027,6 @@ a:hover {
 
 .github {
   background: url("../images/resources/logo_github.png") no-repeat;
-  height: 100px;
   width: 55px;
   height: 50px;
   top: 50%;

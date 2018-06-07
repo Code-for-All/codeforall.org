@@ -937,7 +937,7 @@ a:hover {
     font-size: 16px; } }
 
 .footer {
-  min-height: 380px;
+  min-height: 240px; /* min-height: 380px; */
   background: #EAF6FC; }
 
 .footer-link {

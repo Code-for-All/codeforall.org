@@ -55,10 +55,7 @@
                 <div class="row justify-content-center">
                     <div class="col-sm-8">
                         <h1 class="affiliate-text">Affiliate Partners</h1>
-                        <h2 class="governing-text-small">Affiliate partners may include, for example, groups of volunteers we call Brigades who work toward goals
-                            aligned with Code for All mission.</h2>
-                        <h2 class="governing-text-small">They can be new or existing subnational or local organizations who may not necessarily have a national
-                            affiliate, but aspire to one day become a governing partner of the Code for All network.</h2>
+                        <h2 class="governing-text-small">Trusted partners of governing organizations sharing Code for All mission.</h2>
                     </div>
                 </div>
 
@@ -66,9 +63,12 @@
                     {% for org in partners_affiliate %}
                     {% capture logo_url %}{% if org.logo_url %}org.logo_url{% else %}/assets/images/partner logos/{{ org.name | slugify }}.jpg{% endif %}{% endcapture %}
                     <div class="col-6 col-sm-3 col-md-3 col-lg-2">
-                        <div class="gover-partner mrg-bott">
-                            <div class="part-logo" style="background: url('{{ logo_url }}') no-repeat center; background-position: 50% 50%;"></div>
-                        </div>
+                        <a href="{{ org.website }}">
+                            <div class="gover-partner mrg-bott">
+                                <div class="part-logo"
+                                     style="background: url('{{ logo_url }}') no-repeat center; background-position: 50% 50%;" title="{{ org.name }}"></div>
+                            </div>
+                        </a>
                     </div>
                     {% endfor %}
                 </div>

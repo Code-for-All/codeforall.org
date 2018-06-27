@@ -664,7 +664,7 @@
         "projects_list_url": "https://github.com/codeforgermany",
         "city": "Berlin, Germany",
         "latitude": "52.5192",
-        "longitude": "13.4061",
+        "longitude": "10.4061",
         "tags": [
             "Code for All"
         ]
@@ -1007,16 +1007,30 @@
         ]
     },
     {
-        "name": "Code for Poland",
-        "website": "https://codeforpoland.org/en/",
+        "name": "ePanstwo Foundation",
+        "website": "https://epf.org.pl/en/",
         "events_url": "",
-        "rss": "https://codeforpoland.org/blog/",
-        "projects_list_url": "",
+        "rss": "https://epf.org.pl/en/blog/",
+        "projects_list_url": "http://github.com/epforgpl",
         "city": "Poland",
         "latitude": "52.361947",
         "longitude": "19.226414",
         "tags": [
             "Code for All"
+        ]
+    },
+    {
+        "name": "Code for Poland",
+        "website": "https://codeforpoland.org/",
+        "events_url": "",
+        "rss": "https://codeforpoland.org/blog/",
+        "projects_list_url": "",
+        "city": "Poland",
+        "latitude": "52.361947",
+        "longitude": "17.226414",
+        "tags": [
+            "Code for All",
+            "Code for All Affiliate"
         ]
     },
     {

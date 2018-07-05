@@ -19,17 +19,4 @@ $(document).ready(function () {
 
         $('.medium-items-here').after(s);
     });
-
-    // $.ajax({
-    //           url: 'https://api.codeforamerica.org/api/organizations?type=Code+for+All&per_page=100',
-    //           success: function(data) {
-    //             //console.log(data['objects']);
-    //             var array = data['objects'];
-    //             var i;
-    //               for (i = 0; i < 6; ++i) {
-    //                   $('.medium-items-here').append('<div class="col-md-12 col-lg-6"><div class="projects-item"><a href="' + array[i]['website'] + '"><div class="projects-item-img"></div><h2 class="projects-item-h2">'+array[i]['name']+'</h2><p class="projects-item-p">How fair are the playgrounds in Hamburg spatially distributed? ...</p><div class="row"><div class="col-12 col-sm-6 order-sm-1 order-2"><div class="avatar"></div><p class="item-info-p-big">Name Surname</p><p class="item-info-p-small">Email</p></div><div class="col-12 col-sm-6 order-sm-2 order-1"><div class="location"><span class="location-info">Sollicitudin Sit</span><span class="location-info">Euismod</span></div><div class="address-block"><span class="address">'+array[i]['city']+'</span></div></div></div></a></div></div>');
-    //               }
-    //               $('.medium-items-here').append('<div class="last-prj-item"></div>');
-    //           }
-    //         });
   });

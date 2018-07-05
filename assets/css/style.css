@@ -1525,8 +1525,9 @@ a:hover {
     padding-right: 0px; } }
 
 .contact-banner {
-  background: url("../images/hero/hero_contact.jpg") no-repeat;
+  background: url("../images/hero/hi_from_japan.jpg") no-repeat;
   background-size: cover;
+  background-position-x: center;
   min-height: 400px;
   box-shadow: 0 4px 8px 0 rgba(18,100,145,0.2); 
   z-index: 99999;
@@ -1591,7 +1592,9 @@ a:hover {
 
 @media (min-width: 768px) {
   .contact-banner {
-    min-height: 525px; }
+    min-height: 525px;
+    background-position-y: center;
+  }
   .contact-inv-h1 {
     color: #2897D5;
     font-size: 36px;

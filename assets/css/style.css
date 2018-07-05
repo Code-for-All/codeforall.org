@@ -1581,7 +1581,7 @@ a:hover {
   font-family: 'Muli';
   font-size: 18px;
   line-height: 25px;
-  text-shadow: 0 2px 4px 0 #126491;
+  text-shadow: 0 2px 4px #000000;
   font-weight: 600 !important;
   padding-left: 5px;
   padding-right: 5px; }
@@ -1635,7 +1635,7 @@ a:hover {
     font-size: 18px;
     font-weight: 700;
     line-height: 25px;
-    text-shadow: 0 2px 4px 0 #126491; } }
+    text-shadow: 0 2px 4px #000000; } }
 
 .partners-banner {
   min-height: 525px;

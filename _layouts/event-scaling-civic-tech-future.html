@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+{% include head.html %}
+
+<body>
+{% include header.html %}
+
+<div class="scaling-civic-tech-forum-banner">
+    <img src="assets/images/events/scaling-civic-tech-forum-banner.png"/>
+</div>
+
+<div class="about-info">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="about-info-h2">Agenda<br/>Monday, July 16, 2018</h2>
+            </div>
+        </div>
+        {% for slot in page.slots %}
+        <div class="row agenda-session">
+            <div class="col-md-3 col-sm-12">
+                <p class="session-title">
+                    {{ slot.hour }}
+                </p>
+            </div>
+            <div class="col-md-9 col-sm-12">
+                {% for session in slot.sessions %}
+                <div>
+                    <p class="session-title">
+                        {{ session.title }}
+                    </p>
+
+                    {% if session.subtitle %}
+                    <p class="session-subtitle">
+                        {{ session.subtitle }}
+                    </p>
+                    {% endif %}
+                </div>
+                <div class="session-content">
+                    {% for speaker in session.speakers %}
+                    <p class="session-speaker">
+                        {{ speaker }}
+                    </p>
+                    {% endfor %}
+
+                    <p class="session-description">
+                        {{ session.description }}
+                    </p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="involeved">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="involeved-h2">You want to contribute and join us?</h2>
+                <p class="involeved-p">If you are an individual or work with a volunteer group or within an institution
+                    that’s creating new
+                    civic tech, we would love to talk to you and bring you to Code-for-All community.</p>
+            </div>
+            <div class="col-12 col-lg">
+                <div class="row justify-content-center">
+                    <div class="col-9 col-sm">
+                        <a class="involeved-button prt-or prt-top" href="{{ site.data.links.chat-with-us }}">
+                                <span class="involved-link-text">
+                                    <span class="involved-slack-icon"></span>Chat with us
+                                </span>
+                        </a>
+                    </div>
+                    <div class="col-9 col-sm">
+                        <a class="involeved-button prt-top" href="{{ site.data.links.write-an-email }}">
+                                <span class="involved-link-text">
+                                    <span class="involved-email-icon"></span> Write us an email
+                                </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}
+</body>
+</html>

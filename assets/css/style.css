@@ -2357,3 +2357,30 @@ body {
 @media (min-width: 1200px) {
   .container {
     width: 1024px; } }
+
+.agenda-session .session-title {
+  color: #2897D5;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.agenda-session .session-subtitle {
+  color: #2897D5;
+  margin-top: -20px;
+}
+
+.agenda-session .session-speaker {
+  font-weight: bold;
+}
+
+.agenda-session .session-content {
+  padding-left: 20px;
+}
+
+.scaling-civic-tech-forum-banner {
+  text-align: center;
+}
+.scaling-civic-tech-forum-banner img {
+  max-width: 800px;
+  width: 100%;
+}

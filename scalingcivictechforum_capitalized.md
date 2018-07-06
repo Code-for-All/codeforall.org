@@ -1,5 +1,5 @@
 ---
 title: Scaling the Future of Civic Tech
-permalink: scalingcivictechforum
+permalink: ScalingCivicTechForum
 layout: event-scaling-civic-tech-future
 ---

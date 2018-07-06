@@ -1,7 +1,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Code for All</title>
+      {% if page.title %}
+      <title>{{ page.title }} | Code for All</title>
+      {% else %}
+      <title>Code for All</title>
+      {% endif %}
     <meta name="description" content="An international network of organizations who believe that digital technology opens new channels for citizens to more meaningfully engage in the public sphere and have a positive impact on their communities.">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400i,600,700,800,900" rel="stylesheet">

@@ -688,7 +688,7 @@ a:hover {
     line-height: 49px;
     text-transform: uppercase; } }
 
-.involeved-h2 {
+.involved-h2 {
   color: #2897D5;
   font-size: 18px;
   font-weight: 700;
@@ -697,14 +697,14 @@ a:hover {
   text-align: center;
   margin-bottom: 0px; }
 
-.involeved-p {
+.involved-p {
   color: #126491;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
   margin-bottom: 0; }
 
-.involeved {
+.involved {
   box-shadow: 0 4px 4px 0 rgba(168, 171, 180, 0.57);
   position: relative;
   z-index: 300;
@@ -727,7 +727,7 @@ a:hover {
   text-align: center !important;
   margin-top: 0 !important; }
 
-.involeved-button {
+.involved-button {
   margin-top: 20px;
   display: block;
   height: 43px;
@@ -740,7 +740,7 @@ a:hover {
   text-align: center;
   padding-top: 8px; }
 
-.involeved-button:hover {
+.involved-button:hover {
   box-shadow: 0 1px 4px 0 #126491;
   text-decoration: none;
   color: #FFFFFF; }
@@ -827,11 +827,11 @@ a:hover {
     margin-right: 10px; } }
 
 @media (min-width: 576px) {
-  .involeved-h2 {
+  .involved-h2 {
     text-align: left; }
   .link-center {
     text-align: center !important; }
-  .involeved-p {
+  .involved-p {
     text-align: left; }
   .or::after {
     width: 22px;
@@ -859,7 +859,7 @@ a:hover {
     line-height: 20px; } }
 
 @media (min-width: 768px) {
-  .involeved-h2 {
+  .involved-h2 {
     color: #2897D5;
     font-family: 'Muli';
     font-size: 20px;
@@ -884,14 +884,14 @@ a:hover {
     margin-right: 13px; }
   .text-gthb-wide {
       margin-right: 20px; }    
-  .involeved-button {
+  .involved-button {
     margin-left: 0;
     margin-right: 0; }
   .inv-contact {
     margin-top: 20px !important; }
   .search-small-text {
     font-size: 14px; }
-  .involeved-h2 {
+  .involved-h2 {
     color: #2897D5;
     font-family: 'Muli';
     font-size: 20px;
@@ -900,7 +900,7 @@ a:hover {
     margin-top: 40px;
     text-align: left;
     margin-bottom: 0px; }
-  .involeved-p {
+  .involved-p {
     color: #126491;
     font-family: 'Muli';
     font-size: 16px;
@@ -909,9 +909,9 @@ a:hover {
     margin-bottom: 0; } }
 
 @media (min-width: 992px) {
-  .involeved-button {
+  .involved-button {
     margin-top: 42px; }
-  .involeved-button {
+  .involved-button {
     margin-top: 42px;
     display: block;
     height: 43px;
@@ -923,7 +923,7 @@ a:hover {
     line-height: 26px;
     text-align: center;
     padding-top: 8px; }
-  .involeved-p {
+  .involved-p {
     color: #126491;
     font-family: 'Muli';
     font-size: 16px;
@@ -931,7 +931,7 @@ a:hover {
     margin-bottom: 20px; }
   .or::after {
     top: 53px; }
-  .involeved {
+  .involved {
     margin-bottom: 0; }
   .btn-gthb {
     text-align: right !important;
@@ -2357,3 +2357,30 @@ body {
 @media (min-width: 1200px) {
   .container {
     width: 1024px; } }
+
+.agenda-session .session-title {
+  color: #2897D5;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.agenda-session .session-subtitle {
+  color: #2897D5;
+  margin-top: -20px;
+}
+
+.agenda-session .session-speaker {
+  font-weight: bold;
+}
+
+.agenda-session .session-content {
+  padding-left: 20px;
+}
+
+.scaling-civic-tech-forum-banner {
+  text-align: center;
+}
+.scaling-civic-tech-forum-banner img {
+  max-width: 800px;
+  width: 100%;
+}

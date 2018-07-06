@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+{% include head.html %}
+
+<body>
+{% include header.html %}
+
+<div class="scaling-civic-tech-forum-banner">
+    <img src="assets/images/events/scaling-civic-tech-forum-banner.png"/>
+</div>
+
+<div class="about-info">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="about-info-h2">Agenda<br/>Monday, July 16, 2018</h2>
+            </div>
+        </div>
+        {% for slot in page.slots %}
+        <div class="row agenda-session">
+            <div class="col-md-3 col-sm-12">
+                <p class="session-title">
+                    {{ slot.hour }}
+                </p>
+            </div>
+            <div class="col-md-9 col-sm-12">
+                {% for session in slot.sessions %}
+                <div>
+                    <p class="session-title">
+                        {{ session.title }}
+                    </p>
+
+                    {% if session.subtitle %}
+                    <p class="session-subtitle">
+                        {{ session.subtitle }}
+                    </p>
+                    {% endif %}
+                </div>
+                <div class="session-content">
+                    {% for speaker in session.speakers %}
+                    <p class="session-speaker">
+                        {{ speaker }}
+                    </p>
+                    {% endfor %}
+
+                    <p class="session-description">
+                        {{ session.description }}
+                    </p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% include get_involved.html %}
+
+{% include footer.html %}
+</body>
+</html>

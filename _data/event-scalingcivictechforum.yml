@@ -8,14 +8,14 @@ slots:
   sessions:
     - title: "Welcome Remarks: Civic Tech 101"
       speakers:
-        - "Speakers: Shreya Basu (OGP), Omidyar Network (TBC), and Code for All Network (Grace O'Hara, Code for Australia)"
+        - "Speakers: Shreya Basu (OGP), Omidyar Network (TBC), and Grace O'Hara (Code for Australia, Code for All)"
       description: The purpose of this introduction will be to give a nuanced definition of civil tech and to set the foundation for the discussion moving forward. This introduction will serve as a quick civic tech onboarding for donors who are new to this space.
 
 - hour: "1:30"
   sessions:
       - title: Emerging Opportunities Panel
         speakers:
-            - "Moderator: Krzysztof Izdebski"
+            - "Moderator: Krzysztof Izdebski (ePanstwo Foundation)"
             - "Speakers: Nnenna Nwakanma (Web Foundation), Helen Darbishire (Access Info Europe), Sandor Lederer (K-Monitor)"
         description: This panel will discuss the current state of civic tech and its short term and long term trajectories. Specific conversations will highlight how civic tech can support civil society, why the Freedom of Information/Expression community needs civic tech, how to evaluate implementation and potential impact of civic tech projects, positive and negative aspects of civic tech society, and how civic tech can support activists in illiberal environments.
 
@@ -43,7 +43,7 @@ slots:
         subtitle: Scaling civic tech
         speakers:
             - "Facilitator: Tin Geber (Formerly with the Engine Room)"
-            - "Proposed Speakers: David Soutar (SlashRoots Foundation - Code for All), Greg Kempe (OpenUp - Code for All), Vivien Suerte-Cortez (Hivos), Grace Juliet (InfoNet Africa)"
+            - "Proposed Speakers: David Soutar (SlashRoots Foundation, Code for All), Greg Kempe (OpenUp, Code for All), Vivien Suerte-Cortez (Hivos), Grace Juliet (InfoNet Africa)"
         description: The goal of this workshop is to synthesize the discussions from the previous practitioner and funder workshops and to develop the ideas sourced in those sessions. Discussions will focus on building scalable civic technology and the best funding strategies to create impactful tech.
 
 - hour: "4:45"
@@ -60,7 +60,7 @@ slots:
       - title: Closing Remarks
         subtitle: Building the civic tech movement
         speakers:
-            - " Speaker: Bogdan Ivanel (Code for All Network Representative)"
+            - " Speaker: Bogdan Ivanel (Code for Romania, Code for All)"
 
 - hour: "5:30"
   sessions:

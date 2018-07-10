@@ -8,7 +8,7 @@ slots:
   sessions:
     - title: "Welcome Remarks: Civic Tech 101"
       speakers:
-        - "Speakers: Shreya Basu (OGP), Omidyar Network (TBC), and Grace O'Hara (Code for Australia, Code for All)"
+        - "Speakers: Shreya Basu (OGP), Olena Boytsun (Omidyar Network), and Grace O'Hara (Code for Australia, Code for All)"
       description: The purpose of this introduction will be to give a nuanced definition of civil tech and to set the foundation for the discussion moving forward. This introduction will serve as a quick civic tech onboarding for donors who are new to this space.
 
 - hour: "1:30"
@@ -21,16 +21,16 @@ slots:
 
 - hour: "2:30"
   sessions:
-      - title: Funder Breakout Session
+      - title: Breakout Discussion
         subtitle: The lessons learned from funding civic tech
         speakers:
-            - "Session Organizers: Omidyar Network and Scott Hubli (NDI)"
+            - "Session Organizers: Omidyar Network and Kip Wainscott (NDI)"
         description: This session will focus on how to improve the effectiveness and long-term health of the funding environment, and what changes are needed in this domain moving forward.
 
-      - title: Practitioner Breakout Session
+      - title: Breakout Workshop
         subtitle: Communicating with funders and brainstorming funding modalities
         speakers:
-            - "Session Organizers: IDFI and Victoria Welborn (NDI)"
+            - "Session Organizers: Teona Turashvili (IDFI) and Victoria Welborn (NDI)"
         description: This session will discuss how funders could improve, joint fundraising efforts, and sources of for-purpose business models. The purpose of this session is to develop practitioners’ perspectives on funding modalities and approaches, and potential innovations in these fields.
 
 - hour: "3:30"
@@ -43,12 +43,12 @@ slots:
         subtitle: Scaling civic tech
         speakers:
             - "Facilitator: Tin Geber (Formerly with the Engine Room)"
-            - "Proposed Speakers: David Soutar (SlashRoots Foundation, Code for All), Greg Kempe (OpenUp, Code for All), Vivien Suerte-Cortez (Hivos), Grace Juliet (InfoNet Africa)"
+            - "Speakers: David Soutar (SlashRoots Foundation, Code for All), Greg Kempe (OpenUp, Code for All), Vivien Suerte-Cortez (Hivos), Grace Juliet (InfoNet Africa)"
         description: The goal of this workshop is to synthesize the discussions from the previous practitioner and funder workshops and to develop the ideas sourced in those sessions. Discussions will focus on building scalable civic technology and the best funding strategies to create impactful tech.
 
 - hour: "4:45"
   sessions:
-      - title: Roundtable Discussio
+      - title: Roundtable Discussion
         subtitle: Measuring impact of civic tech investments
         speakers:
             - "Moderator: Dr. Rebecca Rumbul (mySociety)"
@@ -60,7 +60,7 @@ slots:
       - title: Closing Remarks
         subtitle: Building the civic tech movement
         speakers:
-            - " Speaker: Bogdan Ivanel (Code for Romania, Code for All)"
+            - "Speakers: Kip Wainscott (NDI), Bogdan Ivanel (Code for Romania, Code for All)"
 
 - hour: "5:30"
   sessions:

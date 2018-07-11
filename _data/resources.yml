@@ -87,3 +87,16 @@
           desc: "This guidebook helps people and organisations create, develop and adopt open standards for data.
           It supports a variety of users, including policy leads, domain experts and technologists."
           link: "http://standards.theodi.org/"
+
+- title: "TECH FOR JOURNALISM"
+  description: "Supporting journalists with digital tools and skills"
+  subcategories:
+  - title: ""
+    items:
+      - title: "Storylab Academy Africa"
+        logo: storylab-academy-africa
+        name: "&nbsp;"
+        year:
+        subname: "Code for Africa"
+        desc: "Massive Open Online Course (MOOC) dedicated to journalists."
+        link: "https://academy.africa/courses"

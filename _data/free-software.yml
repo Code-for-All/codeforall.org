@@ -25,11 +25,11 @@
           link: "https://www.meetup.com/"
         - title: "Slack"
           logo: "res-slack"
-          desc: "Slack is a group communication tool built around chat."
+          desc: "Slack is a group communication tool built around chat. Full plan is free for non-profits."
           link: "https://slack.com/"
         - title: "G Suite"
           logo: "gsuite"
-          desc: "G Suite is Google's hosted product featuring Gmail, Google Drive, Groups, and more."
+          desc: "G Suite is Google's hosted product featuring Gmail, Google Drive, Groups, and more. Free for non-profits."
           link: "https://gsuite.google.com/"
 
 - title: "Mapping Software"
@@ -59,7 +59,7 @@
       items:
         - title: "Balsamiq"
           logo: balsamiq
-          desc: "Balsamiq is a rapid wireframing/mockups tool."
+          desc: "Balsamiq is a rapid wireframing/mockups tool with a plan for non-profits."
           link: "https://balsamiq.com/"
 
 

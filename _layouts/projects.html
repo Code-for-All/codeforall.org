@@ -16,8 +16,38 @@
     </div>
     <div class="project-items">
         <div class="container">
-            <div class="row justify-content-center project-items-here">
+            <div class="row justify-content-center">
+                {% for p in site.data.projects %}
 
+                <div class="col-md-12 col-lg-6">
+                    <div class="projects-item"><a href="{{ p.link }}">
+                        <div class="projects-item-img" style="background-image: url({{ p.image }})"></div>
+                        <h2 class="projects-item-h2">{{ p.name }}</h2>
+                        <p class="projects-item-p">{{ p.description }}</p>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 order-sm-1 order-2">
+                                <div class="avatar" {% if p.contact_image %}style="background-image: url({{ p.contact_image }})"{% endif %}></div>
+                                <span class="item-info-p-medium">{{ p.contact_name }}</span>
+                                <span class="item-info-p-small">{{ p.contact_email }}</span>
+                            </div>
+                            <div class="col-12 col-sm-6 order-sm-2 order-1">
+                                <div class="tags">
+                                    {% for tag in p.tags %}
+                                    <span class="project-tag">{{ tag }}</span>
+                                    {% endfor %}
+                                </div>
+                                <div class="address-block">
+                                    {% for location in p.locations %}
+                                    <span class="address">{{ location }}</span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </a></div>
+                </div>
+                {% endfor %}
+
+                <div class="last-prj-item"></div>
             </div>
         </div>
     </div>

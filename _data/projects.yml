@@ -1,0 +1,80 @@
+- name: Monitorizare Vot
+  description: Monitorizare Vot is a mobile app for monitoring elections by authorized observers. It offers a real-time snapshot on what is going on at polling stations including any noticeable irregularities.
+  link: https://code4.ro/en/project/monitorizare-vot/
+  image: /assets/images/projects/monitorizare_vot.png
+  contact_name:
+  contact_email:
+  locations:
+    - Romania
+    - Moldova
+    - Poland
+  tags:
+    - Elections
+
+- name: LuftDaten
+  description: Certified DIY Air quality sensors and data visualization.
+  link: https://luftdaten.info/en/home-en/
+  image: /assets/images/projects/luftdaten-sensor.jpg
+  contact_name: Lukas
+  contact_email: lukas@luftdaten.info
+  locations:
+    - Germany
+    - Belgium
+    - Bulgaria
+    - Africa
+  tags:
+    - Air
+    - Sensors
+
+- name: School Finder
+  description: School Finder is an online tool for parents or guardians to find the right school for their kids. After identifying that there was a lack of services available for parents selecting public schools for children, Code for Australia Fellow, Peter Welte, developed a tool to include a wide range of specialist programs and provisions to support students with disability or difficulties in learning and behaviour.
+  image: /assets/images/projects/school-finder-aus.png
+  contact_name: Peter Welte
+  contact_email: peterw@codeforamerica.org
+  link: https://github.com/CodeforAustralia/school-finder
+  locations:
+    - New South Wales (AU)
+    - South Australia (AU)
+  tags:
+    - Education
+    - Schools
+    - Mapping
+
+- name: Indigo
+  description: Indigo Platform is a cloud-based editor that helps you import, consolidate and publish your legislation so that it's easier to read, work with and understand.
+  link: https://openup.org.za/indigo
+  image: /assets/images/projects/indigo-logo-cover.png
+  contact_name: Greg Kempe
+  contact_email: info@openup.org.za
+  contact_image: /assets/images/avatar/avatar-greg-kempe.jpg
+  locations:
+    - South Africa
+  tags:
+    - Legislation
+
+- name: Legal Aid Checker
+  description: Legal Aid Checker is an online triaging system developed by our Fellows. It was created for people seeking legal aid, and with a few simple steps, allows them to determine if Victoria Legal Aid can provide services to them.
+  image: /assets/images/projects/legal-aid-checker-aus.png
+  contact_name: Alvaro Maz
+  contact_email: alvaro@codeforaustralia.org
+  contact_image: /assets/images/avatar/avatar-alvaro.jpg
+  link: http://lac.vla.vic.gov.au/
+  locations:
+  - Victoria (AU)
+  tags:
+  - Legal Aid
+  - Justice
+  - Triaging
+
+- name: Moonsheep
+  description: Got stacks of documents and crowd to help out digitize them? Turn scans into structured data.
+  link: http://moonsheep.org/
+  image: /assets/images/projects/moonsheep-logo_big.png
+  contact_name: Krzysztof Madejski
+  contact_email: contact@moonsheep.org
+  contact_image: /assets/images/avatar/avatar-chris.jpg
+  locations:
+    - Hungary
+  tags:
+    - Open Data
+

@@ -2,7 +2,7 @@
 layout: projects
 title: Projects
 permalink: projects
-nav: false
+nav: true
 js: projects
 position: 3
 ---

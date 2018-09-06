@@ -29,7 +29,7 @@
                     </div>
                         {% include partners.liquid %}
                          {% for org in partners_governing %}
-                            {% capture logo_url %}{% if org.logo_url %}org.logo_url{% else %}/assets/images/partner logos/{{ org.name | slugify }}.jpg{% endif %}{% endcapture %}
+                            {% capture logo_url %}{% if org.logo_url %}{{ org.logo_url }}{% else %}/assets/images/partner logos/{{ org.name | slugify }}.jpg{% endif %}{% endcapture %}
                             <div id="{{ org.name | slugify }}" class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2">
                                 <a href="{{ org.website }}">
                                     <div class="gover-partner">
@@ -61,7 +61,7 @@
 
                 <div class="row justify-content-center">
                     {% for org in partners_affiliate %}
-                    {% capture logo_url %}{% if org.logo_url %}org.logo_url{% else %}/assets/images/partner logos/{{ org.name | slugify }}.jpg{% endif %}{% endcapture %}
+                    {% capture logo_url %}{% if org.logo_url %}{{ org.logo_url }}{% else %}/assets/images/partner logos/{{ org.name | slugify }}.jpg{% endif %}{% endcapture %}
                     <div class="col-6 col-sm-3 col-md-3 col-lg-2">
                         <a href="{{ org.website }}">
                             <div class="gover-partner mrg-bott">

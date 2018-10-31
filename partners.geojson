@@ -16,7 +16,7 @@
    "properties": { {% for p in org %}
      "{{ p[0] }}": {{ p[1] | jsonify }},{% endfor %}
 
-     {% capture logo_url %}{% if org.logo_url %}org.logo_url{% else %}/assets/images/partner logos/{{ org.name | slugify }}.jpg{% endif %}{% endcapture %}
+     {% capture logo_url %}{% if org.logo_url %}{{ org.logo_url }}{% else %}/assets/images/partner logos/{{ org.name | slugify }}.jpg{% endif %}{% endcapture %}
      "logo_url": "{{ logo_url }}"
    },
    "type": "Feature"

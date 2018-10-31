@@ -163,16 +163,10 @@ a:hover {
 
 .main-banner {
   min-height: 400px;
-  background: url("../images/hero/heroes_of_tech.png") no-repeat;
+  background: url("../images/hero/sheba_all_you_can_change.jpg") no-repeat;
   background-size: cover;
-  background-position-x: right; }
-
-@media (max-width: 767px) {
-  .main-banner {
-    min-height: 400px;
-    background: url("../images/hero/heroes_of_tech_sq.png") no-repeat;
-    background-size: cover;
-    background-position-x: left; }
+  background-position-x: center;
+  background-position-y: center;
 }
 
 .about {
@@ -183,7 +177,7 @@ a:hover {
 .banner-text {
   color: #FFFFFF;
   font-weight: 700;
-  margin-top: 142px;
+  margin-top: 250px;
   text-shadow: 0 5px 7px #423032;
   font-size: 28px;
   line-height: 38px;
@@ -232,6 +226,10 @@ a:hover {
     margin-top: 240px;
     text-shadow: 0 5px 7px #423032;
     text-align: left; }
+
+  .main-banner .col.offset-lg-2 {
+      margin-left: 0px;
+  }
 
   .banner-text.subtext {
     font-size: 25px;

@@ -1,6 +1,6 @@
 ---
 title: Members
-permalink: members/
+permalink: members
 redirect_from: partners
 layout: members
 nav: true

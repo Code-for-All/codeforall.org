@@ -2,7 +2,7 @@
 ---
 $(document).ready(function () {
 
-  $.getJSON("/partners.geojson", function (orgs){
+  $.getJSON("/members.geojson", function (orgs){
     $(".mobile-menu").click(function (e) {
       e.preventDefault();
       $(".nav-global-secondary ul").slideToggle();

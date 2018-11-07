@@ -5,3 +5,7 @@ collections:
   projects:
     output: true
 excerpt_separator: <!--more-->
+plugins:
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from

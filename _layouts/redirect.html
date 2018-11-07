@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html class="has-navbar-fixed-top">
-{% include head.html %}
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Redirecting | Code for All</title>
+    <meta name="description" content="An international network of organizations who believe that digital technology opens new channels for citizens to more meaningfully engage in the public sphere and have a positive impact on their communities.">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400i,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/bootstrap.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="icon" href="{{ '/assets/images/favicons/favicon-16x16.png' | relative_url }}" sizes="16x16">
+    <link rel="icon" href="{{ '/assets/images/favicons/favicon-32x32.png' | relative_url }}" sizes="32x32">
+    <link rel="icon" href="{{ '/assets/images/favicons/favicon-96x96.png' | relative_url }}" sizes="96x96">
+
+      <script>location="{{ page.redirect.to }}"</script>
+     <link rel="canonical" href="{{ page.redirect.to }}"/>
+      <meta http-equiv="refresh" content="0;url={{ page.redirect.to }}" />
+  </head>
   <body>
   {% include header.html %}
-  {% comment %}
-    Don't use 'redirect_to' to avoid conflict
-    with the page redirection plugin: if that is defined
-    it takes over.
-  {% endcomment %}
-  <link rel="canonical" href="{{ page.redir_to }}"/>
-  <meta http-equiv="refresh" content="0;url={{ page.redir_to }}" />
-</head>
-<body>
-  <section class="section">
-    <div class="container">
-      <h1>Redirecting...</h1>
-      <a href="{{ page.redir_to }}">Click here if you are not redirected.<a>
-      <script>location='{{ page.redir_to }}'</script>
+    <div class="about-info">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="about-info-h2">Redirecting..</h2>
+                    <p><a href="{{ page.redirect.to }}">Click here if you are not redirected.<a></p>
+                </div>
+            </div>
+        </div>
     </div>
-  </section>
-</body>
+
+  {% include footer.html %}
+  </body>
 </html>

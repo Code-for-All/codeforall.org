@@ -1,0 +1,13 @@
+{% assign members = "" | split: "" %}
+{% assign members_governing = "" | split: "" %}
+{% assign members_affiliate = "" | split: "" %}
+{% for org in site.data.organizations %}
+    {% if org.tags contains "Code for All" %}
+        {% assign members = members | push: org %}
+        {% if org.tags contains "Code for All Affiliate" %}
+            {% assign members_affiliate = members_affiliate | push: org %}
+        {% else %}
+            {% assign members_governing = members_governing | push: org %}
+        {% endif %}
+    {% endif %}
+{% endfor %}

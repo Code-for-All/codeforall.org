@@ -1,3 +1,3 @@
 ---
 ---
-{% include partners.liquid %}{{ partners | jsonify }}
+{% include members.liquid %}{{ members | jsonify }}

@@ -2,8 +2,8 @@
 ---
 {
 "features": [
-{% include partners.liquid %}
- {% for org in partners %}
+{% include members.liquid %}
+ {% for org in members %}
  {
    "geometry": {
      "coordinates": [

@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col col-sm-4 offset-sm-8 offset-0 map-absol map-absol">
-                    <h1 class="map-h1-large">Our Partners</h1>
+                    <h1 class="map-h1-large">Our Members</h1>
                     <h3 class="map-h3">Code for All is a collaborative network, made up of organisations from all over the world.</h3>
                 </div>
             </div>
@@ -22,13 +22,13 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col">
-                        <h1 class="governing-text">Governing Partners</h1>
+                        <h1 class="governing-text">Governing Members</h1>
                         <h2 class="governing-text-small">The ones who make decisions about the network’s strategy, activities and growth.</h2>
                     </div>
                     <div class="w-100">
                     </div>
-                        {% include partners.liquid %}
-                         {% for org in partners_governing %}
+                        {% include members.liquid %}
+                         {% for org in members_governing %}
                             {% capture logo_url %}{% if org.logo_url %}{{ org.logo_url }}{% else %}/assets/images/partner logos/{{ org.name | slugify }}.jpg{% endif %}{% endcapture %}
                             <div id="{{ org.name | slugify }}" class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2">
                                 <a href="{{ org.website }}">
@@ -54,13 +54,13 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-sm-8">
-                        <h1 class="affiliate-text">Affiliate Partners</h1>
+                        <h1 class="affiliate-text">Affiliate Members</h1>
                         <h2 class="governing-text-small">Trusted partners of governing organizations sharing Code for All mission.</h2>
                     </div>
                 </div>
 
                 <div class="row justify-content-center">
-                    {% for org in partners_affiliate %}
+                    {% for org in members_affiliate %}
                     {% capture logo_url %}{% if org.logo_url %}{{ org.logo_url }}{% else %}/assets/images/partner logos/{{ org.name | slugify }}.jpg{% endif %}{% endcapture %}
                     <div class="col-6 col-sm-3 col-md-3 col-lg-2">
                         <a href="{{ org.website }}">

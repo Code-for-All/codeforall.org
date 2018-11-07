@@ -2044,6 +2044,7 @@
     },
     {
         "name": "mySociety",
+        "logo_url": "/assets/images/partner logos/mysociety.png",
         "website": "https://www.mysociety.org/",
         "events_url": "https://www.google.com/calendar/embed?src=9uqu3bbqcdaqek6lkiub442di4%40group.calendar.google.com&ctz=Europe/London",
         "rss": "https://www.mysociety.org/feed/",
@@ -2051,9 +2052,9 @@
         "city": "London, UK",
         "latitude": "51.62264036083571",
         "longitude": "-0.105290718469565",
-        "type": "Partner",
         "tags": [
-            "Partner"
+            "Code for All",
+            "Code for All Affiliate"
         ]
     },
     {
@@ -2347,16 +2348,75 @@
         ]
     },
     {
-        "name": "Open Brazil",
+        "name": "Code for Brazil",
+        "logo_url": "/assets/images/partner logos/code-for-brazil.png",
         "website": "http://openbrazil.org/",
         "events_url": "http://www.meetup.com/openbrazil/",
         "rss": "",
         "projects_list_url": "https://github.com/CodeForBrazil/",
-        "city": "Brasília, DF",
+        "city": "Brasil",
         "latitude": "-15.7930",
         "longitude": "-47.8834",
         "tags": [
-            "Brigade"
+            "Brigade",
+            "Code for All",
+            "Code for All Affiliate"
+        ]
+    },
+    {
+        "name": "Open Data Kosovo",
+        "logo_url": "/assets/images/partner logos/open-data-kosovo.png",
+        "website": "http://opendatakosovo.org",
+        "rss": "",
+        "projects_list_url": "https://github.com/opendatakosovo/",
+        "city": "Pristina, Kosovo",
+        "latitude": "42.6620819",
+        "longitude": "21.159578",
+        "tags": [
+            "Code for All",
+            "Code for All Affiliate"
+        ]
+    },
+    {
+        "name": "Sinar Project",
+        "logo_url": "/assets/images/partner logos/sinar-project.png",
+        "website": "https://sinarproject.org/",
+        "rss": "",
+        "projects_list_url": "",
+        "city": "Subang Jaya, Malaysia",
+        "latitude": "3.078158",
+        "longitude": "101.586530",
+        "tags": [
+            "Code for All",
+            "Code for All Affiliate"
+        ]
+    },
+        {
+        "name": "Waag",
+        "logo_url": "/assets/images/partner logos/waag-icon.png",
+        "website": "https://waag.org/en",
+        "rss": "",
+        "projects_list_url": "https://waag.org/en/products",
+        "city": "Amsterdam, the Netherlands",
+        "latitude": "52.372740",
+        "longitude": "4.900345",
+        "tags": [
+            "Code for All",
+            "Code for All Affiliate"
+        ]
+    },
+        {
+        "name": "Open Knowledge Belgium",
+        "logo_url": "/assets/images/partner logos/ok-belgium.png",
+        "website": "https://be.okfn.org/",
+        "rss": "",
+        "projects_list_url": "http://be.okfn.org/projects/",
+        "city": "",
+        "latitude": "50.491967",
+        "longitude": "4.462732",
+        "tags": [
+            "Code for All",
+            "Code for All Affiliate"
         ]
     },
     {

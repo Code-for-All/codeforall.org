@@ -64,8 +64,8 @@
         <div class="container">
             <div class="row ">
                 <div class="col">
-                    <h1 class="resources-info-block-h1">Recommended Free Software</h1>
-                    <p class="resources-info-block-p">Free for non-profits software linked below will help you with project development and brigade management. </p>
+                    <h1 class="resources-info-block-h1" id="in-kinds">Recommended Software</h1>
+                    <p class="resources-info-block-p">Free or discounted for non-profits software linked below will help you with project development and brigade management. </p>
                     <p class="resources-info-block-p">Whether it’s getting a quick prototype up for your first user test or releasing an application to thousands
                         of residents, we hope that these tools will help you build better products. If you have any questions,
                         reach out on our Slack on #inkinds channel. </p>
@@ -77,7 +77,8 @@
                             {% for subcategory in entry.subcategories %} {% for item in subcategory.items %}
                             <a href="{{ item.link }}">
                                 <div class="resources-item">
-                                    <div class="resource-company resource-company-vert-allign {{item.logo}}"></div>
+                                    <div class="resource-company resource-company-vert-allign free-software-logo {{item.title | slugify}}"
+                                         style="background-image: url('{% if item.logo contains '.' %}{{item.logo}}{% else %}/assets/images/resources/logo_{{item.logo}}.png{% endif %}');"></div>
                                     <h3 class="resources-item-h3 h3-recom">{{item.title}}</h3>
                                     <p class="resources-item-p p-recom">{{item.desc}}</p>
 

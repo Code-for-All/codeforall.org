@@ -2,51 +2,35 @@
   subcategories:
     - title: ""
       items:
+        - title: Microsoft Azure
+          logo: azure
+          desc: $3,500 USD donated Azure services credits per-year for cloud solutions
+          link: https://www.microsoft.com/en-us/nonprofits/azure
+        - title: AWS
+          logo: aws
+          desc: $2,000 USD of Amazon Web Services (AWS) credits for cloud services
+          link: https://aws.amazon.com/government-education/nonprofits/
         - title: "Heroku"
           logo: "heroku"
           desc: "Heroku is a simple, easy-to-use cloud hosting service which is perfect for small to medium projects."
           link: "https://www.heroku.com/"
-        - title: "Microsoft's BizSpark"
-          logo: "bizspark"
-          desc: "Microsoft's BizSpark program offers free Microsoft software and credits for their cloud platform, Azure."
-          link: "https://www.microsoft.com/bizspark"
-        - title: "Twilio"
-          logo: "twilio"
-          desc: "Twilio is the easiest way to send SMS messages or handle phone calls for your project."
-          link: "https://www.twilio.com/"
-
-- title: "Communications"
-  subcategories:
-    - title: ""
-      items:
-        - title: "Meetup"
-          logo: "meetup"
-          desc: "Meetup is an online platform for people to find groups like your Brigade."
-          link: "https://www.meetup.com/"
-        - title: "Slack"
-          logo: "res-slack"
-          desc: "Slack is a group communication tool built around chat. Full plan is free for non-profits."
-          link: "https://slack.com/"
-        - title: "G Suite"
-          logo: "gsuite"
-          desc: "G Suite is Google's hosted product featuring Gmail, Google Drive, Groups, and more. Free for non-profits."
-          link: "https://gsuite.google.com/"
-
-- title: "Mapping Software"
-  subcategories:
-    - title: ""
-      items:
-        - title: "CARTO"
-          logo: "carto"
-          desc: "CARTO helps you easily work with and visualize geospatial data."
-          link: "https://carto.com/"
+        - title: New Relic
+          logo: newrelic
+          desc: Get the real-time insights that your software-driven business.
+          link: https://newrelic.com/nonprofit
 
 - title: "Development"
   subcategories:
     - title: ""
       items:
+        - title: "JetBrains"
+          logo: "jetbrains"
+          desc: "Professional IDEs for dozen of languages. Free for opensource, 50% discount for non-profits."
+          link: https://www.jetbrains.com/buy/opensource/
+    - title: ""
+      items:
         - title: "GitLab"
-          logo: "gitlab"
+          logo: "/assets/images/resources/gitlab-logo-square.svg"
           desc: "Code hosting, continuous deployment and project management tool. Open source itself."
           link: https://gitlab.com
     - title: ""
@@ -63,3 +47,58 @@
           link: "https://balsamiq.com/"
 
 
+- title: "Communications"
+  subcategories:
+    - title: ""
+      items:
+        - title: "Meetup"
+          logo: "meetup"
+          desc: "Meetup is an online platform for people to find groups like your Brigade."
+          link: "https://www.meetup.com/"
+        - title: "Slack"
+          logo: "slack"
+          desc: "Slack is a group communication tool built around chat. Full plan is free for non-profits."
+          link: "https://slack.com/"
+        - title: "G Suite"
+          logo: "gmail"
+          desc: "G Suite is Google's hosted product featuring Gmail, Google Drive, Groups, and more. Free for non-profits."
+          link: "https://www.google.com/nonprofits/products/apps-for-nonprofits.html"
+        - title: "Google Ad Grants"
+          logo: "adwords"
+          desc: "Run text ads on Google Search results with $10,000 USD of in-kind advertising every month."
+          link: "https://www.google.com/nonprofits/products/google-ad-grants.html"
+        - title: "Twilio"
+          logo: "twilio"
+          desc: "Send SMS messages or handle phone calls programatically. Get 500 USD credits to use the platform or ask for mentorship from Twilio employees."
+          link: "https://www.twilio.org/"
+        - title: Mailchimp
+          logo: /assets/images/resources/mailchimp.svg
+          desc: "Automation and tracking of email campaings. Almost 25% discount for non-profits."
+          link: "https://mailchimp.com/help/about-mailchimp-discounts/"
+
+- title: "Other"
+  subcategories:
+    - title: ""
+      items:
+        - title: "Techsoup"
+          logo: "/assets/images/resources/techsoup-logo.svg"
+          desc: "Need anything else? Techsoup offers software, hardware and trainings for free or at discounted rates for non-profits worldwide."
+          link: "https://www.techsoup.org/get-product-donations/product-catalog"
+    - title: ""
+      items:
+        - title: "Adobe"
+          logo: adobe
+          desc: Discounted rates for Acrobar Pro, Creative Cloud, Photoshop, InDesign, PremierePro
+          link: https://www.techsoup.org/adobe
+    - title: ""
+      items:
+        - title: "CARTO"
+          logo: "carto"
+          desc: "CARTO helps you easily work with and visualize geospatial data."
+          link: "https://carto.com/"
+    - title: ""
+      items:
+        - title: Mapbox
+          logo: mapbox
+          desc: "Visualizing geodata, AR. Mapbox provides tailored support for non-profits."
+          link: "https://www.mapbox.com/help/account-faq/#does-mapbox-offer-a-non-profit-or-educational-discount"

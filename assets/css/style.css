@@ -539,7 +539,7 @@ a:hover {
 .center {
   margin: 0 auto; }
 
-.slack {
+.slack-homepage {
   background: url("../images/homepage/logo slack.png");
   width: 67px;
   height: 67px;
@@ -1988,64 +1988,28 @@ a:hover {
 .america-res {
   background: url("../images/resources/logo_usa.png") no-repeat; }
 
+.free-software-logo {
+  top: 50%;
+  transform: translateY(-50%);
+  background-repeat:  no-repeat;
+  background-size: 50px;
+}
+
 .gitlab {
-  background: url("../images/logo/gitlab-logo-square.svg") no-repeat;
+  background: url("../images/resources/gitlab-logo-square.svg") no-repeat;
   background-size: 50px;
   top: 50%;
   transform: translateY(-50%);
 }
 
 .balsamiq {
-  background: url("../images/logo/balsamiq-face.png") no-repeat;
   background-size: 50px;
   top: 50%;
   transform: translateY(-50%);
 }
 
-.bizspark {
-  background: url("../images/resources/logo_bizspark.png") no-repeat;
-  height: 50px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 60px; }
-
-.heroku {
-  background: url("../images/resources mobile/logo_heroku.png") no-repeat;
-  height: 50px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 60px; }
-
 .meetup {
   background: url("../images/resources mobile/logo_meetup.png") no-repeat;
-  height: 50px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 60px; }
-
-.res-slack {
-  background: url("../images/resources mobile/logo_slack.png") no-repeat;
-  height: 50px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 60px; }
-
-.twilio {
-  background: url("../images/resources mobile/logo_twilio.png") no-repeat;
-  height: 50px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 60px; }
-
-.gsuite {
-  background: url("../images/resources mobile/logo_gsuite.png") no-repeat;
-  height: 50px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 60px; }
-
-.carto {
-  background: url("../images/resources/logo_carto.png") no-repeat;
   height: 50px;
   top: 50%;
   transform: translateY(-50%);

@@ -79,14 +79,13 @@
   subcategories:
    - title: ""
      items:
-        - title: "ODI's guide to Open Data Standards"
-          logo: opendatainstitute
+        - title: "Digital Outreach Playbook"
+          logo: america
           name: "&nbsp;"
-          year: "2018"
-          subname: "Open Data Institute"
-          desc: "This guidebook helps people and organisations create, develop and adopt open standards for data.
-          It supports a variety of users, including policy leads, domain experts and technologists."
-          link: "http://standards.theodi.org/"
+          year: 2018
+          subname: "Code for America"
+          desc: "Bringing digital tactics to government service delivery. 'People in need of government services are online. It just takes the right digital strategy to reach them.'"
+          link: "https://www.codeforamerica.org/resources/digital-outreach-playbook"
 
         - title: "The Civic Tech Playbook for Canadian Municipalities"
           logo_url: /assets/images/partner logos/code-for-canada.jpg
@@ -95,6 +94,15 @@
           subname: "Code for Canada"
           desc: A guide designed to help municipal governments understand how to engage with their local civic tech communities.
           link: https://docs.google.com/document/d/1x0DY-VPnai2Fx1eyjItqp5oi6sTet0HJOVm5VSwAmHo/edit
+
+        - title: "ODI's guide to Open Data Standards"
+          logo: opendatainstitute
+          name: "&nbsp;"
+          year: "2018"
+          subname: "Open Data Institute"
+          desc: "This guidebook helps people and organisations create, develop and adopt open standards for data.
+          It supports a variety of users, including policy leads, domain experts and technologists."
+          link: "http://standards.theodi.org/"
 
 
 

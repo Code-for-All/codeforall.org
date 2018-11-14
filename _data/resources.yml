@@ -114,6 +114,15 @@
           It supports a variety of users, including policy leads, domain experts and technologists."
           link: "http://standards.theodi.org/"
 
+        - title: "InTAcT Open Data Toolkit"
+          logo_url: /assets/images/logo/open-data-durban.png
+          name: "&nbsp;"
+          year: "2018"
+          subname: "Open Data Durban"
+          desc: "This toolkit is for a local government public official to aid her and him in wrangling this beast called open data
+          and what, why and how to go about implementing it within your team, unit, department, and city."
+          link: https://intact.gitbook.io/intact/
+
 
 
 - title: "HOW TOs"

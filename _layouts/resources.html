@@ -19,7 +19,7 @@
             {% for entry in site.data.resources %}
             <div class="row">
                 <div class="col">
-                    <h1 class="resources-info-block-h1">{{ entry.title }}</h1>
+                    <h1 id="{{ entry.title | slugify}}" class="resources-info-block-h1">{{ entry.title }}</h1>
                     <p class="resources-info-block-p">{{ entry.description}}</p>
                     </p>
                 </div>
@@ -28,7 +28,7 @@
 
                 {% if subcategory.title %}
                 <div class="col">
-                    <h3 class="resources-info-block-h2">{{ subcategory.title }}</h3>
+                    <h3 id="{{ subcategory.title | slugify}}" class="resources-info-block-h2">{{ subcategory.title }}</h3>
                     <p class="resources-info-block-p">{{ subcategory.description}}</p>
                     </p>
                 </div>

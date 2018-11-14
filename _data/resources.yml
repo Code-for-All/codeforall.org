@@ -140,6 +140,15 @@
         they both take on multiple roles throughout the design process."
         link: https://waag.org/en/project/users-designers
 
+      - title: Alidade
+        logo_url: /assets/images/logo/the-engine-room.png
+        name: "&nbsp;"
+        year: "2015"
+        subname: "Engine Room"
+        desc: "Choosing technology is hard. Alidade can help.
+        Use Alidade to create a plan for finding technology tools that suit your social change project.."
+        link: https://alidade.tech/
+
       - title: Co-creation brainstorm toolkit
         logo_url: /assets/images/partner logos/waag-icon.png
         name: "&nbsp;"
@@ -159,6 +168,7 @@
         desc: "This is a toolkit on how to invent, adopt or adapt ideas that can deliver better results.
         It’s quick to use, simple to apply, and is designed to help busy people."
         link: https://diytoolkit.org/
+
 
   - title: "HACKATHONS"
     items:

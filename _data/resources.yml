@@ -88,6 +88,16 @@
           It supports a variety of users, including policy leads, domain experts and technologists."
           link: "http://standards.theodi.org/"
 
+        - title: "The Civic Tech Playbook for Canadian Municipalities"
+          logo_url: /assets/images/partner logos/code-for-canada.jpg
+          name: "&nbsp;"
+          year: "2018"
+          subname: "Code for Canada"
+          desc: A guide designed to help municipal governments understand how to engage with their local civic tech communities.
+          link: https://docs.google.com/document/d/1x0DY-VPnai2Fx1eyjItqp5oi6sTet0HJOVm5VSwAmHo/edit
+
+
+
 - title: "TECH FOR JOURNALISM"
   description: "Supporting journalists with digital tools and skills"
   subcategories:

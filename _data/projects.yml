@@ -1,9 +1,45 @@
+- name: Disaster Relief Toolkit
+  description: An open repository of tools that can be used by governments, rescue teams and citizen support networks to make coordination, cooperation and communication tasks more efficient when facing a natural disaster.
+  link: http://disasterrelief.codeforall.org/
+  image: /assets/images/projects/disaster-relief-tk-cover.png
+  contact_name: Alma Rangel
+  contact_email:
+  locations:
+    - Mexico
+    - Romania
+  tags:
+    - Disaster Relief
+    - Emergency Response
+
+- name: Fix My Street
+  description: Report neighbourhood problems to the local council.
+  link: https://www.fixmystreet.com/
+  image: /assets/images/projects/fixmystreet-cover.png
+  contact_name: MySociety
+  contact_email:
+  locations:
+    - Worldwide
+  tags:
+    - Local gov
+    - Reporting
+
+- name: Alaveteli / What do they know
+  description: Internationalised platform for making Freedom of Information (FOI) requests in different countries around the world
+  link: https://alaveteli.org/
+  image: /assets/images/projects/alaveteli-cover.png
+  contact_name: MySociety
+  contact_email:
+  locations:
+    - Worldwide7
+  tags:
+    - FOI
+
 - name: Monitorizare Vot
   description: Monitorizare Vot is a mobile app for monitoring elections by authorized observers. It offers a real-time snapshot on what is going on at polling stations including any noticeable irregularities.
-  link: https://code4.ro/en/project/monitorizare-vot/
+  link: https://votemonitor.org/
   image: /assets/images/projects/monitorizare_vot.png
-  contact_name:
-  contact_email:
+  contact_name: Code for Romania
+  contact_email: contact@code4.ro
   locations:
     - Romania
     - Moldova
@@ -77,4 +113,5 @@
     - Hungary
   tags:
     - Open Data
+
 

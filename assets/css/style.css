@@ -509,6 +509,25 @@ a:hover {
   margin-left: -61px;
   top: 10%; }
 
+.logo-tfd {
+  background-image: url("../images/homepage/logo-tfd.gif");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  width: 190px;
+  height: 64px;
+  margin: 0 auto;
+  margin-top: 42px;
+  margin-bottom: 16px;
+  position: absolute;
+  left: 10px;
+  top: 10%; }
+
+@media (max-width: 380px) {
+    .logo-tfd {
+        background-size: 160px;
+    }
+}
+
 .supporters-item {
   background: #fff;
   border-right: 2px solid #ED1879;

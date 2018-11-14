@@ -9,6 +9,7 @@
     "donors": {
         "ned": "http://ned.org/",
         "omidyar": "https://www.omidyar.com/",
+        "tfd": "http://www.tfd.org.tw/opencms/english/index.html",
         "slack": "https://slack.com/"
     }
 }

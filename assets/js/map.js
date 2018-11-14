@@ -50,9 +50,10 @@ $(document).ready(function () {
 
     var map = L.map('map', options).setView(latlon, zoom);
 
-    function iconStyle(feature) {
+    function iconOptions(feature) {
+      options = {zIndexOffset: feature.properties.tags.includes("Code for All Affiliate") ? 0 : 500};
       if (feature.properties.icon && feature.properties.icon.iconUrl) {
-        return { icon: L.icon(feature.properties.icon), title: feature.properties.name };
+        return Object.assign(options, { icon: L.icon(feature.properties.icon), title: feature.properties.name });
       }
     };
 
@@ -130,7 +131,7 @@ $(document).ready(function () {
 
     featureLayer = L.geoJSON(cfallOrgs, {
       pointToLayer: function (feature, latlng) {
-        return L.marker(latlng, iconStyle(feature)).on('click', () => {window.location.href = feature.properties.website});
+        return L.marker(latlng, iconOptions(feature)).on('click', () => {window.location.href = feature.properties.website});
       }, onEachFeature: onEachFeature
     }).addTo(map);
     //map.fitBounds(featureLayer.getBounds());

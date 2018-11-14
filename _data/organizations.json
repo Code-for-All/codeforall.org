@@ -156,8 +156,8 @@
         "rss": "",
         "projects_list_url": "https://github.com/CodeForAfrica",
         "city": "",
-        "latitude": "4.1651",
-        "longitude": "25.4224",
+        "latitude": "-26.1662992",
+        "longitude": "28.166407",
         "tags": [
             "Code for All"
         ]
@@ -670,20 +670,6 @@
         ]
     },
     {
-        "name": "Code for Ghana",
-        "website": "http://codeforghana.org",
-        "events_url": "",
-        "rss": "",
-        "projects_list_url": "http://github.com/CodeForAfrica",
-        "city": "Accra, Ghana",
-        "latitude": "5.5811",
-        "longitude": "-0.1990",
-        "tags": [
-            "Code for All",
-            "Code for All Affiliate"
-        ]
-    },
-    {
         "name": "Code for Gifu",
         "website": "https://www.facebook.com/pages/CODE-for-GIFU/592157627504886",
         "events_url": "",
@@ -978,20 +964,6 @@
         ]
     },
     {
-        "name": "Code for Kenya",
-        "website": "http://code4kenya.org",
-        "events_url": "",
-        "rss": "",
-        "projects_list_url": "http://github.com/CodeForAfrica",
-        "city": "Nairobi, Kenya",
-        "latitude": "-1.2993",
-        "longitude": "36.7654",
-        "tags": [
-            "Code for All",
-            "Code for All Affiliate"
-        ]
-    },
-    {
         "name": "Code for Kobe",
         "website": "https://www.facebook.com/codeforkobe",
         "events_url": "https://www.facebook.com/groups/1536379276600668/",
@@ -1252,20 +1224,6 @@
             "Brigade",
             "Official",
             "Code for America"
-        ]
-    },
-    {
-        "name": "Code for Nigeria",
-        "website": "http://code4nigeria.org",
-        "events_url": "",
-        "rss": "",
-        "projects_list_url": "http://github.com/CodeForAfrica",
-        "city": "Lagos, Nigeria",
-        "latitude": "6.6016",
-        "longitude": "3.3969",
-        "tags": [
-            "Code for All",
-            "Code for All Affiliate"
         ]
     },
     {
@@ -3143,6 +3101,126 @@
             "Code for America",
             "Official",
             "Brigade"
+        ]
+    },
+    {
+        "name": "Code for Cameroon",
+        "website": "https://codeforcameroon.org/",
+        "logo_url": "/assets/images/partner logos/code-for-cameroon-wname.png",
+        "events_url": "",
+        "rss": "",
+        "projects_list_url": "http://github.com/CodeForAfrica",
+        "city": "Cameroon",
+        "latitude": "4.9581693",
+        "longitude": "12.231203",
+        "tags": [
+            "Code for All",
+            "Code for All Affiliate"
+        ]
+    },
+    {
+        "name": "Code for Ghana",
+        "website": "http://codeforghana.org",
+        "logo_url": "/assets/images/partner logos/code-for-ghana-wname.png",
+        "events_url": "",
+        "rss": "",
+        "projects_list_url": "http://github.com/CodeForAfrica",
+        "city": "Accra, Ghana",
+        "latitude": "5.5811",
+        "longitude": "-0.1990",
+        "tags": [
+            "Code for All",
+            "Code for All Affiliate"
+        ]
+    },
+    {
+        "name": "Code for Kenya",
+        "website": "https://codeforkenya.org/",
+        "logo_url": "/assets/images/partner logos/code-for-kenya-wname.png",
+        "events_url": "",
+        "rss": "",
+        "projects_list_url": "http://github.com/CodeForAfrica",
+        "city": "Nairobi, Kenya",
+        "latitude": "-1.2993",
+        "longitude": "36.7654",
+        "tags": [
+            "Code for All",
+            "Code for All Affiliate"
+        ]
+    },
+    {
+        "name": "Code for Morocco",
+        "website": "https://codeformorocco.org/",
+        "logo_url": "/assets/images/partner logos/code-for-morocco-wname.png",
+        "events_url": "",
+        "rss": "",
+        "projects_list_url": "http://github.com/CodeForAfrica",
+        "city": "Morocco",
+        "latitude": "32.2265405",
+        "longitude": "-6.723696",
+        "tags": [
+            "Code for All",
+            "Code for All Affiliate"
+        ]
+    },
+    {
+        "name": "Code for Nigeria",
+        "website": "http://code4nigeria.org",
+        "logo_url": "/assets/images/partner logos/code-for-nigeria-wname.png",
+        "events_url": "",
+        "rss": "",
+        "projects_list_url": "http://github.com/CodeForAfrica",
+        "city": "Lagos, Nigeria",
+        "latitude": "6.6016",
+        "longitude": "3.3969",
+        "tags": [
+            "Code for All",
+            "Code for All Affiliate"
+        ]
+    },
+    {
+        "name": "Code for Uganda",
+        "website": "https://codeforuganda.org/",
+        "logo_url": "/assets/images/partner logos/code-for-uganda-wname.png",
+        "events_url": "",
+        "rss": "",
+        "projects_list_url": "http://github.com/CodeForAfrica",
+        "city": "Uganda",
+        "latitude": "1.2120364",
+        "longitude": "32.366979",
+        "tags": [
+            "Code for All",
+            "Code for All Affiliate"
+        ]
+    },
+    {
+        "name": "Code for Sierra Leone",
+        "website": "https://codeforsierraleone.org/",
+        "logo_url": "/assets/images/partner logos/code-for-sierraleone-wname.png",
+        "events_url": "",
+        "rss": "",
+        "projects_list_url": "http://github.com/CodeForAfrica",
+        "city": "Sierra Leone",
+        "latitude": "8.7197723",
+        "longitude": "-11.788518",
+        "tags": [
+            "Code for All",
+            "Code for All Affiliate"
+        ]
+    },
+    {
+        "name": "Code for Tanzania",
+        "website": "https://codefortanzania.org/",
+        "logo_url": "/assets/images/partner logos/code-for-tanzania-wname.png",
+        "events_url": "",
+        "rss": "",
+        "projects_list_url": "http://github.com/CodeForAfrica",
+        "city": "Dar es Salaam, Tanzania",
+        "latitude": "-6.7710114",
+        "longitude": "39.2377191",
+        "tags": [
+            "Code for All",
+            "Code for All Affiliate"
         ]
     }
 ]

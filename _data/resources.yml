@@ -142,6 +142,15 @@
         and clearly define the impact you want to have."
         link: https://waag.org/en/co-creation-brainstorm-toolkit
 
+      - title: DIY Toolkit
+        logo_url: /assets/images/logo/nesta-logo-horizontal.png
+        name: "&nbsp;"
+        year: "2018"
+        subname: "Nesta"
+        desc: "This is a toolkit on how to invent, adopt or adapt ideas that can deliver better results.
+        It’s quick to use, simple to apply, and is designed to help busy people."
+        link: https://diytoolkit.org/
+
   - title: "HACKATHONS"
     items:
       - title: "Hacking Culture: a guide"

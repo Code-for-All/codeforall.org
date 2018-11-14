@@ -45,7 +45,11 @@
                         <div class="resources-item">
                             <h3 class="resources-item-h3">{{item.title}}</h3>
                             <p class="resources-item-p">{{item.desc}}</p>
+                            {% if item.logo_url %}
+                            <div class="resource-company" style="background-image: url('{{ item.logo_url }}');"></div>
+                            {% else %}
                             <div class="resource-company {{item.logo}}-res"></div>
+                            {% endif %}
                             <p class="resource-big-text">{{ item.subname }} </p>
                             <p class="resource-small-text">{{ item.name }}</p>
                             <p class="resource-date">{{item.year}}</p>

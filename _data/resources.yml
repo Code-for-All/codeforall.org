@@ -95,6 +95,16 @@
           desc: A guide designed to help municipal governments understand how to engage with their local civic tech communities.
           link: https://docs.google.com/document/d/1x0DY-VPnai2Fx1eyjItqp5oi6sTet0HJOVm5VSwAmHo/edit
 
+        - title: "The digital government atlas: the world’s best tools and resources"
+          logo_url: /assets/images/logo/apolitical-a.png
+          name: "&nbsp;"
+          year: "2018"
+          subname: "Apolitical"
+          desc: "All you need to launch a digital revolution in your department.
+          Apolitical’s digital government resource atlas is a collection of some of the best publicly available tools,
+          guidebooks and datasets from around the world."
+          link: https://apolitical.co/solution_article/the-digital-government-atlas-the-worlds-best-tools-and-resources/
+
         - title: "ODI's guide to Open Data Standards"
           logo: opendatainstitute
           name: "&nbsp;"

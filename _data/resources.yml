@@ -98,6 +98,45 @@
 
 
 
+- title: "HOW TOs"
+  description: "How-to guides on a variety of topics"
+  subcategories:
+  - title: "DESIGN METHODOLOGIES"
+    items:
+      - title: Users as Designers
+        logo_url: /assets/images/partner logos/waag-icon.png
+        name: "&nbsp;"
+        year: "2011"
+        subname: "Waag"
+        desc: "Users as Designers is the main design philosophy of Waag. It states that real users should
+        be the ones to define design requirements. When the user and designer work together according to this design philosophy,
+        they both take on multiple roles throughout the design process."
+        link: https://waag.org/en/project/users-designers
+
+      - title: Co-creation brainstorm toolkit
+        logo_url: /assets/images/partner logos/waag-icon.png
+        name: "&nbsp;"
+        year: "2011"
+        subname: "Waag"
+        desc: " Practically the toolkit guides you and your team through a structured brainstorm process.
+        The brainstorm is set up in such a way that it will help you to critically look at your own ability as an organization
+        to engage in co-creation, explore the skills you need, identify potential stakeholders for your co-creation trajectory
+        and clearly define the impact you want to have."
+        link: https://waag.org/en/co-creation-brainstorm-toolkit
+
+  - title: "HACKATHONS"
+    items:
+      - title: "Hacking Culture: a guide"
+        logo_url: /assets/images/partner logos/waag-icon.png
+        name: "&nbsp;"
+        year: "2011"
+        subname: "Waag"
+        desc: "A hackathon is not a one-size-fits-all format that suits every purpose.
+        It can bring insights, inspiration and ideas. But its success depends on you."
+        link: https://waag.org/en/article/hacking-culture-guide
+
+
+
 - title: "TECH FOR JOURNALISM"
   description: "Supporting journalists with digital tools and skills"
   subcategories:

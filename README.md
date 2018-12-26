@@ -42,7 +42,7 @@ Contacts
 Submitting an Issue
 -------------------
 
-We use the [GitHub issue tracker][issues] to track bugs and features. If you're not used to that, here's a [quick video intro](https://www.youtube.com/watch?v=KlrJVSJRUN4).
+We use the [GitHub issue tracker](issues) to track bugs and features. If you're not used to that, here's a [quick video intro](https://www.youtube.com/watch?v=KlrJVSJRUN4).
 
 Before submitting a bug report or feature request, check to make sure it hasn't
 already been submitted. You can indicate support for an existing issue by

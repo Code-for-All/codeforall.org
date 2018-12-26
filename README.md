@@ -35,6 +35,7 @@ Map data available from [Natural Earth Data](http://www.naturalearthdata.com/dow
 
 Contacts
 --------
+* Krzysiek Madejski ([KrzysztofMadejski](https://github.com/KrzysztofMadejski))
 * Milo van der Linden ([milovanderlinden](https://github.com/milovanderlinden))
 
 

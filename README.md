@@ -35,13 +35,14 @@ Map data available from [Natural Earth Data](http://www.naturalearthdata.com/dow
 
 Contacts
 --------
+* Krzysiek Madejski ([KrzysztofMadejski](https://github.com/KrzysztofMadejski))
 * Milo van der Linden ([milovanderlinden](https://github.com/milovanderlinden))
 
 
 Submitting an Issue
 -------------------
 
-We use the [GitHub issue tracker][issues] to track bugs and features. If you're not used to that, here's a [quick video intro](https://www.youtube.com/watch?v=KlrJVSJRUN4).
+We use the [GitHub issue tracker](https://github.com/Code-for-All/codeforall.org/issues) to track bugs and features. If you're not used to that, here's a [quick video intro](https://www.youtube.com/watch?v=KlrJVSJRUN4).
 
 Before submitting a bug report or feature request, check to make sure it hasn't
 already been submitted. You can indicate support for an existing issue by

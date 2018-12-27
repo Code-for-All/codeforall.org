@@ -132,7 +132,7 @@
     },
     {
         "name": "Code for ABQ",
-        "website": "http://codeforabq.org/",
+        "website": "http://codefornm.org/",
         "events_url": "http://www.meetup.com/Code-for-ABQ",
         "rss": "",
         "projects_list_url": "https://docs.google.com/spreadsheets/d/1k4-U_ojSdzJyKTRYiVEpx7Ae4kXBdHAf-jA-_aZGhrI/export?format=csv",
@@ -156,8 +156,8 @@
         "rss": "",
         "projects_list_url": "https://github.com/CodeForAfrica",
         "city": "",
-        "latitude": "-26.1662992",
-        "longitude": "28.166407",
+        "latitude": "4.1651",
+        "longitude": "25.4224",
         "tags": [
             "Code for All"
         ]
@@ -264,6 +264,21 @@
         ]
     },
     {
+        "name": "Code for BCS",
+        "website": "",
+        "city": "Bryan/College Station, TX",
+        "latitude": "30.6253463",
+        "longitude": "-96.3271538",
+        "events_url": "https://www.meetup.com/CodeforBCS/",
+        "projects_list_url": "",
+        "tags": [
+            "Official",
+            "Brigade",
+            "Code for America"
+        ],
+        "social_profiles": {}
+    },
+    {
         "name": "Code for Birmingham",
         "website": "http://www.codeforbirmingham.org/",
         "events_url": "http://www.meetup.com/Code-for-Birmingham-AL/",
@@ -281,12 +296,16 @@
         ]
     },
     {
-        "name": "Code for Bloomington (BMG Hack)",
-        "website": "https://bmghack.wordpress.com",
+        "name": "Code for Bloomington",
+        "website": "https://bmghack.github.io/",
         "city": "Bloomington, IN",
         "latitude": "39.1670396",
         "longitude": "-86.5342881",
-        "events_url": "",
+        "events_url": "https://www.meetup.com/Code-for-Bloomington-BMG-Hack/",
+        "previous_names": [
+            "Code for Bloomington (BMG Hack)",
+            "BMG Hack"
+        ],
         "projects_list_url": "https://github.com/BMGhack/civic-hacking",
         "tags": [
             "Official",
@@ -295,7 +314,8 @@
         ],
         "social_profiles": {
             "Google": "https://groups.google.com/a/bloomington.in.gov/forum/#!forum/civic-hacking"
-        }
+        },
+        "type": "Brigade"
     },
     {
         "name": "Code for Boston",
@@ -370,6 +390,24 @@
         ]
     },
     {
+        "name": "Code for Buffalo",
+        "website": "https://codeforbuffalo.org/",
+        "city": "Buffalo, NY",
+        "latitude": "42.8867166",
+        "longitude": "-78.8783922",
+        "events_url": "https://www.meetup.com/CodeForBuffalo/",
+        "projects_list_url": "",
+        "tags": [
+            "Official",
+            "Brigade",
+            "Code for America"
+        ],
+        "social_profiles": {
+            "facebook": "https://www.facebook.com/CodeForBuffalo",
+            "twitter": "@CodeForBuffalo"
+        }
+    },
+    {
         "name": "Code for Canada",
         "website": "https://codefor.ca/",
         "events_url": "https://www.meetup.com/code4ca/",
@@ -422,7 +460,88 @@
         "social_profiles": {}
     },
     {
-        "name": "Code for Charlotte",
+        "name": "Code for Iowa",
+        "website": "",
+        "city": "Iowa City, IA",
+        "latitude": "41.6612561",
+        "longitude": "-91.5299106",
+        "events_url": "https://www.meetup.com/Code-for-Iowa/",
+        "projects_list_url": "",
+        "tags": [
+            "Official",
+            "Brigade",
+            "Code for America"
+        ],
+        "social_profiles": {}
+    },
+    {
+        "name": "Code for Kissimmee",
+        "website": "",
+        "city": "Kissimmee, FL",
+        "latitude": "28.2918995",
+        "longitude": "-81.4075838",
+        "events_url": "https://www.meetup.com/Code-for-Kissimmee/",
+        "projects_list_url": "",
+        "tags": [
+            "Official",
+            "Brigade",
+            "Code for America"
+        ],
+        "social_profiles": {}
+    },
+    {
+        "name": "Code for Puerto Rico",
+        "website": "http://code4puertorico.org/",
+        "city": "San Juan, PR",
+        "latitude": "18.465488",
+        "longitude": "-66.116781",
+        "events_url": "",
+        "projects_list_url": "https://github.com/code4puertorico",
+        "tags": [
+            "Official",
+            "Brigade",
+            "Code for America"
+        ],
+        "social_profiles": {}
+    },
+    {
+        "name": "Code for Sonoma County",
+        "website": "",
+        "city": "Santa Rosa, CA",
+        "latitude": "38.4392588",
+        "longitude": "-122.7148742",
+        "events_url": "https://www.meetup.com/Code-for-Sonoma-County/",
+        "projects_list_url": "",
+        "tags": [
+            "Official",
+            "Brigade",
+            "Code for America"
+        ],
+        "social_profiles": {}
+    },
+    {
+        "name": "Code for Utah",
+        "website": "https://opensaltlake.org/",
+        "city": "Salt Lake City, UT",
+        "latitude": "40.7670126",
+        "longitude": "-111.8904308",
+        "events_url": "https://www.meetup.com/Open-Salt-Lake/",
+        "previous_names": [
+            "Open Salt Lake"
+        ],
+        "projects_list_url": "https://github.com/opensaltlake",
+        "tags": [
+            "Official",
+            "Brigade",
+            "Code for America"
+        ],
+        "social_profiles": {
+            "twitter": "@OpenSaltLake",
+            "facebook": "https://www.facebook.com/opensaltlakeutah/"
+        }
+    },
+    {
+        "name": "Open Charlotte Brigade",
         "website": "http://codeforcharlotte.org",
         "events_url": "https://www.meetup.com/Code-For-Charlotte",
         "rss": "https://medium.com/code-for-charlotte",
@@ -430,7 +549,7 @@
         "city": "Charlotte, NC",
         "latitude": "35.2032",
         "longitude": "-80.8395",
-        "type": "Brigade, Official",
+        "type": "Brigade, Official, Code for America",
         "social_profiles": {
             "facebook": "https://www.facebook.com/codeforcharlotte",
             "twitter": "@codeforclt"
@@ -664,9 +783,23 @@
         "projects_list_url": "https://github.com/codeforgermany",
         "city": "Berlin, Germany",
         "latitude": "52.5192",
-        "longitude": "10.4061",
+        "longitude": "13.4061",
         "tags": [
             "Code for All"
+        ]
+    },
+    {
+        "name": "Code for Ghana",
+        "website": "http://codeforghana.org",
+        "events_url": "",
+        "rss": "",
+        "projects_list_url": "http://github.com/CodeForAfrica",
+        "city": "Accra, Ghana",
+        "latitude": "5.5811",
+        "longitude": "-0.1990",
+        "tags": [
+            "Code for All",
+            "Code for All Affiliate"
         ]
     },
     {
@@ -742,6 +875,21 @@
             "Official",
             "Code for America"
         ]
+    },
+    {
+        "name": "Code for Homestead",
+        "website": "",
+        "city": "Homestead, FL",
+        "latitude": "25.4718946",
+        "longitude": "-80.4759905",
+        "events_url": "https://www.meetup.com/Code-for-Homestead/",
+        "projects_list_url": "",
+        "tags": [
+            "Official",
+            "Brigade",
+            "Code for America"
+        ],
+        "social_profiles": {}
     },
     {
         "name": "Code for Muskogee",
@@ -964,6 +1112,20 @@
         ]
     },
     {
+        "name": "Code for Kenya",
+        "website": "http://code4kenya.org",
+        "events_url": "",
+        "rss": "",
+        "projects_list_url": "http://github.com/CodeForAfrica",
+        "city": "Nairobi, Kenya",
+        "latitude": "-1.2993",
+        "longitude": "36.7654",
+        "tags": [
+            "Code for All",
+            "Code for All Affiliate"
+        ]
+    },
+    {
         "name": "Code for Kobe",
         "website": "https://www.facebook.com/codeforkobe",
         "events_url": "https://www.facebook.com/groups/1536379276600668/",
@@ -979,30 +1141,16 @@
         ]
     },
     {
-        "name": "ePanstwo Foundation",
-        "website": "https://epf.org.pl/en/",
+        "name": "Code for Poland",
+        "website": "http://kodujdlapolski.pl/en/",
         "events_url": "",
-        "rss": "https://epf.org.pl/en/blog/",
-        "projects_list_url": "http://github.com/epforgpl",
+        "rss": "http://kodujdlapolski.pl/en/blog/",
+        "projects_list_url": "",
         "city": "Poland",
         "latitude": "52.361947",
         "longitude": "19.226414",
         "tags": [
             "Code for All"
-        ]
-    },
-    {
-        "name": "Code for Poland",
-        "website": "https://codeforpoland.org/",
-        "events_url": "",
-        "rss": "https://codeforpoland.org/blog/",
-        "projects_list_url": "",
-        "city": "Poland",
-        "latitude": "52.361947",
-        "longitude": "17.226414",
-        "tags": [
-            "Code for All",
-            "Code for All Affiliate"
         ]
     },
     {
@@ -1064,18 +1212,18 @@
         ]
     },
     {
-        "name": "Code for Maine",
+        "name": "Open Maine",
         "website": "",
-        "events_url": "",
+        "events_url": "https://www.meetup.com/OpenMaine/",
         "rss": "",
         "projects_list_url": "https://github.com/code4maine",
-        "city": "Bangor, ME",
-        "latitude": "43.6615",
-        "longitude": "-70.2553",
+        "city": "Portland, ME",
+        "latitude": "43.6562513",
+        "longitude": "-70.2633551",
         "type": "Brigade, Official",
         "social_profiles": {
-            "facebook": "https://www.facebook.com/code4maine/",
-            "twitter": "@code4maine"
+            "facebook": "https://www.facebook.com/openmaine/",
+            "twitter": "@Open_Maine"
         },
         "tags": [
             "Brigade",
@@ -1224,6 +1372,20 @@
             "Brigade",
             "Official",
             "Code for America"
+        ]
+    },
+    {
+        "name": "Code for Nigeria",
+        "website": "http://code4nigeria.org",
+        "events_url": "",
+        "rss": "",
+        "projects_list_url": "http://github.com/CodeForAfrica",
+        "city": "Lagos, Nigeria",
+        "latitude": "6.6016",
+        "longitude": "3.3969",
+        "tags": [
+            "Code for All",
+            "Code for All Affiliate"
         ]
     },
     {
@@ -1550,6 +1712,21 @@
         ]
     },
     {
+        "name": "Open Walnut Creek",
+        "website": "",
+        "city": "Walnut Creek, CA",
+        "latitude": "37.9020731",
+        "longitude": "-122.0618702",
+        "events_url": "https://www.meetup.com/open-walnut-creek/",
+        "projects_list_url": "",
+        "tags": [
+            "Official",
+            "Brigade",
+            "Code for America"
+        ],
+        "social_profiles": {}
+    },
+    {
         "name": "OpenUp",
         "website": "https://openup.org.za",
         "events_url": "http://codebridge.org.za/#events-wrap",
@@ -1585,7 +1762,7 @@
         "projects_list_url": "https://github.com/codefortallahassee",
         "city": "Tallahassee, FL",
         "latitude": "30.4380556",
-        "longitude": " -84.2808333",
+        "longitude": "-84.2808333",
         "type": "Brigade",
         "tags": [
             "Brigade"
@@ -1626,7 +1803,6 @@
     },
     {
         "name": "Code for NL",
-        "logo_url": "/assets/images/partner logos/code-for-nl.png",
         "website": "http://www.codefor.nl/",
         "events_url": "https://www.meetup.com/Code-For-NL/",
         "rss": "",
@@ -1793,6 +1969,19 @@
         ]
     },
     {
+        "name": "Codigo para la Ciudad de Mexico",
+        "website": "http://codigo.labplc.mx",
+        "events_url": "",
+        "rss": "http://labplc.mx/category/conversaciones/",
+        "projects_list_url": "https://github.com/labplc",
+        "city": "Mexico City, MX",
+        "latitude": "19.4320",
+        "longitude": "-99.1332",
+        "tags": [
+            "Code for All"
+        ]
+    },
+    {
         "name": "Data SF",
         "website": "http://datasf.org/",
         "events_url": "",
@@ -1850,18 +2039,22 @@
         ]
     },
     {
-        "name": "Northern Illinois University - Tech Bark",
+        "name": "Northern Illinois University (Tech Bark)",
         "website": "http://www.huskiehack.org/",
         "city": "Dekalb, IL",
         "latitude": "41.9294736",
         "longitude": "-88.7503647",
         "events_url": "",
+        "previous_names": [
+            "Tech Bark"
+        ],
         "projects_list_url": "",
         "tags": [
-            "Official",
             "Brigade",
+            "Official",
             "Code for America"
-        ]
+        ],
+        "type": "Brigade, Official, Code for America"
     },
     {
         "name": "Open Toledo",
@@ -2002,7 +2195,6 @@
     },
     {
         "name": "mySociety",
-        "logo_url": "/assets/images/partner logos/mysociety.png",
         "website": "https://www.mysociety.org/",
         "events_url": "https://www.google.com/calendar/embed?src=9uqu3bbqcdaqek6lkiub442di4%40group.calendar.google.com&ctz=Europe/London",
         "rss": "https://www.mysociety.org/feed/",
@@ -2010,9 +2202,9 @@
         "city": "London, UK",
         "latitude": "51.62264036083571",
         "longitude": "-0.105290718469565",
+        "type": "Partner",
         "tags": [
-            "Code for All",
-            "Code for All Affiliate"
+            "Partner"
         ]
     },
     {
@@ -2306,75 +2498,16 @@
         ]
     },
     {
-        "name": "Code for Brazil",
-        "logo_url": "/assets/images/partner logos/codeforbrazil-double.png",
+        "name": "Open Brazil",
         "website": "http://openbrazil.org/",
         "events_url": "http://www.meetup.com/openbrazil/",
         "rss": "",
         "projects_list_url": "https://github.com/CodeForBrazil/",
-        "city": "Brasil",
+        "city": "Brasília, DF",
         "latitude": "-15.7930",
         "longitude": "-47.8834",
         "tags": [
-            "Brigade",
-            "Code for All",
-            "Code for All Affiliate"
-        ]
-    },
-    {
-        "name": "Open Data Kosovo",
-        "logo_url": "/assets/images/partner logos/open-data-kosovo.png",
-        "website": "http://opendatakosovo.org",
-        "rss": "",
-        "projects_list_url": "https://github.com/opendatakosovo/",
-        "city": "Pristina, Kosovo",
-        "latitude": "42.6620819",
-        "longitude": "21.159578",
-        "tags": [
-            "Code for All",
-            "Code for All Affiliate"
-        ]
-    },
-    {
-        "name": "Sinar Project",
-        "logo_url": "/assets/images/partner logos/sinar-project.png",
-        "website": "https://sinarproject.org/",
-        "rss": "",
-        "projects_list_url": "",
-        "city": "Subang Jaya, Malaysia",
-        "latitude": "3.078158",
-        "longitude": "101.586530",
-        "tags": [
-            "Code for All",
-            "Code for All Affiliate"
-        ]
-    },
-        {
-        "name": "Waag",
-        "logo_url": "/assets/images/partner logos/waag-icon.png",
-        "website": "https://waag.org/en",
-        "rss": "",
-        "projects_list_url": "https://waag.org/en/products",
-        "city": "Amsterdam, the Netherlands",
-        "latitude": "52.372740",
-        "longitude": "4.900345",
-        "tags": [
-            "Code for All",
-            "Code for All Affiliate"
-        ]
-    },
-        {
-        "name": "Open Knowledge Belgium",
-        "logo_url": "/assets/images/partner logos/ok-belgium.png",
-        "website": "https://be.okfn.org/",
-        "rss": "",
-        "projects_list_url": "http://be.okfn.org/projects/",
-        "city": "",
-        "latitude": "50.491967",
-        "longitude": "4.462732",
-        "tags": [
-            "Code for All",
-            "Code for All Affiliate"
+            "Brigade"
         ]
     },
     {
@@ -2418,8 +2551,6 @@
         "rss": "",
         "projects_list_url": "https://github.com/open-data-standards",
         "city": "",
-        "latitude": "",
-        "longitude": "",
         "type": "Project",
         "tags": [
             "Project"
@@ -2467,8 +2598,6 @@
         "rss": "http://blog.openelections.net/",
         "projects_list_url": "https://github.com/openelections",
         "city": "",
-        "latitude": "",
-        "longitude": "",
         "type": "Project",
         "tags": [
             "Project"
@@ -2565,26 +2694,6 @@
         ]
     },
     {
-        "name": "Open Salt Lake",
-        "website": "http://opensaltlake.org/",
-        "events_url": "http://www.meetup.com/Open-Salt-Lake/",
-        "rss": "",
-        "projects_list_url": "https://github.com/OpenSaltLake",
-        "city": "Salt Lake City, UT",
-        "latitude": "40.7608",
-        "longitude": "-111.8910",
-        "type": "Brigade, Official",
-        "social_profiles": {
-            "facebook": "https://www.facebook.com/opensaltlakeutah/",
-            "twitter": "@OpenSaltLake"
-        },
-        "tags": [
-            "Brigade",
-            "Official",
-            "Code for America"
-        ]
-    },
-    {
         "name": "Open San Antonio",
         "website": "http://opensatx.org/",
         "events_url": "",
@@ -2619,7 +2728,7 @@
     },
     {
         "name": "Open Savannah",
-        "website": "http://opensavannah.org",
+        "website": "https://opensavannah.org",
         "events_url": "http://www.meetup.com/opensavannah/",
         "rss": "https://blog.opensavannah.org/feed",
         "projects_list_url": "https://github.com/opensavannah",
@@ -2629,7 +2738,7 @@
         "type": "Brigade, Official, South",
         "social_profiles": {
             "facebook": "https://www.facebook.com/opensavannah",
-            "twitter": "@open_savannah"
+            "twitter": "@opensavannah"
         },
         "tags": [
             "Brigade",
@@ -2890,25 +2999,6 @@
         ]
     },
     {
-        "name": "Civic Data Alliance",
-        "website": "http://www.civicdataalliance.org",
-        "events_url": "https://www.meetup.com/Louisville-Civic-Data-Alliance/",
-        "projects_list_url": "https://github.com/civicdata/",
-        "city": "Louisville, KY",
-        "type": "Brigade, Official, Code for America",
-        "latitude": "38.2526647",
-        "longitude": "-85.7584557",
-        "social_profiles": {
-            "facebook": "https://www.facebook.com/civicdata/",
-            "twitter": "@CivicDataAlly"
-        },
-        "tags": [
-            "Brigade",
-            "Official",
-            "Code for America"
-        ]
-    },
-    {
         "name": "Code for Baltimore",
         "website": "http://codeforbaltimore.org",
         "events_url": "https://www.meetup.com/Code-for-Baltimore/",
@@ -2951,7 +3041,7 @@
         "events_url": "https://www.meetup.com/Code-for-Fort-Collins/",
         "projects_list_url": "https://github.com/codeforfoco",
         "city": "Fort Collins, CO",
-        "type": "Brigade",
+        "type": "Brigade, Official, Code for America",
         "latitude": "40.5852602",
         "longitude": "-105.084423",
         "social_profiles": {
@@ -2959,7 +3049,9 @@
             "twitter": "@codeforfoco"
         },
         "tags": [
-            "Brigade"
+            "Brigade",
+            "Official",
+            "Code for America"
         ]
     },
     {
@@ -3086,141 +3178,20 @@
     },
     {
         "name": "Code for Boise",
-        "website": "http://codeforboise.org/",
-        "events_url": "",
-        "projects_list_url": "https://github.com/CodeForBoise",
+        "website": "http://www.boisebrigade.org/",
+        "events_url": "https://www.meetup.com/boisebrigade",
+        "projects_list_url": "https://github.com/boisebrigade",
         "city": "Boise, ID",
         "type": "Brigade, Official",
         "latitude": "43.6187102",
         "longitude": "-116.2146068",
         "social_profiles": {
-            "facebook": "https://www.facebook.com/codeforboise",
-            "twitter": "@CodeforBoise"
+            "twitter": "@boisebrigade"
         },
         "tags": [
             "Code for America",
             "Official",
             "Brigade"
-        ]
-    },
-    {
-        "name": "Code for Cameroon",
-        "website": "https://codeforcameroon.org/",
-        "logo_url": "/assets/images/partner logos/code-for-cameroon-wname.png",
-        "events_url": "",
-        "rss": "",
-        "projects_list_url": "http://github.com/CodeForAfrica",
-        "city": "Cameroon",
-        "latitude": "4.9581693",
-        "longitude": "12.231203",
-        "tags": [
-            "Code for All",
-            "Code for All Affiliate"
-        ]
-    },
-    {
-        "name": "Code for Ghana",
-        "website": "http://codeforghana.org",
-        "logo_url": "/assets/images/partner logos/code-for-ghana-wname.png",
-        "events_url": "",
-        "rss": "",
-        "projects_list_url": "http://github.com/CodeForAfrica",
-        "city": "Accra, Ghana",
-        "latitude": "5.5811",
-        "longitude": "-0.1990",
-        "tags": [
-            "Code for All",
-            "Code for All Affiliate"
-        ]
-    },
-    {
-        "name": "Code for Kenya",
-        "website": "https://codeforkenya.org/",
-        "logo_url": "/assets/images/partner logos/code-for-kenya-wname.png",
-        "events_url": "",
-        "rss": "",
-        "projects_list_url": "http://github.com/CodeForAfrica",
-        "city": "Nairobi, Kenya",
-        "latitude": "-1.2993",
-        "longitude": "36.7654",
-        "tags": [
-            "Code for All",
-            "Code for All Affiliate"
-        ]
-    },
-    {
-        "name": "Code for Morocco",
-        "website": "https://codeformorocco.org/",
-        "logo_url": "/assets/images/partner logos/code-for-morocco-wname.png",
-        "events_url": "",
-        "rss": "",
-        "projects_list_url": "http://github.com/CodeForAfrica",
-        "city": "Morocco",
-        "latitude": "32.2265405",
-        "longitude": "-6.723696",
-        "tags": [
-            "Code for All",
-            "Code for All Affiliate"
-        ]
-    },
-    {
-        "name": "Code for Nigeria",
-        "website": "http://code4nigeria.org",
-        "logo_url": "/assets/images/partner logos/code-for-nigeria-wname.png",
-        "events_url": "",
-        "rss": "",
-        "projects_list_url": "http://github.com/CodeForAfrica",
-        "city": "Lagos, Nigeria",
-        "latitude": "6.6016",
-        "longitude": "3.3969",
-        "tags": [
-            "Code for All",
-            "Code for All Affiliate"
-        ]
-    },
-    {
-        "name": "Code for Uganda",
-        "website": "https://codeforuganda.org/",
-        "logo_url": "/assets/images/partner logos/code-for-uganda-wname.png",
-        "events_url": "",
-        "rss": "",
-        "projects_list_url": "http://github.com/CodeForAfrica",
-        "city": "Uganda",
-        "latitude": "1.2120364",
-        "longitude": "32.366979",
-        "tags": [
-            "Code for All",
-            "Code for All Affiliate"
-        ]
-    },
-    {
-        "name": "Code for Sierra Leone",
-        "website": "https://codeforsierraleone.org/",
-        "logo_url": "/assets/images/partner logos/code-for-sierraleone-wname.png",
-        "events_url": "",
-        "rss": "",
-        "projects_list_url": "http://github.com/CodeForAfrica",
-        "city": "Sierra Leone",
-        "latitude": "8.7197723",
-        "longitude": "-11.788518",
-        "tags": [
-            "Code for All",
-            "Code for All Affiliate"
-        ]
-    },
-    {
-        "name": "Code for Tanzania",
-        "website": "https://codefortanzania.org/",
-        "logo_url": "/assets/images/partner logos/code-for-tanzania-wname.png",
-        "events_url": "",
-        "rss": "",
-        "projects_list_url": "http://github.com/CodeForAfrica",
-        "city": "Dar es Salaam, Tanzania",
-        "latitude": "-6.7710114",
-        "longitude": "39.2377191",
-        "tags": [
-            "Code for All",
-            "Code for All Affiliate"
         ]
     }
 ]

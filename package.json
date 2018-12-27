@@ -1,0 +1,24 @@
+{
+  "name": "codeforall.org",
+  "version": "1.0.0",
+  "description": "Code for All Website =============",
+  "main": "feed-to-posts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code-for-All/codeforall.org.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Code-for-All/codeforall.org/issues"
+  },
+  "homepage": "https://github.com/Code-for-All/codeforall.org#readme",
+  "dependencies": {
+    "feedparser": "^2.2.9",
+    "moment": "^2.23.0",
+    "turndown": "^5.0.1"
+  }
+}

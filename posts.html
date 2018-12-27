@@ -1,0 +1,71 @@
+---
+layout: default
+title: Posts
+oneliner: Stories from our community
+---
+    <div class="what">
+        <div class="container">
+            <div class="row justify-content-center row-eq-height">
+                <div class="col">
+                    <h1 class="what-h1">What we’ve been up to</h1>
+                </div>
+                <div class="w-100"></div>
+                {% for post in site.posts %}
+                    <div class="col-10 col-sm-7 col-md-4 pb-3">
+                        <a href="{{ post.url }}"></a>
+                        <div class="what__item">
+                            <a href="{{ post.url }}">
+                                <div class="pencil" style="background-image: url('{{ post.banner }}')"></div>
+                            </a>
+                            <h2 class="what-h2">
+                                <a href="{{ post.url }}"></a>
+                                <a style="color:#2897D5 !important" href="{{ post.url }}">{{ post.title }}</a>
+                            </h2>
+                            <p class="what-p-small">
+                                {{ post.content | strip_html | truncatewords: 12 }}
+                            </p>
+                            <p class="what-p-big">
+                                {{ post.author }}
+                                <br>
+                                {{ post.date | date: "%B %e, %Y" }}
+                            </p>
+                        </div>
+                    </div>
+                {% endfor %}
+                <div class="w-100"></div>
+                <div class="col">
+                    <a class="read-stories" href="https://medium.com/code-for-all">Read more stories</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="involved">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                   <h2 class="involved-h2">Want to get involved or ask us something?</h2>
+                    <p class="involved-p">We love meeting new change-makers.</p>
+                </div>
+                <div class="col-12 col-lg">
+                    <div class="row justify-content-center">
+                        <div class="col-9 col-sm">
+                            <a class="involved-button or btn-mrg-top" href="{{ site.data.links.chat-with-us }}">
+                                <span class="involved-link-text">
+                                    <span class="involved-slack-icon"></span>Chat with us
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col-9 col-sm">
+                            <a class="involved-button btn-mrg-top" href="{{ site.data.links.write-an-email }}">
+                                <span class="involved-link-text">
+                                    <span class="involved-email-icon"></span> Write us an email
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+

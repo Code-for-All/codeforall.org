@@ -157,6 +157,29 @@ oneliner: Creating fair and open digital societies
                     <h1 class="what-h1">What we’ve been up to</h1>
                 </div>
                 <div class="w-100"></div>
+                <!--{% for post in site.posts limit:3 %}
+                    <div class="col-10 col-sm-7 col-md-4 p-1 m-1">
+                        <a href="{{ post.url }}"></a>
+                        <div class="what__item">
+                            <a href="{{ post.url }}">
+                                <div class="pencil" style="background-image: url('{{ post.banner }}')"></div>
+                            </a>
+                            <h2 class="what-h2">
+                                <a href="{{ post.url }}"></a>
+                                <a style="color:#2897D5 !important" href="{{ post.url }}">{{ post.title }}</a>
+                            </h2>
+                            <p class="what-p-small">
+                                {{ post.content | strip_html | truncatewords: 12 }}
+                            </p>
+                            <p class="what-p-big">
+                                {{ post.author }}
+                                <br>
+                                {{ post.date | date: "%B %e, %Y" }}
+                            </p>
+                        </div>
+                    </div>
+                {% endfor %}
+                <div class="w-100"></div>-->
                 <div class="w-100 medium-items-here"></div>
                 <div class="col">
                     <a class="read-stories" href="https://medium.com/code-for-all">Read more stories</a>

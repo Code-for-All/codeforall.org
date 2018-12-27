@@ -3,7 +3,7 @@ layout: post
 title:  "In the new paradigm of connectivity and connectedness where the so-called wicked problems cannot be…"
 author: Ania Ankowska
 banner: ./assets/images/blog/1*OxplP2vCxkzFuhNVcEc7wA.jpeg
-medium: https://medium.com/code-for-all/in-the-new-paradigm-of-connectivity-and-connectedness-where-the-so-called-wicked-problems-cannot-be-ff799f029eb8?source=rss----77bd73f07099---4
+medium: https://medium.com/code-for-all/in-the-new-paradigm-of-connectivity-and-connectedness-where-the-so-called-wicked-problems-cannot-be-ff799f029eb8?source=rss----77bd73f07099--collaboration
 ---
 
 ![](https://cdn-images-1.medium.com/max/800/1*OxplP2vCxkzFuhNVcEc7wA.jpeg)

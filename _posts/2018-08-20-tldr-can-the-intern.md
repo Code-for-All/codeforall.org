@@ -3,7 +3,7 @@ layout: post
 title:  "TLDR: Can the Internet strengthen democracy?"
 author: Krzysztof Madejski
 banner: ./assets/images/blog/1*JVbrrPImmPVaSrhKKJOcOw.jpeg
-medium: https://medium.com/code-for-all/tdlr-can-the-internet-strengthen-democracy-d9f5cebc4e12?source=rss----77bd73f07099---4
+medium: https://medium.com/code-for-all/tdlr-can-the-internet-strengthen-democracy-d9f5cebc4e12?source=rss----77bd73f07099--thought
 ---
 
 > Reconfiguring democratic politics is even more important than coming to terms with the Internet as a feature of our age. — Stephen Coleman

@@ -3,7 +3,7 @@ layout: post
 title:  "Building the civic tech engine while we fuel it"
 author: Grace O'Hara
 banner: ./assets/images/blog/1*BBdkHexpX6oK8XGyAyEzSw.jpeg
-medium: https://medium.com/code-for-all/building-the-civic-tech-engine-while-we-fuel-it-663e697ce74c?source=rss----77bd73f07099---4
+medium: https://medium.com/code-for-all/building-the-civic-tech-engine-while-we-fuel-it-663e697ce74c?source=rss----77bd73f07099--code_for_all
 ---
 
 #### A tale of will, imposter syndrome and unlikely odds

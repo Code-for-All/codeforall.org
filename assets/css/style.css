@@ -2382,3 +2382,40 @@ blockquote {
   line-height: 1.58;
   letter-spacing: -.003em;
 }
+
+article img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding-right: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+article h1 {
+  color: #2897D5;
+  font-size: 1.4em;
+  font-weight: 900 !important;
+  line-height: 33px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+article h3 {
+  color: #2897D5;
+  font-size: 1.2em;
+  font-weight: 900 !important;
+  line-height: 33px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+article h4 {
+  color: #2897D5;
+  font-size: 1em;
+  font-weight: 900 !important;
+  line-height: 33px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}

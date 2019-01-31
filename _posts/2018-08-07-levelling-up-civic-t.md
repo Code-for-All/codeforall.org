@@ -3,6 +3,7 @@ layout: post
 title:  "Levelling Up Civic Tech with “Civic Hall”"
 author: Aaron Wytze
 banner: ./assets/images/blog/1*RtsrYSyNyGV8YLPKKqsHfA.jpeg
+categories: [civictech, cocreation, collaboration, civic-hall, projects]
 medium: https://medium.com/code-for-all/levelling-up-civic-tech-with-civic-hall-4cb4a0b336b2?source=rss----77bd73f07099--collaboration
 ---
 

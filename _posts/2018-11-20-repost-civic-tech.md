@@ -3,7 +3,8 @@ layout: post
 title:  "#Repost: Civic tech and governments: Successful models of collaboration"
 author: Code for All
 banner: ./assets/images/blog/1*skVXWOAmQr0AYibXCvoncA.jpeg
-medium: https://medium.com/code-for-all/repost-civic-tech-and-governments-successful-models-of-collaboration-fddeb98594f?source=rss----77bd73f07099--collaboration
+categories: [fellowship, civictech, collaboration, code-for-all-summit, code-for-all]
+medium: https://medium.com/code-for-all/repost-civic-tech-and-governments-successful-models-of-collaboration-fddeb98594f?source=rss----77bd73f07099--civictech
 ---
 
 ![](https://cdn-images-1.medium.com/max/1024/1*skVXWOAmQr0AYibXCvoncA.jpeg)

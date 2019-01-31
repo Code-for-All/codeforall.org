@@ -3,6 +3,7 @@ layout: post
 title:  "#Repost: Showing What’s Possible with Agricultural Data in Jamaica"
 author: Code for All
 banner: ./assets/images/blog/1*A4r5FAibDNJdnYOdHT_w6A.jpeg
+categories: [agriculture, collaboration, projects, government, open-data]
 medium: https://medium.com/code-for-all/showing-whats-possible-with-agricultural-data-in-jamaica-e9120ce0f6f6?source=rss----77bd73f07099--collaboration
 ---
 

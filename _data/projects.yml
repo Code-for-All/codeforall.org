@@ -3,6 +3,7 @@
   link: http://disasterrelief.codeforall.org/
   image: /assets/images/projects/disaster-relief-tk-cover.png
   contact_name: Alma Rangel
+  contact_image: /assets/images/avatar/avatar-alma.jpg
   contact_email:
   locations:
     - Mexico
@@ -17,6 +18,7 @@
   image: /assets/images/projects/fixmystreet-cover.png
   contact_name: MySociety
   contact_email:
+  contact_image: /assets/images/partner%20logos/mysociety.png
   locations:
     - Worldwide
   tags:
@@ -29,6 +31,7 @@
   image: /assets/images/projects/alaveteli-cover.png
   contact_name: MySociety
   contact_email:
+  contact_image: /assets/images/partner%20logos/mysociety.png
   locations:
     - Worldwide7
   tags:
@@ -40,6 +43,7 @@
   image: /assets/images/projects/monitorizare_vot.png
   contact_name: Code for Romania
   contact_email: contact@code4.ro
+  contact_image: /assets/images/partner%20logos/code-for-romania.jpg
   locations:
     - Romania
     - Moldova
@@ -47,17 +51,19 @@
   tags:
     - Elections
 
-- name: LuftDaten
+- name: LuftDaten2
   description: Certified DIY Air quality sensors and data visualization.
   link: https://luftdaten.info/en/home-en/
   image: /assets/images/projects/luftdaten-sensor.jpg
   contact_name: Lukas
   contact_email: lukas@luftdaten.info
+  contact_image: /assets/images/avatar/avatar-luftdaten.jpg
   locations:
     - Germany
     - Belgium
     - Bulgaria
     - Africa
+    - Netherlands
   tags:
     - Air
     - Sensors
@@ -67,6 +73,7 @@
   image: /assets/images/projects/school-finder-aus.png
   contact_name: Peter Welte
   contact_email: peterw@codeforamerica.org
+  contact_image: /assets/images/avatar/avatar-peter-welte.jpg
   link: https://github.com/CodeforAustralia/school-finder
   locations:
     - New South Wales (AU)

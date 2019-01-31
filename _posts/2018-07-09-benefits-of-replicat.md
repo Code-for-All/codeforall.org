@@ -3,6 +3,7 @@ layout: post
 title:  "Benefits of Replicating Fellowship Models and Collaboration Across Continents"
 author: Amna Khan
 banner: ./assets/images/blog/0*q8zzEFgxgfrNdd6w.jpg
+categories: [civictech, fellowship, government, collaboration, projects]
 medium: https://medium.com/code-for-all/benefits-of-replicating-fellowship-models-and-collaboration-across-continents-237955a81d32?source=rss----77bd73f07099--collaboration
 ---
 

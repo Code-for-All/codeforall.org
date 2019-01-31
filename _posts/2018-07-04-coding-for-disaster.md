@@ -3,6 +3,7 @@ layout: post
 title:  "Coding For Disaster Relief"
 author: D.C. Costache
 banner: ./assets/images/blog/1*x4CLMdu1XRuzhkhbmYk1bA.jpeg
+categories: [codeando-méxico, civictech, code-for-romania, projects, collaboration]
 medium: https://medium.com/code-for-all/coding-for-disaster-relief-24cfce1df2a0?source=rss----77bd73f07099--collaboration
 ---
 

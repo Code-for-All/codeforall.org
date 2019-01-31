@@ -3,7 +3,8 @@ layout: post
 title:  "The Heroes of Tech and the Lessons They Learned"
 author: Adriana Spulber
 banner: ./assets/images/blog/1*QABJlTBOTnPtqfisvQVpNw.jpeg
-medium: https://medium.com/code-for-all/the-heroes-of-tech-and-the-lessons-they-learned-6755a03fcbc5?source=rss----77bd73f07099--collaboration
+categories: [collaboration, thoughts, lessons, code-for-all, civictech]
+medium: https://medium.com/code-for-all/the-heroes-of-tech-and-the-lessons-they-learned-6755a03fcbc5?source=rss----77bd73f07099--civictech
 ---
 
 ![](https://cdn-images-1.medium.com/max/1024/1*QABJlTBOTnPtqfisvQVpNw.jpeg)

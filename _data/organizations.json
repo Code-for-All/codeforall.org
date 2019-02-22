@@ -988,7 +988,8 @@
         "latitude": "52.361947",
         "longitude": "19.226414",
         "tags": [
-            "Code for All"
+            "Code for Poland",
+            "Code for All Affiliate"
         ]
     },
     {
@@ -1001,16 +1002,15 @@
         "latitude": "52.361947",
         "longitude": "17.226414",
         "tags": [
-            "Code for All",
-            "Code for All Affiliate"
+            "Code for All"
         ]
     },
     {
         "name": "Code for Tricity",
-        "website": "http://kodujdlapolski.pl/en/cities/trojmiasto/",
+        "website": "https://codeforpoland.org/cities/trojmiasto/",
         "events_url": "http://www.meetup.com/Koduj-dla-Polski-Trojmiasto/",
-        "rss": "http://kodujdlapolski.pl/en/category/tricity/",
-        "projects_list_url": "http://kodujdlapolski.pl/en/cities/trojmiasto/?csv=show",
+        "rss": "https://codeforpoland.org/category/tricity/",
+        "projects_list_url": "https://codeforpoland.org/cities/trojmiasto/?csv=show",
         "city": "Gdansk, Poland",
         "latitude": "54.4046788",
         "longitude": "18.5738181",
@@ -1021,10 +1021,10 @@
     },
     {
         "name": "Code for Warsaw",
-        "website": "http://kodujdlapolski.pl/en/cities/warszawa/",
+        "website": "https://codeforpoland.org/cities/warszawa/",
         "events_url": "http://www.meetup.com/Koduj-dla-Polski-Warszawa/",
-        "rss": "http://kodujdlapolski.pl/en/category/warsaw/",
-        "projects_list_url": "http://kodujdlapolski.pl/en/cities/warszawa/?csv=show",
+        "rss": "https://codeforpoland.org/category/warsaw/",
+        "projects_list_url": "https://codeforpoland.org/cities/warszawa/?csv=show",
         "city": "Warsaw, Poland",
         "latitude": "52.2287",
         "longitude": "21.0063",
@@ -1035,10 +1035,10 @@
     },
     {
         "name": "Code for Wroclaw",
-        "website": "http://kodujdlapolski.pl/en/cities/wroclaw/",
+        "website": "https://codeforpoland.org/cities/wroclaw/",
         "events_url": "http://www.meetup.com/Koduj-dla-Polski-Wroc%C5%82aw/",
-        "rss": "http://kodujdlapolski.pl/en/category/wroclaw-en/",
-        "projects_list_url": "http://kodujdlapolski.pl/en/cities/wroclaw/?csv=show",
+        "rss": "https://codeforpoland.org/category/wroclaw-en/",
+        "projects_list_url": "https://codeforpoland.org/cities/wroclaw/?csv=show",
         "city": "Wroclaw, Poland",
         "latitude": "51.1063798",
         "longitude": "17.0121528",
@@ -1050,10 +1050,10 @@
     },
     {
         "name": "Code for Silesia",
-        "website": "http://kodujdlapolski.pl/en/cities/gop-katowice/",
+        "website": "https://codeforpoland.org/cities/gop-katowice/",
         "events_url": "http://www.meetup.com/Koduj-dla-Polski-Silesia/",
-        "rss": "http://kodujdlapolski.pl/en/category/katowice-en/",
-        "projects_list_url": "http://kodujdlapolski.pl/en/cities/gop-katowice/?csv=show",
+        "rss": "https://codeforpoland.org/category/katowice-en/",
+        "projects_list_url": "https://codeforpoland.org/cities/gop-katowice/?csv=show",
         "city": "Katowice, Poland",
         "latitude": "50.2638531",
         "longitude": "18.9935899",

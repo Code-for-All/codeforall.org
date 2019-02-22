@@ -29,6 +29,12 @@ oneliner: Stories from our community
                                 <br>
                                 {{ post.date | date: "%B %e, %Y" }}
                             </p>
+                            <div class="tags">
+                                {% for category in post.categories %}
+                                    <!--<a href="{{site.baseurl}}/categories/#{{category|slugize}}">--><span class="project-tag">{{ category }}</span><!--</a>-->
+                                {% endfor %}
+                            </div>
+                            
                         </div>
                     </div>
                 {% endfor %}

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Code-for-All/codeforall.org#readme",
   "dependencies": {
+    "commander": "^2.19.0",
     "feedparser": "^2.2.9",
     "moment": "^2.23.0",
     "turndown": "^5.0.1"

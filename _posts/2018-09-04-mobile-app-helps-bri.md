@@ -3,7 +3,8 @@ layout: post
 title:  "Mobile app helps bring election monitoring into real-time"
 author: Kelsey Foster
 banner: ./assets/images/blog/1*26yPL7jK0RV8EPSqbO8Gjg.png
-medium: https://medium.com/code-for-all/mobile-app-helps-bring-election-monitoring-into-real-time-fe3e3609d05a?source=rss----77bd73f07099--project
+categories: [projects, voting, code-for-romania, elections, civictech]
+medium: https://medium.com/code-for-all/mobile-app-helps-bring-election-monitoring-into-real-time-fe3e3609d05a?source=rss----77bd73f07099--civictech
 ---
 
 ![](https://cdn-images-1.medium.com/max/1024/1*26yPL7jK0RV8EPSqbO8Gjg.png)

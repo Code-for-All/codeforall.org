@@ -3,6 +3,7 @@ layout: post
 title:  "Collaboration is in the air"
 author: Lorin Camargo
 banner: ./assets/images/blog/1*18DUTZ2OFziCkPPWR7CehQ.jpeg
+categories: [civictech, open-data, collaboration, air-quality, projects]
 medium: https://medium.com/code-for-all/collaboration-is-in-the-air-d616aeb35f78?source=rss----77bd73f07099--collaboration
 ---
 

@@ -3,7 +3,8 @@ layout: post
 title:  "Code for Romania x ePanstwo — Crowdsourcing Data"
 author: Nuela Ada
 banner: ./assets/images/blog/1*k-HMSeluLvegVBYtRuaXrA.png
-medium: https://medium.com/code-for-all/code-for-romania-x-epanstwo-crowdsourcing-data-ce8351821e16?source=rss----77bd73f07099--collaboration
+categories: [crowdsourcing, collaboration, open-data, projects, civictech]
+medium: https://medium.com/code-for-all/code-for-romania-x-epanstwo-crowdsourcing-data-ce8351821e16?source=rss----77bd73f07099--civictech
 ---
 
 ![](https://cdn-images-1.medium.com/max/1024/1*k-HMSeluLvegVBYtRuaXrA.png)

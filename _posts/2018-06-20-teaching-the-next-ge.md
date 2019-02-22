@@ -3,7 +3,8 @@ layout: post
 title:  "Teaching the next generation"
 author: Esther Kamara
 banner: ./assets/images/blog/0*nUXPl2LP9ilGvdo_
-medium: https://medium.com/code-for-all/teaching-the-next-generation-7a25e5363a7d?source=rss----77bd73f07099--project
+categories: [open-data, projects, education, innovation, civictech]
+medium: https://medium.com/code-for-all/teaching-the-next-generation-7a25e5363a7d?source=rss----77bd73f07099--civictech
 ---
 
 ![](https://cdn-images-1.medium.com/max/750/0*nUXPl2LP9ilGvdo_)

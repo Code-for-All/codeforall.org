@@ -3,7 +3,8 @@ layout: post
 title:  "Civic tech needs all of us: eight opportunities for progress"
 author: Grace O'Hara
 banner: ./assets/images/blog/1*HaW59kRPxz-Zm8sbMwLyVA.jpeg
-medium: https://medium.com/code-for-all/civic-tech-needs-all-of-us-eight-opportunities-for-progress-a803bfcd3110?source=rss----77bd73f07099--collaboration
+categories: [summit, collaboration, civictech, thoughts, code-for-all]
+medium: https://medium.com/code-for-all/civic-tech-needs-all-of-us-eight-opportunities-for-progress-a803bfcd3110?source=rss----77bd73f07099--civictech
 ---
 
 ![](https://cdn-images-1.medium.com/max/1024/1*HaW59kRPxz-Zm8sbMwLyVA.jpeg)

@@ -988,8 +988,7 @@
         "latitude": "52.361947",
         "longitude": "19.226414",
         "tags": [
-            "Code for Poland",
-            "Code for All Affiliate"
+            "Code for All"
         ]
     },
     {
@@ -1002,7 +1001,8 @@
         "latitude": "52.361947",
         "longitude": "17.226414",
         "tags": [
-            "Code for All"
+            "Code for All",            
+            "Code for All Affiliate"
         ]
     },
     {

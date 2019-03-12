@@ -195,3 +195,16 @@
         subname: "Code for Africa"
         desc: "Massive Open Online Course (MOOC) dedicated to journalists."
         link: "https://academy.africa/courses"
+
+- title: "CODE FOR ALL"
+  description: "What Code for All and its members achieved"
+  subcategories:
+  - title: ""
+    items:
+      - title: "Annual Report 2018"
+        logo_url: /assets/images/cfall_icon.png
+        name: "&nbsp;"
+        year:
+        subname: "Code for All"
+        desc: "Origins of Code for All and dynamic development in 2018"
+        link: "https://docs.google.com/presentation/d/1QZ7Lf2SZxadSWvvbXisViFbWVEAbe_MRA4RUL2NUsaA/present"

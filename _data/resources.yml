@@ -1,6 +1,6 @@
 - title: "FELLOWSHIPS"
   subcategories:
-    - title: "Fellowship Toolkit"
+    - title: "Fellowship Toolkits"
       description: "Organized resources to start your own Fellowship program."
       items:
         - title: "CfAmerica's Fellowship Toolkit [old]"
@@ -10,6 +10,33 @@
           subname: "Code for America"
           desc: "Code for America’s advice on starting a similar fellowship program."
           link: "http://web.archive.org/web/20151228133322/https://www.codeforamerica.org/playbooks/fellowship/toolkit/"
+
+    - title: "Code for Australia"
+      description: "Onboarding processes for the fellows, team and governing partners."
+      items:
+        - title: "Onboarding process for fellows"
+          logo_url: /assets/images/partners/australia-icon.png
+          year: "2019"
+          name: The team
+          subname: "Code for Australia"
+          desc: "For core team & fellows."
+          link: https://trello.com/b/HVhQ8o8R/team-onboarding
+
+        - title: "Ambassador/Fellow Guidebook"
+          logo_url: /assets/images/partners/australia-icon.png
+          year: "2019"
+          name: The team
+          subname: "Code for Australia"
+          desc: "Culture stuff for fellows"
+          link: https://trello.com/b/yuCH7r00/ambassador-guidebook
+
+#        - title: "Onboarding process for gov partners"
+#          logo_url: /assets/images/partners/australia-icon.png
+#          year: "2019"
+#          name: The team
+#          subname: "Code for Australia"
+#          desc: "Onboarding government partners engaging into fellowships"
+#          link: https://trello.com/b/w0fdHn0a/government-partner-onboarding
 
     - title: "Case Studies"
       description: "Documentation of fellowship programs implementations accross several environments.

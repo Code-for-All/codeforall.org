@@ -1,9 +1,9 @@
 - title: "FELLOWSHIPS"
   subcategories:
-    - title: "Fellowship Toolkits"
+    - title: "Code for America toolkit"
       description: "Organized resources to start your own Fellowship program."
       items:
-        - title: "CfAmerica's Fellowship Toolkit [old]"
+        - title: "CfAmerica's Fellowship Toolkit 2015"
           logo: america
           name: "Veronica Young veronica@codeforamerica.org"
           year: "2015"
@@ -11,7 +11,7 @@
           desc: "Code for America’s advice on starting a similar fellowship program."
           link: "http://web.archive.org/web/20151228133322/https://www.codeforamerica.org/playbooks/fellowship/toolkit/"
 
-    - title: "Code for Australia"
+    - title: "Code for Australia toolkit"
       description: "Onboarding processes for the fellows, team and governing partners."
       items:
         - title: "Onboarding process for fellows"

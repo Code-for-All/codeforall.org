@@ -1,4 +1,19 @@
 [
+  {
+      "name": "Code for France",
+      "website": "https://codefor.fr/",
+      "events_url": "https://www.meetup.com/codeforfrance/",
+      "rss": "",
+      "projects_list_url": "https://codefor.fr/assemblies",
+      "city": "Paris, France",
+      "latitude": "48.8680",
+      "longitude": "2.3508",
+      "type": "Affiliate",
+      "tags": [
+          "Code for All",
+          "Code for All Affiliate"
+      ]
+  },
     {
         "name": "18F",
         "website": "https://18f.gsa.gov/",
@@ -1001,7 +1016,7 @@
         "latitude": "52.361947",
         "longitude": "17.226414",
         "tags": [
-            "Code for All",            
+            "Code for All",
             "Code for All Affiliate"
         ]
     },

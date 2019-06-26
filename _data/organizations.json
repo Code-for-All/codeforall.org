@@ -819,6 +819,22 @@
             "Brigade"
         ]
     },
+  {
+      "name": "Code for Hungary",
+      "logo_url": "/assets/images/logo/cfhungary_logo_sq.png",
+      "website": "",
+      "events_url": "",
+      "rss": "",
+      "projects_list_url": "",
+      "city": "Budapest, Hungary",
+      "latitude": "47.4885",
+      "longitude": "19.0498",
+      "type": "Affiliate",
+      "tags": [
+          "Code for All",
+          "Code for All Affiliate"
+      ]
+  },
     {
         "name": "Code for Ibaraki",
         "website": "http://codeforibaraki.org/",

@@ -146,6 +146,22 @@
             "Brigade"
         ]
     },
+  {
+      "name": "Ciudadanía Inteligente",
+      "logo_url": "/assets/images/partner logos/logo-fci-vertical.png",
+      "website": "https://ciudadaniai.org/",
+      "events_url": "",
+      "rss": "",
+      "projects_list_url": "",
+      "city": "South & Central America",
+      "latitude": "-33.441853",
+      "longitude": "-70.68543",
+      "tags": [
+          "Code for All",
+          "Code for All Affiliate"
+      ]
+  },
+ 
     {
         "name": "Code for ABQ",
         "website": "http://codeforabq.org/",

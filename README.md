@@ -19,13 +19,15 @@ Development
 This site is built with HTML, CSS, Javascript. It runs on [jekyll](http://jekyllrb.com/) and is hosted by [GitHub Pages](https://pages.github.com/).
 
 1. Create a fork of this project
-2. Clone the fork to your computer
-3. `cd codeforall.org` into the directory
-4. run `jekyll serve .` from the root of the project
-5. Open the site at http://localhost:4000
-6. You can now manipulate the files and refresh your browser to see the results
-7. When finished, commit your changes and push them to your fork
-8. Create a pull request
+1. Clone the fork to your computer
+1. `cd codeforall.org` into the directory
+1. Install Ruby (we recommend version `2.5.3`) and bundler (`gem install bundler`)
+1. Run `bundle install`
+1. run `jekyll serve .` from the root of the project
+1. Open the site at http://localhost:4000
+1. You can now manipulate the files and refresh your browser to see the results
+1. When finished, commit your changes and push them to your fork
+1. Create a pull request
 
 Resources
 -------

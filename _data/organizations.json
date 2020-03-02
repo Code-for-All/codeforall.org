@@ -3107,6 +3107,21 @@
         ]
     },
     {
+        "name": "Civic Tech Sweden",
+        "website": "https://civictech.se/en/",
+        "logo_url": "/assets/images/partner logos/civic-tech-sweden.png",
+        "events_url": "",
+        "rss": "",
+        "projects_list_url": "https://github.com/civictechsweden",
+        "city": "",
+        "latitude": "62.3866875",
+        "longitude": "16.3191238",
+        "tags": [
+            "Code for All",
+            "Code for All Affiliate"
+        ]
+    },
+    {
         "name": "Code for Cameroon",
         "website": "https://codeforcameroon.org/",
         "logo_url": "/assets/images/partner logos/code-for-cameroon-wname.png",

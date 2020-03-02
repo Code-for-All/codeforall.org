@@ -51,12 +51,12 @@
   tags:
     - Elections
 
-- name: LuftDaten2
-  description: Certified DIY Air quality sensors and data visualization.
-  link: https://luftdaten.info/en/home-en/
-  image: /assets/images/projects/luftdaten-sensor.jpg
+- name: sensor.community
+  description: Sensor.Community - Platform for environmental OpenData with a network of >11.000 sensors in 76 countries operated by citizens (February 2020). Please join our global and European campaigns #CAD2020 #Sensor2Schools #Sensor2Libraries #Sensors@RefS #Zero200
+  link: https://sensor.community/en/
+  image: /assets/images/projects/sensor-community.jpg
   contact_name: Lukas
-  contact_email: lukas@luftdaten.info
+  contact_email: Lukas@Sensor.Community
   contact_image: /assets/images/avatar/avatar-luftdaten.jpg
   locations:
     - Germany

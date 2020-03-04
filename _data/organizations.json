@@ -369,19 +369,6 @@
         ]
     },
     {
-        "name": "Code for Brazil",
-        "website": "http://openbrazil.org/",
-        "events_url": "http://www.meetup.com/openbrazil/",
-        "rss": "https://twitrss.me/twitter_user_to_rss/?user=openbrazil&replies=on",
-        "projects_list_url": "https://github.com/codeforbrazil",
-        "city": "Curitiba, PR",
-        "latitude": "-25.4952",
-        "longitude": "-49.2874",
-        "tags": [
-            "Brigade"
-        ]
-    },
-    {
         "name": "Code for BTV",
         "website": "",
         "events_url": "http://www.meetup.com/CodeForBTV/",
@@ -2338,22 +2325,6 @@
         ]
     },
     {
-        "name": "Code for Brazil",
-        "logo_url": "/assets/images/partner logos/codeforbrazil-double.png",
-        "website": "http://openbrazil.org/",
-        "events_url": "http://www.meetup.com/openbrazil/",
-        "rss": "",
-        "projects_list_url": "https://github.com/CodeForBrazil/",
-        "city": "Brasil",
-        "latitude": "-15.7930",
-        "longitude": "-47.8834",
-        "tags": [
-            "Brigade",
-            "Code for All",
-            "Code for All Affiliate"
-        ]
-    },
-    {
         "name": "Open Data Kosovo",
         "logo_url": "/assets/images/partner logos/open-data-kosovo.png",
         "website": "http://opendatakosovo.org",
@@ -3133,6 +3104,21 @@
             "Code for America",
             "Official",
             "Brigade"
+        ]
+    },
+    {
+        "name": "Civic Tech Sweden",
+        "website": "https://civictech.se/en/",
+        "logo_url": "/assets/images/partner logos/civic-tech-sweden.png",
+        "events_url": "",
+        "rss": "",
+        "projects_list_url": "https://github.com/civictechsweden",
+        "city": "",
+        "latitude": "62.3866875",
+        "longitude": "16.3191238",
+        "tags": [
+            "Code for All",
+            "Code for All Affiliate"
         ]
     },
     {

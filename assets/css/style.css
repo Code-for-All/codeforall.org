@@ -319,10 +319,16 @@ a:hover {
   .main-banner {
     min-height: 525px; } }
 
+.how h1 {
+  text-transform: uppercase;
+}
+
 .how {
   min-height: 670px;
   background: #F2F3F7;
-  padding-bottom: 60px; }
+  padding-bottom: 60px; 
+  
+}
 
 .how-h3 {
   color: #126491;

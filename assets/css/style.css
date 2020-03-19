@@ -169,6 +169,45 @@ a:hover {
   background-position-y: center;
 }
 
+.handbook {
+  min-height: 400px;
+  background: url("../images/homepage/coronavirus-tech-handbook-bg.png") no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.handbook a {
+  color: #FFFFFF;
+}
+
+.handbook-h2 {
+  font-weight: 800;
+  margin-top: 80px;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  padding: 0 8px;
+}
+
+.handbook-h3 {
+  font-weight: 800;
+  margin-top: 32px;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  padding: 0 8px;
+}
+
+.handbook-paragraph {
+  font-weight: 400;
+  margin-top: 80px;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  padding: 0 8px;
+}
+
 .about {
   min-height: 184px;
   box-shadow: 0 4px 4px 0 rgba(168, 171, 180, 0.57);
@@ -236,6 +275,34 @@ a:hover {
     width: 750px;
     margin-top: 0px;
     line-height: inherit; }
+
+  .handbook {
+    min-height: 525px;
+  }
+
+  .handbook-h2 {
+    font-weight: 800;
+    margin-top: 60px;
+    font-size: 65px;
+    line-height: 66px;
+    padding: 0 8px;
+  }
+  
+  .handbook-h3 {
+    font-weight: 800;
+    margin-top: 32px;
+    font-size: 38px;
+    line-height: 66px;
+    padding: 0 8px;
+  }
+  
+  .handbook-paragraph {
+    font-weight: 400;
+    margin-top: 80px;
+    font-size: 34px;
+    line-height: 40px;
+    padding: 0 8px;
+  }
 
   .about__text--last {
     margin-top: 40px; }

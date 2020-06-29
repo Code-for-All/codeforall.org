@@ -208,6 +208,96 @@ a:hover {
   padding: 0 8px;
 }
 
+.summit {
+  min-height: 500px;
+  background: url("../images/homepage/summit-bg.png") no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 10px;
+  color: rgb(21, 75, 167);
+}
+
+.summit a {
+  color: rgb(21, 75, 167);
+  font-weight: 900;
+}
+
+.summit-h2 {
+  width: 50%;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 80px;
+  padding: 0 20px;
+  font-size: 64px;
+}
+
+.summit-h3 {
+  font-weight: 900;
+  font-size: 42px;
+  margin: 20px 0 40px 0;
+  padding: 0 20px;
+}
+
+.summit-paragraph {
+  width: 67%;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  padding: 0 20px;
+  margin: 20px 0;
+}
+
+@media only screen and (max-width: 1180px) {
+  .summit-h2 {
+    font-size: 48px;
+  }
+  .summit-h3 {
+    font-size: 36px;
+    margin-bottom: 80px;
+  }
+  .summit-paragraph {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .summit-h2 {
+    font-size: 42px;
+  }
+  .summit-h3 {
+    font-size: 28px;
+    margin-bottom: 80px;
+  }
+  .summit-paragraph {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .summit {
+    min-height: 400px;
+    background-size: cover;
+    background-position-x: -200px;
+  }
+  .summit-info {
+    display: none;
+  }
+  .summit-h2 {
+    text-align: right;
+    width: 100%;
+    margin: 40px 0 100px;
+  }
+  .summit-h3 {
+    padding-left: 20px;
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  .summit-paragraph {
+    padding-left: 20px;
+    width: 50%;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
 .about {
   min-height: 184px;
   box-shadow: 0 4px 4px 0 rgba(168, 171, 180, 0.57);

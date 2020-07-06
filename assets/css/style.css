@@ -377,7 +377,7 @@ a:hover {
     line-height: 66px;
     padding: 0 8px;
   }
-  
+
   .handbook-h3 {
     font-weight: 800;
     margin-top: 32px;
@@ -385,7 +385,7 @@ a:hover {
     line-height: 66px;
     padding: 0 8px;
   }
-  
+
   .handbook-paragraph {
     font-weight: 400;
     margin-top: 80px;
@@ -416,8 +416,8 @@ a:hover {
 .how {
   min-height: 670px;
   background: #F2F3F7;
-  padding-bottom: 60px; 
-  
+  padding-bottom: 60px;
+
 }
 
 .how-h3 {
@@ -517,7 +517,7 @@ a:hover {
   z-index: 600;
   left: 0;
   right: 0;
-  margin: 0 auto; 
+  margin: 0 auto;
   pointer-events:none;}
 
 .map-info-about {
@@ -526,8 +526,8 @@ a:hover {
   z-index: 600;
   left: 0;
   right: 0;
-  margin: 0 auto; 
-  pointer-events:none;}  
+  margin: 0 auto;
+  pointer-events:none;}
 
 @media (max-width: 576px) {
   .map-info {
@@ -535,8 +535,8 @@ a:hover {
 
 @media (max-width: 576px) {
   .map-info-about {
-    top: 2600px; } }    
-    
+    top: 2600px; } }
+
 .map-h1 {
   color: #2897D5;
   font-size: 24px;
@@ -588,7 +588,7 @@ a:hover {
     font-size: 18px;
     line-height: 25px;
     font-weight: 400;
-    text-align: left; } 
+    text-align: left; }
 }
 
 .supporters {
@@ -944,7 +944,7 @@ a:hover {
   margin-right: 0px; }
 
 .text-involved {
-  margin-right: 0px; }  
+  margin-right: 0px; }
 
 .btn-mrg-top {
   margin-top: 20px !important; }
@@ -1063,7 +1063,7 @@ a:hover {
   .text-involved {
     margin-right: 13px; }
   .text-gthb-wide {
-      margin-right: 20px; }    
+      margin-right: 20px; }
   .involved-button {
     margin-left: 0;
     margin-right: 0; }
@@ -1431,7 +1431,7 @@ a:hover {
   padding-top: 1px;
   padding-bottom: 1px;
   box-shadow: 0 4px 4px 0 rgba(168, 171, 180, 0.57);
-  margin-top: 30px; 
+  margin-top: 30px;
   min-height: 305px }
 
 .value-h3 {
@@ -1530,7 +1530,7 @@ a:hover {
 .projects-banner {
   min-height: 400px;
   background: url("../images/hero/hero_projects.jpg") no-repeat top;
-  background-size: cover; 
+  background-size: cover;
   box-shadow: 0 4px 8px 0 rgba(18,100,145,0.2);
   z-index: 99999;
   position: relative;
@@ -1706,7 +1706,7 @@ a:hover {
   background-size: cover;
   background-position-x: center;
   min-height: 400px;
-  box-shadow: 0 4px 8px 0 rgba(18,100,145,0.2); 
+  box-shadow: 0 4px 8px 0 rgba(18,100,145,0.2);
   z-index: 99999;
   position: relative;}
 
@@ -1787,7 +1787,7 @@ a:hover {
       line-height: 49px;
       margin-top: 40px;
       text-transform: uppercase;
-      padding-left: 12px; }    
+      padding-left: 12px; }
   .contact-h2 {
     color: #2897D5;
     font-size: 30px;
@@ -1986,7 +1986,7 @@ a:hover {
     margin-top: 50px;
     margin-bottom: 0px;
     text-transform: uppercase; }
-  
+
     .affiliate-text {
       color: #2897D5;
       font-size: 30px;
@@ -2004,7 +2004,7 @@ a:hover {
 
 .resources-banner {
   min-height: 400px;
-  background: url("../images/hero/hero_resources.jpg") no-repeat center; 
+  background: url("../images/hero/hero_resources.jpg") no-repeat center;
   box-shadow: 0 4px 8px 0 rgba(18,100,145,0.2);
   z-index: 99999;
   position: relative;}
@@ -2149,7 +2149,7 @@ a:hover {
 
 .caribbean {
   background: url("../images/resources/logo_carribean.png") no-repeat; }
- 
+
 .caribbean-res {
   background: url("../images/resources/logo_carribean.png") no-repeat; }
 
@@ -2214,7 +2214,7 @@ a:hover {
   padding-bottom: 20px; }
 
 @media (min-width: 576px) {
-  .resources-item {  
+  .resources-item {
     margin-left: 0px;
     margin-right: 0px; }
   .resource-date {
@@ -2502,7 +2502,7 @@ body {
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1); }
- 
+
 @media (min-width: 1200px) {
   .container {
     width: 1024px; } }

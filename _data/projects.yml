@@ -52,9 +52,9 @@
     - Elections
 
 - name: sensor.community
-  description: Sensor.Community - Platform for environmental OpenData with a network of >11.000 sensors in 76 countries operated by citizens (February 2020). Please join our global and European campaigns #CAD2020 #Sensor2Schools #Sensor2Libraries #Sensors@RefS #Zero200
+  description: "Sensor.Community - Platform for environmental OpenData with a network of >11.000 sensors in 76 countries operated by citizens (February 2020). Please join our global and European campaigns #CAD2020 #Sensor2Schools #Sensor2Libraries #Sensors@RefS #Zero200"
   link: https://sensor.community/en/
-  image: /assets/images/projects/sensor-community.jpg
+  image: /assets/images/projects/sensor-community.png
   contact_name: Lukas
   contact_email: Lukas@Sensor.Community
   contact_image: /assets/images/avatar/avatar-luftdaten.jpg
@@ -64,6 +64,7 @@
     - Bulgaria
     - Africa
     - Netherlands
+    - Poland
   tags:
     - Air
     - Sensors
